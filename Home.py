@@ -1,4 +1,3 @@
-# from PyPDF2 import PdfReader
 import os
 
 with open('pdfInfo.txt', 'w') as text:
@@ -8,11 +7,11 @@ with open('pdfInfo.txt', 'w') as text:
         if os.path.isfile(f):
 
             with open(f, encoding="utf8") as pdf:
+                text.write(filename + "\n")
+                # prints ids per file
                 lines = pdf.read()
                 indexOfOSMSC = lines.find("OSMSC")
                 indexOfNewLine = lines.find("\n", indexOfOSMSC)
-                # text.write(lines[indexOfOSMSC:indexOfNewLine])
                 idsOfPdf = lines[indexOfOSMSC + 5:indexOfNewLine].split()
-                text.write(filename + "\n")
                 for id in idsOfPdf:
                     text.write("\t" + id + "\n")
