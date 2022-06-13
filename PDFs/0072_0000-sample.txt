@@ -1,0 +1,1346 @@
+CPM Specifications Document
+Animal Aortic Coarctation:
+OSMSC 0066_0000, 0067_0000, 0068_0000, 0069_0000, 0070_0000, 0071_0000, 0172_0000,
+0073_0000, 0174_0000
+
+May 29, 2013
+Version 1
+
+Open Source Medical Software Corporation
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+1. Clinical Significance & Condition
+Coarctation of the aorta (CoA) is the fifth of most common congenital cardiovascular defect, [1] accounting for
+8-11% of congenital heart defects in the U.S and affecting approximately
+1 out
+of 10,000 individuals of all ages [2, 3].
+CoA refers to a narrowing of any section of the aorta; however, CoA is
+most
+commonly seen in the area immediately after the transverse arch,
+where the ductus arteriosus inserts (Figure 1) [4]. During the first week
+of
+birth, when the ductus arteriosus typically closes and the tissue in the
+area
+becomes constricted, this may cause narrowing of the aorta [4]. CoA is
+usually diagnosed in the newborn period when absent or weak femoral
+pulses are detected on physical exam, or in the most severe cases, when
+the
+Figure 1 - Coarctation of the Aorta
+baby presents in cardiogenic shock. In older patients, the most common
+symptom is high blood pressure, which may be detected as early as the first week of birth [4] but more often,
+and in milder cases, it may not be detected until early adolescence [5]. Overall, CoA is usually diagnosed before
+age 40 [5].
+CoA is usually treated soon after diagnosis using surgical methods or
+transcatheter techniques (balloon angioplasty/stenting). Surgical procedures
+most commonly performed include end-to-end anastomosis, end-to-side
+anastomosis, and subclavian
+flap
+repair [6, 2]. For end-to-end
+anastomosis, the narrowed
+segment of the aorta is removed
+and
+Figure 2 - End-to-end anastomosis
+both ends of the aorta are
+for coarctation of the aorta
+brought together (Figure 2) [6].
+For
+end-to-side anastomosis, the narrowed segment of the aorta may
+or may
+not be removed. Most commonly, the narrowed segment is tied
+or
+(a)
+(b)
+removed and the descending aorta is reattached to a separate Figure 4 - Two examples of end-to-side
+incision
+anastomosis for coarctation of the aorta
+
+Figure 5 – left subclavian patch
+
+angioplasty for coarctation of
+the aorta
+
+to the undersurface of the aorta (Figure 3a) [7, 8]. Rarely, the narrowed
+segment is not removed and a jump graft may be used to connect the
+descending aorta to the aortic arch proximal to
+the coarctation (Figure 3b). When the
+coarctation involves a large segment of the
+aorta, left subclavian patch angioplasty may be
+performed, where the left subclavian artery is
+incised longitudinally and the subclavian artery
+flap is then folded over the segment where the
+aorta was narrowed. (Figure 4 ) [9, 10].
+
+Balloon angioplasty may be used as initial treatment or, more commonly, to
+treat recoarctation in patients that have previously undergone surgery. This
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Figure 3 - Balloon angioplasty
+with stenting
+
+Page 2
+
+procedure consists of inserting a balloon catheter into the constricted aorta and inflating the balloon to expand
+the narrowed segment. In patients in adolescent years or older, a stent may be placed in the expanded area
+after balloon angioplasty is performed (Figure 5) [6].
+Despite the various options for treatment, CoA has been associated with decreased in life expectancy and long
+term morbidity [2]. For this reason, further investigation on treatment outcomes, including hemodynamics, is
+important. Research attempting to identify hemodynamic differences that may allow the utilization of blood
+flow simulation for surgical decision making is already underway. This includes in vivo animal models that help
+ensure heterogeneity in study cohorts and add the value of experimental information otherwise not obtainable
+in patients. The model presented below makes an addition to public data that may be used for verification and
+validation of blood flow computational models and encourages novel studies for coarctation of the aorta.
+
+2. Clinical Data
+Patient-specific volumetric image data was obtained to create physiological models and blood flow simulations.
+The scans represent the aorta of adult (32-36 weeks of age) male New Zealand white rabbits (Error! Reference
+source not found.). Image data was previously featured in a peer reviewed publication that quantifies
+coarctation-induced mechanical alterations using computational fluid dynamics (CFD) analysis [11]. For more
+information on the surgical state of each rabbit refer to this publication [11]. MRA image data for MARQ0069
+was acquired using a 3T GE Sigma Excite scanner [11]. Angiocath IV was inserted into the left marginal vein to
+contrast-enhance the aorta. Details of the imaging data used can be seen in Table 1. See Appendix 1 for details
+on image data orientation.
+Table 1 – Patient-specific volumetric image data details (mm). Voxel Spacing, voxel dimensions, and physical dimensions are provided in the Right-Left
+(R), Anterior-Posterior (A), and Superior-Inferior (S) direction.
+
+OSMSC ID
+
+Modality
+
+0066_0000
+0067_0000
+0068_0000
+0069_0000
+0070_0000
+0071_0000
+0072_0000
+0073_0000
+0074_0000
+
+MR
+MR
+MR
+MR
+MR
+MR
+MR
+MR
+MR
+
+Voxel Spacing
+R
+A
+S
+0.3906
+0.6000
+0.6000
+0.3906
+0.3906
+0.6000
+0.6000
+0.6000
+0.6000
+
+0.3906
+0.2734
+0.2734
+0.3906
+0.3906
+0.2734
+0.2734
+0.2734
+0.2734
+
+3.0000
+0.2734
+0.2734
+1.0000
+2.5000
+0.2734
+0.2734
+0.2734
+0.2734
+
+Voxel Dimensions
+R
+A
+S
+
+Physical Dimensions
+R
+A
+S
+
+256
+104
+120
+256
+256
+120
+104
+120
+120
+
+100.0
+62.4
+72.0
+100.0
+100.0
+72.0
+62.4
+72.0
+72.0
+
+256
+512
+512
+256
+256
+512
+512
+512
+512
+
+24
+512
+512
+62
+32
+512
+512
+512
+512
+
+100.0
+140.0
+140.0
+100.0
+100.0
+140.0
+140.0
+140.0
+140.0
+
+72.0
+140.0
+140.0
+62.0
+80.0
+140.0
+140.0
+140.0
+140.0
+
+Age and gender for each rat can be seen in
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 3
+
+Table 2. A summary of PC-MRI data collected can be found in Table 3
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 4
+
+Table 2 – Available patient-specific clinical data
+
+OSMSC ID
+0066_0000
+0067_0000
+0068_0000
+0069_0000
+0070_0000
+0071_0000
+0072_0000
+0073_0000
+0074_0000
+
+Age (Yrs.)
+0.62
+0.62
+0.62
+0.62
+0.62
+0.62
+0.62
+0.62
+0.62
+
+Gender
+M
+M
+M
+M
+M
+M
+M
+M
+M
+
+Table 3- PC-MRI data available
+
+OSMSC ID
+
+Slice Location
+
+0066_0000
+0066_0000
+0067_0000
+0067_0000
+0067_0000
+0068_0000
+0068_0000
+0068_0000
+0069_0000
+0069_0000
+0070_0000
+0070_0000
+0071_0000
+0071_0000
+0071_0000
+0072_0000
+0072_0000
+0073_0000
+0073_0000
+0073_0000
+0074_0000
+0074_0000
+0074_0000
+
+Cervical
+Aorta
+Asc_aorta
+LCCA
+LSCA
+Asc_aorta
+Carotids
+Innominate
+Cervical
+Aorta
+Carotid
+Aorta
+Carotids
+Aorta
+Innominate
+Cervical
+Aorta
+Carotids
+Aorta
+Innominate
+Carotids
+Aorta
+Innominate
+
+# of Frames
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+
+Voxel Spacing
+X
+Y
+0.3906
+0.3906
+0.3906
+0.3906
+0.3906
+0.4688
+0.2734
+0.2734
+0.3906
+0.3906
+0.3906
+0.3906
+0.2734
+0.4688
+0.2734
+0.2734
+0.5469
+0.2734
+0.4688
+0.2734
+0.2734
+0.4688
+0.2734
+
+0.3906
+0.3906
+0.3906
+0.3906
+0.3906
+0.4687
+0.2734
+0.2734
+0.3906
+0.3906
+0.3906
+0.3906
+0.2734
+0.4688
+0.2734
+0.2734
+0.5469
+0.2734
+0.4688
+0.2734
+0.2734
+0.4688
+0.2734
+
+3. Anatomic Model Description
+Anatomic models were created using customized SimVascular software (Simtk.org) and the image data
+described in Section 2. The models extend from the ascending aorta to the location in the descending aorta just
+above the diaphragm. See Appendix 2 for a description of modeling methods. See Table 4 for a visual summary
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 5
+
+of the image data, paths, segmentations and solid model constructed. Note that the segmentations are not
+available for some of the models.
+Table 4 – Visual summary of image data, paths, segmentations and solid model.
+
+OSMSC ID
+
+Image Data
+
+Paths
+
+Paths and
+Segmentations
+
+Model
+
+ID: OSMSC0066
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0067
+subID: 0000
+Age: 0.615385
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 6
+
+ID: OSMSC0068
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0069
+subID: 0000
+Age: 0.615385
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 7
+
+ID: OSMSC0070
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0071
+subID: 0000
+Age: 0.615385
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 8
+
+ID: OSMSC0072
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0073
+subID: 0000
+Age: 0.615385
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 9
+
+ID: OSMSC0074
+subID: 0000
+Age: 0.615385
+Gender: M
+
+Details of anatomic models, such has number of outlets and model volume, can be seen in Table 5.
+Table 5 – Anatomic Model details
+
+OSMSC ID
+0066_0000
+0067_0000
+0068_0000
+0069_0000
+0070_0000
+0071_0000
+0072_0000
+0073_0000
+0074_0000
+
+Inlets Outlets
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+5
+5
+5
+4
+5
+5
+5
+5
+5
+
+Volume
+(cm3)
+
+Surface Area
+(cm2)
+
+Vessel Paths
+
+2-D Segmentations
+
+2.73654
+4.37013
+3.39416
+4.13478
+4.81546
+9.25663
+3.10155
+6.23478
+6.06568
+
+19.0617
+28.5589
+24.4972
+24.2478
+28.0139
+44.7997
+22.2974
+35.376
+35.7276
+
+5
+5
+5
+4
+5
+5
+5
+5
+5
+
+37
+-1
+46
+59
+-1
+61
+58
+49
+80
+
+4. Physiological Model Description
+In addition to the clinical data gathered for this model, several physiological assumptions were made in
+preparation for running the simulation. See Appendix 3 for details.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 10
+
+5. Simulation Parameters & Details
+5. 1
+
+Simulation Parameters
+
+See Appendix 4 for information on the physiology and simulation specifications. See Table 6 for simulation
+parameters used.
+Table 6- Simulation Parameters
+
+OSMSC ID
+0066_0000
+0067_0000
+0068_0000
+0069_0000
+0070_0000
+0071_0000
+0072_0000
+0073_0000
+0074_0000
+
+5. 2
+
+Time Steps per Cycle
+600
+600
+1995.408163
+1000
+1000
+1000
+600
+600
+601.896552
+
+Time Stepping Strategy
+residual_control 1 min_iter 3 max_iter 6 criteria 0.01
+residual_control 1 min_iter 3 max_iter 6 criteria 0.01
+residual_control 1 min_iter 3 max_iter 6 criteria 0.01
+residual_control 1 min_iter 3 max_iter 6 criteria 0.01
+residual_control 1 min_iter 3 max_iter 6 criteria 0.01
+residual_control 1 min_iter 3 max_iter 6 criteria 0.01
+residual_control 1 min_iter 3 max_iter 6 criteria 0.01
+residual_control 1 min_iter 3 max_iter 6 criteria 0.01
+residual_control 1 min_iter 3 max_iter 6 criteria 0.01
+
+Inlet Boundary Conditions
+
+Ascending Aorta PC-MRI waveforms were prescribed to the inlets of the computational fluid dynamics (CFD)
+models (Figure 6) [12]. See Table 7 for the period and prescribed cardiac output for each simulation.
+Table 7 – Period and Cardiac Output from waveforms seen in Figure 6
+
+OSMSC ID
+
+Period (s)
+
+0066_0000
+0067_0000
+0068_0000
+0069_0000
+0070_0000
+0071_0000
+0072_0000
+0073_0000
+0074_0000
+
+0.4877
+0.3052
+0.3911
+0.339
+0.329
+0.4484
+0.2911
+0.3515
+0.3491
+
+Cardiac Output
+(L/min)
+0.256517
+0.404846
+0.441338
+0.486343
+0.512801
+0.364046
+0.445471
+0.418178
+0.362594
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Profile Type
+parabolic
+parabolic
+parabolic
+parabolic
+parabolic
+parabolic
+parabolic
+parabolic
+parabolic
+
+Page 11
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 12
+
+Figure 6 – Inflow waveforms in L/min
+
+5. 3 Outlet Boundary Conditions
+A three element Windkessel model was applied at each outlet. For more information refer to Exhibit 1 and
+Appendix 5. To define the parameters in the Windkessel model the mean flow to each outlet was calculated.
+Volumetric flow to each outlet vessel was distributed to the major branches of arch of the aorta based on PCMRI
+data and other assumptions. For more information refer to Menon et. al. [11].
+
+6. Simulation Results
+Simulation results were quantified for the last cardiac cycle. Paraview (Kitware, Clifton Park, NY), an opensource scientific visualization application, was used to visualize the results. A volume rendering of velocity
+magnitude for three time points during the cardiac cycle can be seen in Table 8 for each model.
+Table 8 – Volume rendering velocity during peak systole, end systole, and end diastole. All renderings have the scale below with units of cm/s
+
+OSMSC ID
+
+Peak Systole
+
+End Systole
+
+End Diastole
+
+ID: OSMSC0066
+subID: 0000
+Age: 0.615385
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 13
+
+ID: OSMSC0067
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0068
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0069
+subID: 0000
+Age: 0.615385
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 14
+
+ID: OSMSC0070
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0071
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0072
+subID: 0000
+Age: 0.615385
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 15
+
+ID: OSMSC0073
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0074
+subID: 0000
+Age: 0.615385
+Gender: M
+
+Surface distribution of time-averaged blood pressure (TABP), time-averaged wall shear stress (TAWSS) and
+oscillatory shear index (OSI) were also visualized and can be seen in
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 16
+
+Table 9.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 17
+
+Table 9 – Time averaged blood pressure (TABP), time-average wall shear stress (TAWSS), and oscillatory shear index (OSI) surface distributions
+
+OSMSC ID
+
+TABP
+
+TAWSS
+
+OSI
+
+ID: OSMSC0066
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0067
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0068
+subID: 0000
+Age: 0.615385
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 18
+
+ID: OSMSC0069
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0070
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0071
+subID: 0000
+Age: 0.615385
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 19
+
+ID: OSMSC0072
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0073
+subID: 0000
+Age: 0.615385
+Gender: M
+
+ID: OSMSC0074
+subID: 0000
+Age: 0.615385
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 20
+
+7. References
+[1]
+
+American Heart Association, "Heart Disease and Stroke Statistics--2012 Update: A Report From the
+American Heart Association," Circulation, vol. 125, pp. e2-e220, 2012.
+[2] J. LaDisa, A. Figueroa, I. Vignon-Clementel, H. J. Kim, N. Xiao, L. Ellwein, F. Chan, J. Feinstein and C. Taylor,
+"Computational Simulations for Aortic Coarctation: Representative Results From a Sampling of Patients,"
+Journal of Biomedical Engineering, vol. 133, 2011.
+[3] MDGuidelines, "Coarctation of tha Aorta," [Online]. Available: http://www.mdguidelines.com/coarctationof-the-aorta. [Accessed 06 January 2012].
+[4] American Heart Association, "Coarctation of the Aorta," 24 January 2011. [Online]. Available:
+http://www.heart.org/HEARTORG/Conditions/CongenitalHeartDefects/AboutCongenitalHeartDefects/Coar
+ctation-of-the-Aorta-CoA_UCM_307022_Article.jsp#.TwX7UNR8AsK. [Accessed 5 January 2012].
+[5] N. K. Kaneshiro and D. Zieve, "Coarctation of the Aorta," National Institutes of Health, 2 November 2009.
+[Online]. Available: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0001242/. [Accessed 5 January
+2012].
+[6] Mayo Clinic, "Coarctation of the Aorta: Treatments and drugs," 2 March 2010. [Online]. Available:
+http://www.mayoclinic.com/health/coarctation-of-the-aorta/DS00616/DSECTION=treatments-and-drugs.
+[Accessed 5 January 2012].
+[7] H. Rajasinge, V. Reddy, J. van Son, M. Black, D. McElhinney, M. Brook and F. Hanley, "Coarctation repair
+using end-to-side anastomosis of descending aorta to proximal aortic arch," The Annals of Thoracic
+Surgery, vol. 61, no. 3, pp. 840-844, 1996.
+[8] M. Carvalho, P. WL, S. GANDRA and L. Rivetti, "Aortic coarctation in the adult: regarding a case and extraanatomic bypass approaches," Rev Bras Cir Cardiovasc, vol. 22, no. 4, pp. 501-504, 2007.
+[9] E. Krieger and K. Stout, "The adult with repaired coarctation of the aorta," Heart, no. 96, pp. 1676-1681,
+2012.
+[10] Children's Hospital of Wisconsin, "Coarctation of the Aorta," 2012. [Online]. Available:
+http://www.chw.org/display/router.asp?DocID=21361#. [Accessed 09 05 2012].
+[11] A. Menon, D. C. Wendell, H. Wang, T. Eddinger, J. Toth, r. J. Dholakia, P. M. Larsen, E. S. Jense and J. F.
+LaDisa, "A coupled experimental and computational approach to quantify deleterious hemodynamics,
+vascular alterations, and mechanisms of long-term morbidity in response to aortic coarctation," Journal of
+Pharmacological and Toxicological Methods, pp. 1-11, 2011.
+[12] J. F. J. LaDisa et. al., "Computational Simulation for Aortic Coarcation: Representative Results from a
+Sampling of Patients," Journal of Biomedical Engineering, pp. 00-00, Oct. 2011.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 21
+
+Exhibit 1: Simulation RCR Values
+Information on how RCR values were obtained is included in Appendix 5. For all simulations, an initial ratio of
+0.056 was used to calculate the TAC. The ratio was then adjusted to match the target pressures at the inlet. The
+final TAC was based on the final adjusted ratio. RCR parameters for each simulation are shown in the tables
+below.
+Table 10 – RCR Values for 0066_0000 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+
+Face Name
+RSA
+RCCA
+LCCA
+LSA
+aorta
+
+Artery Name
+Right Subclavian
+Right Common Carotid
+Left Common Carotid
+Left Subclavian
+Descending Aorta
+
+Rp
+14910
+6407
+6407
+14910
+630
+
+C
+0.00000825
+0.00001920
+0.00001920
+0.00000825
+0.00019510
+
+Rd
+581493
+249860
+249860
+581493
+24589
+
+C
+0.00002122
+0.00002122
+0.00001760
+0.00000825
+0.00020672
+
+Rd
+149993
+150947
+180812
+388184
+15394
+
+C
+0.00013049
+0.00007864
+0.00007744
+0.00006466
+0.00072377
+
+Rd
+103752
+172163
+177203
+208716
+18705
+
+C
+0.00002870
+0.00001263
+0.00001607
+0.00013459
+
+Rd
+75427
+175098
+131794
+12846
+
+Table 11 – RCR values for 0067_0000 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+
+Face Name
+RightSA
+RightCA
+LeftCA
+LeftSA
+Aorta
+
+Artery Name
+Right Subclavian
+Right Common Carotid
+Left Common Carotid
+Left Subclavian
+Descending Aorta
+
+Rp
+8898
+7945
+10726
+20431
+913
+
+Table 12 – RCR values for 0068_0000 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+
+Face Name
+RSA
+RCCA
+LCCA
+LSA
+Aorta
+
+Artery Name
+Right Subclavian
+Right Common Carotid
+Left Common Carotid
+Left Subclavian
+Descending Aorta
+
+Rp
+4889
+8112
+5858
+10523
+881
+
+Table 13 – RCR values for 0069_0000 in cgs
+
+Solver ID
+2
+3
+4
+5
+
+Face Name
+btrunk
+carotid
+subclavian
+outflow
+
+Artery Name
+Brachiochephalic
+Left Common Carotid
+Left Subclavian
+Descending Aorta
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Rp
+6559
+11176
+14644
+1427
+
+Page 22
+
+Table 14 – RCR values for 0070_0000 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+
+Face Name
+RSA
+RCCA
+LCCA
+LSA
+Aorta
+
+Artery Name
+Right Subclavian
+Right Common Carotid
+Left Common Carotid
+Left Subclavian
+Descending Aorta
+
+Rp
+2139
+1677
+1677
+2139
+1486
+
+C
+0.00001590
+0.00002028
+0.00002028
+0.00001590
+0.00011965
+
+Rd
+211744
+166027
+166027
+211744
+23285
+
+Table 15 – RCR values for 0071_0000 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+
+Face Name
+RSA
+RCCA
+LCCA
+LSA
+aorta
+
+Artery Name
+Right Subclavian
+Right Commmon Carotid
+Left Common Carotid
+Left Subclavian
+Descending Aorta
+
+Rp
+10109
+4779
+6640
+11316
+340
+
+C
+0.00001868
+0.00001652
+0.00001061
+0.00001868
+0.00012750
+
+Rd
+140770
+165890
+258965
+139563
+16656
+
+Table 16- RCR values for 0072_0000 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+
+Face Name
+RSA
+RCCA
+LCCA
+LSA
+Aorta
+
+Artery Name
+Right Subclavian
+Right Common Carotid
+Left Common Carotid
+Left Subclavian
+Descending Aorta
+
+Rp
+4536
+7408
+6682
+12719
+996
+
+C
+0.00001274
+0.00000970
+0.00000970
+0.00000787
+0.00009199
+
+Rd
+106101
+137850
+138576
+166417
+14324
+
+C
+0.00000608
+0.00001079
+0.00001079
+0.00000608
+0.00008575
+
+Rd
+192015
+108234
+107124
+190046
+13480
+
+C
+0.00000517
+0.00000977
+0.00001206
+0.00000670
+0.00005931
+
+Rd
+213383
+113478
+93050
+164424
+18925
+
+Table 17- RCR values for 0073_0000 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+
+Face Name
+RightSA
+rightCA
+LeftCA
+LeftSA
+aorta
+
+Artery Name
+Right Subclavian
+Right Common Carotid
+Left Common Carotid
+Left Subclavian
+Descending Aorta
+
+Rp
+4923
+2775
+3885
+6893
+489
+
+Table 18- RCR values for 0074_0000 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+
+Face Name
+rightSA
+rightCA
+leftCA
+leftSA
+aorta
+
+Artery Name
+Right Subclavian
+Right Common Carotid
+Left Common Carotid
+Left Subclavian
+Descending Aorta
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Rp
+16556
+8280
+5520
+13140
+1123
+
+Page 23
+
+Appendix
+1. Image Data Orientation
+The RAS coordinate system was assumed for the image data orientation. Voxel Spacing, voxel dimensions, and
+physical dimensions are provided in the Right-Left (R), Anterior-Posterior (A), and Superior-Inferior (S) direction
+in all specification documents unless otherwise specified.
+
+2. Model Construction
+All anatomic models were constructed in RAS Space. The models are generated by selecting centerline paths
+along the vessels, creating 2D segmentations along each of these paths, and then lofting the segmentations
+together to create a solid model. A separate solid model was created for each vessel and Boolean addition was
+used to generate a single model representing the complete anatomic model. The vessel junctions were then
+blended to create a smoothed model.
+
+3. Physiological Assumptions
+Newtonian fluid behavior is assumed with standard physiological properties. Blood viscosity and density are
+given below in units used to input directly into the solver.
+Blood Viscosity: 0.04 g/cm•s2
+Blood Density: 1.06 g/cm3
+
+4. Simulation Parameters
+Conservation of mass and Navier-Stokes equations were solved using 3D finite element methods assuming rigid
+and non-slip walls. All simulations were ran in cgs units and ran for several cardiac cycles to allow the flow rate
+and pressure fields to stabilize.
+
+5. Outlet Boundary Conditions
+5.1 Resistance Methods
+Resistances values can be applied to the outlets to direct flow and pressure gradients. Total
+resistance for the model is calculated using relationships of the flow and pressure of the model.
+Total resistance is than distributed amongst the outlets using an inverse relationship of outlet area
+and the assumption that the outlets act in parallel.
+5.2 Windkessel Model
+In order to represent the effects of vessels distal to
+the CFD model, a three-element Windkessel model
+can be applied at each outlet. This model consists of
+proximal resistance (Rp), capacitance (C), and distal
+resistance (Rd) representing the resistance of the
+proximal vessels, the capacitance of the proximal
+vessels, and the resistance of the distal vessels
+downstream of each outlet, respectively (Figure 1).
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Figure 7 - Windkessel model
+
+Page 24
+
+First, total arterial capacitance (TAC) was calculated using inflow and blood pressure. The TAC was
+then distributed among the outlets based on the blood flow distributions. Next, total resistance (Rt)
+was calculated for each outlet using mean blood pressure and PC-MRI or calculated target flow
+(Rt=Pmean/Qdesired). Given that Rt=Rp+Rd, total resistance was distributed between Rp and Rd adjusting
+the Rp to Rt ratio for each outlet.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 25
+
+

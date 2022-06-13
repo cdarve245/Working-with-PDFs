@@ -1,0 +1,1751 @@
+CPM Specifications Document
+Pulmonary Hypertension:
+OSMSC 0083_2001, 0085_1000, 0087_1000, 0088_1000, 0089_1000, 0112_1000
+
+June 3, 2013
+Version 1
+
+Open Source Medical Software Corporation
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+1. Clinical Significance & Condition
+Pulmonary arterial hypertension (PAH) is a chronic disease that occurs when the blood vessels between the
+heart and lungs narrow and harden, increasing the pressure in the pulmonary arteries [1]. The increased
+resistance makes it difficult for the heart to pump blood to the lungs, adding strain and weakening the right
+ventricle. PAH is a serious condition, with a median survival of less than 3 years if left untreated [2] and causing
+over 15,000 deaths and 260,000 hospital visits in the United States in 2002 [3].
+According to the National Institute of Health, diagnosis criteria for PAH involves an average pressure of 25
+mmHg in the pulmonary arteries during rest or 30 mmHg during exercise, compared to 8-20 mmHg for normal
+pulmonary arteries at rest [4]. Although there is no cure, current treatments can lessen symptoms and slow
+disease progression.
+There are five different classifications of PAH. Group 1 includes pulmonary hypertension cases where the
+disease in inherited, caused by a drugs or toxin, or has an unknown origin. Group 2 pulmonary hypertension
+derives from left heart disease. Group 3 is associated with lung diseases and sleep-related breathing disorders.
+Group 4 includes cases caused by blood clotting disorders. Finally, Group 5 consists of PAH caused by a variety
+conditions and diseases, such as a tumor, blood disorders or metabolic disorders [4].The variety of treatment for
+PAH depend on the cause and severity of the disease of the individual. Treatments include medicines that
+decrease blood vessel pressure, lung or heart transplants, surgical procedures such as atrial septostomy, or
+treating the underlining conditions causes PAH [5].
+Significant vascular remodeling is observed in PAH patients, with larger proximal pulmonary arteries and more
+convoluted branches when compared to healthy patients (Figure 1). In a study examining three-dimensional
+hemodynamics of the pulmonary arteries, PAH patients were found to have an average main pulmonary
+diameter of 3.5 ± 0.5 cm, where healthy patients had an average of 2.7 ± 0.1 cm [2].
+
+(a)
+
+(b)
+
+Figure 1 (a) Healthy pulmonary arteries, (b) PAH pulmonary arteries
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 2
+
+2. Clinical Data
+Patient-specific volumetric image data was obtained to create physiological models and blood flow simulations.
+Details of the imaging data used can be seen in Table 1. See Appendix 1 for details on image data orientation.
+Table 1 – Patient-specific volumetric image data details (mm)
+
+OSMSC ID
+
+Modality
+
+0083_2001
+0085_1000
+0087_1000
+0088_1000
+0089_1000
+0112_1000
+
+MR
+MR
+MR
+MR
+MR
+MR
+
+Voxel
+Dimensions
+100 x 512 x 512
+100 x 512 x 512
+112 x 512 x 512
+128 x 512 x 512
+120 x 512 x 512
+112 x 512 x 512
+
+Physical
+Dimensions
+150 x 350 x 350
+150 x 350 x 350
+134.4 x 300 x 300
+153.6 x 350 x 350
+180 x 350 x 350
+168 x 350 x 350
+
+Voxel Spacing
+1.50003 x 0.683589 x 0.0683594
+1.5 x 0.6836 x 0.6836
+1.2 x 0.585938 x 0.585938
+1.2 x 0.683591 x 0.683591
+1.5 x 0.683594 0.683594
+1.5 x 0.683594 x 0.683594
+
+Slice
+Thickness
+3
+3
+2.4
+2.4
+3
+3
+
+Available patient-specific clinical data collected can be seen in Table 2.
+Table 2 – Available patient-specific clinical data
+
+OSMSC ID
+
+Age
+
+0083_2001
+0085_1000
+0087_1000
+0088_1000
+0089_1000
+0112_1000
+
+15
+36
+16
+19
+50
+41
+
+Gender Height Weight BSA
+HR
+Psys
+Pdia
+Pavg
+(m)
+(kg)
+(bpm) (mmHg) (mmHg) (mmHg)
+1.61
+47
+1.47
+67
+95
+59
+68
+F
+2.16
+75
+87
+36
+50
+F
+1.55
+72
+70
+37
+50
+M
+1.58
+60
+95
+45
+67
+F
+2.00
+65
+110
+42
+68
+F
+1.87
+75
+77
+30
+49
+M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 3
+
+Details on available PCMRI can be seen in Table 3.
+Table 3 – Available PCMRI
+
+OSMSC ID
+
+0083_2001
+
+0085_1000
+
+0087_1000
+
+0088_1000
+
+0089_1000
+
+0112_1000
+
+Slice Location
+Aorta
+LPA
+MPA
+RPA
+MPA_1
+MPA_2
+RPA_1
+LPA_1
+RPA_2
+LPA_2
+LPA_3
+MPA
+RPA
+LPA
+MPA
+RPA
+LPA
+MPA
+RPA
+LPA
+Asc_Aorta
+LPA
+LPV
+MPA
+RPA
+RPV
+
+Number of Frames
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Voxel Spacing (mm)
+X
+Y
+1.09374 1.09376
+1.09377 1.09375
+1.09373 1.09375
+1.09377 1.09374
+1.0938
+1.0938
+1.0938
+1.0938
+1.0938
+1.0938
+1.0938
+1.0938
+1.0938
+1.0938
+1.0938
+1.0938
+1.0938
+1.0938
+0.937494 0.937497
+0.937506 0.937497
+0.937513 0.937514
+1.01562 1.01563
+1.01563 1.01562
+1.09374 1.09376
+1.17186 1.17187
+1.17188 1.17187
+1.36717 1.36717
+1.09375 1.09374
+1.09374 1.09375
+1.09375 1.09375
+1.09375 1.09375
+1.09374 1.09376
+1.09376 1.09377
+
+Page 4
+
+3. Anatomic Model Description
+Anatomic models were created using customized SimVascular software (Simtk.org) and the image data
+described in Section 2. The models extend from the main pulmonary artery to various levels of branching in the
+left and right pulmonary arteries. See Appendix 2 for a description of modeling methods. See Table 4 for a
+visual summary of the image data, paths, segmentations and solid model constructed.
+Table 4 – Visual summary of image data, paths, segmentations and solid model.
+
+OSMSC ID
+
+Image Data
+
+Paths
+
+Paths and
+Segmentations
+
+Model
+
+ID: OSMSC0083
+subID: 2001
+Age: 15
+Gender: F
+
+ID: OSMSC0085
+subID: 1000
+Age: 36
+Gender: F
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 5
+
+ID: OSMSC0087
+subID: 1000
+Age: 16
+Gender: M
+
+ID: OSMSC0088
+subID: 1000
+Age: 19
+Gender: F
+
+Not Available
+
+Not Available
+
+ID: OSMSC0089
+subID: 1000
+Age: 50
+Gender: F
+
+Not Available
+
+Not Available
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 6
+
+ID: OSMSC0112
+subID: 1000
+Age: 41
+Gender: M
+
+Not Available
+
+Not Available
+
+Details of anatomic models, such has number of outlets and model volume, can be seen in Table 5.
+Table 5 – Anatomic Model details
+
+OSMSC ID
+
+0083_2001
+0085_1000
+0087_1000
+0088_1000
+0089_1000
+0112_1000
+
+Inlets
+1
+1
+1
+1
+1
+1
+
+Outlets
+82
+93
+51
+60
+65
+75
+
+Volume (cm3)
+141.1
+113.0
+78.7
+80.8
+221.2
+254.1
+
+Surface Area (cm2)
+449.2
+526.7
+240.9
+271.2
+502.8
+625.5
+
+Vessel Paths
+85
+93
+51
+N/A
+N/A
+N/A
+
+2-D Segmentations
+1157
+1322
+321
+N/A
+N/A
+N/A
+
+4. Physiological Model Description
+In addition to the clinical data gathered for this model, several physiological assumptions were made in
+preparation for running the simulation. See Appendix 3 for details.
+
+5. Simulation Parameters & Details
+5. 1
+
+Simulation Parameters
+
+See Appendix 4 and the peer-reviewed publication featuring these models [2] for information on the physiology
+and simulation specifications. Solver parameters can be seen in Table 6.
+Table 6- Solver Parameters
+
+OSMSC ID
+0083_2001
+0085_1000
+0087_1000
+0088_1000
+0089_1000
+0112_1000
+
+Time Steps Per Cycle
+2000
+2000
+2000
+2000
+2000
+2000
+
+Time Stepping Strategy'
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+fixed_step 3
+fixed_step 3
+fixed_step 3
+fixed_step 3
+fixed_step 3
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 7
+
+5. 2
+
+Inlet Boundary Conditions
+
+Pulmonary blood flow waveforms derived from PC-MRI data were prescribed to the inlets of the computational
+fluid dynamics (CFD) models (Figure 2). Excluding 0083_2000, the waveforms were manipulated to have zero
+backflow to avoid problems in the solver. See Table 7 for the period and cardiac output for each simulation.
+
+Table 7 – Period and Cardiac Output from waveforms seen in Figure 2
+
+OSMSC ID
+
+0083_2001
+0085_1000
+0087_1000
+0088_1000
+0089_1000
+0112_1000
+
+Period (second)
+0.6186
+0.8
+0.84
+1.0
+0.92
+0.8
+
+Cardiac Output (L/min)
+3.0
+5.2
+2.7
+2.4
+3.6
+4.7
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Profile Type
+Plug
+Womersley
+Plug
+Plug
+Womersley
+Plug
+
+Page 8
+
+Figure 2 – Inflow waveforms in L/min
+
+5. 3
+
+Outlet Boundary Conditions
+
+Volumetric flow to each outlet vessel was distributed based left pulmonary artery (LPA) and right pulmonary
+artery (RPA) flow splits derived from PCMRI data. Pressure targets for the simulation were obtained from
+clinical values (see Section 2 above).
+Table 8 – Flow distributions
+
+OSMSC ID
+
+0083_2001
+0085_1000
+0087_1000
+0088_1000
+0089_1000
+0112_1000
+
+LPA
+43.8%
+40.6%
+44.5%
+46.6%
+41.5%
+45.5%
+
+RPA
+56.2%
+59.4%
+55.5%
+53.4%
+58.5%
+54.5%
+
+Target flow and pressure values were used to calculate resistance boundary conditions. To address the intrinsic
+pressure of the model, a pressure offset was also applied to each outlet (Table 1). See Exhibit 1 more details on
+boundary condition calculations and the calculated resistance values.
+Table 9 – Pressure offset
+
+OSMSC ID
+
+0083_2001
+0085_1000
+0087_1000
+0088_1000
+0089_1000
+0112_1000
+
+Pressure Offset (cgs)
+77459
+44808
+49032
+59170
+54543
+39233
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Pressure Offset (mmHg)
+51.1
+33.6
+36.8
+44.4
+40.9
+29.4
+
+Page 9
+
+6. Simulation Results
+Simulation results were quantified for the last cardiac cycle. Paraview (Kitware, Clifton Park, NY), an opensource scientific visualization application, was used to visualize the results. A volume rendering of velocity
+magnitude for three time points during the cardiac cycle can be seen in Table 11 for each model.
+
+Table 10 – Volume rendering velocity during peak systole, end systole, and end diastole. All renderings have the scale below with units of cm/s
+
+OSMSC ID
+
+Peak Systole
+
+End Systole
+
+End Diastole
+
+ID: OSMSC0083
+subID: 2001
+Age: 15
+Gender: F
+
+ID: OSMSC0085
+subID: 1000
+Age: 36
+Gender: F
+
+ID: OSMSC0087
+subID: 1000
+Age: 16
+Gender: M
+
+ID: OSMSC0088
+subID: 1000
+Age: 19
+Gender: F
+
+ID: OSMSC0089
+subID: 1000
+Age: 50
+Gender: F
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 10
+
+ID: OSMSC0112
+subID: 1000
+Age: 41
+Gender: M
+
+Surface distribution of time-averaged blood pressure (TABP), time-averaged wall shear stress (TAWSS) and
+oscillatory shear index (OSI) were also visualized and can be seen in Table 11.
+Table 11 – Time averaged blood pressure (TABP), time-average wall shear stress (TAWSS),
+and oscillatory shear index (OSI) surface distributions
+
+OSMSC ID
+
+TABP
+
+TAWSS
+
+OSI
+
+ID: OSMSC0083
+subID: 2001
+Age: 15
+Gender: F
+
+ID: OSMSC0085
+subID: 1000
+Age: 36
+Gender: F
+
+ID: OSMSC0087
+subID: 1000
+Age: 16
+Gender: M
+
+ID: OSMSC0088
+subID: 1000
+Age: 19
+Gender: F
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 11
+
+ID: OSMSC0089
+subID: 1000
+Age: 50
+Gender: F
+
+ID: OSMSC0112
+subID: 1000
+Age: 41
+Gender: M
+
+7. References
+[1] U.S. National Library of Medicine, "Pulmonary Hypertension," National Institutes of Health, 4 January 2012.
+[Online]. Available: http://www.nlm.nih.gov/medlineplus/pulmonaryhypertension.html#cat22. [Accessed
+January 2012].
+[2] B. Tang, Quantification of Three-Dimensionsal Hemodynamic Conditions in the Human Abdominal Aorta and
+Pulmonary Arteries with Application to Shear-Mediated Gene Transcription in Endothelial Cell Culture, PhD
+Dissertation, Department of Mechanical Engineering, Stanford University, Stanford, CA, USA, June 2007.
+[3] A. Hyduk, J. B. Croft, C. Ayala, K. Zheng, Z.-J. Zheng and G. A. Mensah, "Pulmonary Hypertension Surveillance:
+United States, 1980-2002," Morbidity and Mortality Weekly Report , vol. 54, no. SS05, pp. 1-28, 2005.
+[4] National Heart Lung and Blood Institute, "Pulmonary Hypertension," National Institute of Health, 1 April
+2011. [Online]. Available: http://www.nhlbi.nih.gov/health/health-topics/topics/pah/. [Accessed January
+2012].
+[5] Mayo Clinic, "Pulmonary Hypertensions: Treatment," [Online]. Available:
+http://www.mayoclinic.org/pulmonary-hypertension/treatment.html. [Accessed January 2012].
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 12
+
+Exhibit 1: PAH Simulation Resistance Values
+A proposed generalization of previously reported outlet resistance models was employed for PAH models ran at
+OSMSC. The difference between the two methods (using circuit analogies) can be seen in Figure 3. In the Tang,
+Feinstein et al. Resistance Method (Figure 3a), all outlets were assumed to be in parallel and resistance could be
+calculated using:
+(1)
+
+This value can be thought of as two different resistances and represented as RRO1 and RC1 in Figure 3a. RRO1 is the
+resistance based on the flow, pressure pulse and area of the outlet, while RC1 is the difference in resistance to
+account for the intrinsic pressure of the model (from including Pmodel in equation 1).
+In the OSMSC Resistance Method (Figure 3b), the resistance is thought to have proximal and distal parts, with
+the proximal and distal resistances in series and all distal resistances in parallel. A zero-pressure simulation was
+run to obtain the intrinsic pressure drop based on the geometry of the anatomy. Proximal resistance (R pRPA) was
+calculated using the mean intrinsic pressure at the inlet and mean flow at the right and left pulmonary arteries.
+
+(a)
+
+(b)
+
+Figure 3– Circuit representation of the (a) OSMSC and (b) Tang, Feinstein et al. resistance methods.
+
+The distal resistance (RRO1+RRC1) was then calculated using equation 2:
+(2)
+
+Where ri,LPA is the resistance of an outlet, ALPA is the total outlet area for the LPA, Psys is systolic pressure, Pdia is
+diastolic pressure, ai is the area of the outlet, and ΔQLPA is the difference of flow between systole and diastole for
+the LPA. This equation is a modified version of equation 1, where P model,sys has been set to zero as the intrinsic
+pressure drop will be incorporated with the proximal resistance. The total distal resistance for the left and right
+side can then be calculated, assuming the outlet resistances act in parallel.
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 13
+
+An assumption that the proximal and distal resistances act in series was made in order to calculate the total
+resistance for the left and right pulmonary arteries. Keeping the total resistance of the model the same, the
+change in LPA and RPA resistances that was needed to make the distribution of resistance to be the opposite
+distribution of flow (i.e. X% flow to LPA, Y% flow to RPA would lead to Y% total resistance in LPA and X% total
+resistance in RPA) was calculated. This change in resistance was then distributed amongst the outlets by area,
+assuming each outlet had an additional resistances acting in series with the distal resistance. That is to say:
+(∑
+
+)
+
+(3)
+
+Where RT is the new total distal resistance, RD is the original total distal resistance (RR01, RRO2, RL01, RLO2 etc. in
+Figure 3b), RΔ is the change in resistance (RRC1, RRC2, RLC1, RLC2 etc. in Figure 3b), and riΔ is the sum of ri (outlet
+resistance) and rΔ (change in resistance distributed to the outlet based on its area).
+Given that resistance is inversely proportional to the area we know, we have the ratios:
+( ⁄
+
+)
+
+( ⁄ )
+
+( ⁄
+
+)
+
+( ⁄ )
+
+(4)
+
+Assuming ri and rΔ act in series and RD=ΔP/ΔQ , we can then define riΔ as:
+(5)
+Plugging in equation 5 into equation 3, we can prove this definition works with the assumption outlets acting in
+parallel:
+(∑
+
+)
+
+(∑
+
+)
+(
+
+(∑
+
+)
+
+(
+
+(
+
+( )
+
+)
+
+(
+
+)
+
+)
+
+(
+
+(
+
+)
+
+[∑( )]
+
+)
+
+(
+
+(
+
+)
+
+(
+
+)
+
+)
+
+)
+
+(6)
+
+Given that flow at the MPA does not typically split equally between the LPA and RPA, we can apply equation 5 to
+both sides separately. Getting the LPA/RPA flow split from PCMRI, we can obtain ΔQ using Qsys and Qdia for the
+RPA and LPA by multiplying it by the percent flow of the respective side (ΔQ = Qsys -Qdia). Total area (AT) is set to
+be the sum of outlets on the respective side. It is assumed that the pressures stay relatively the same for both
+the LPA and RPA.
+The pressure at each outlet is said to be:
+(7)
+Where Po is the initial pressure at an outlet. Looking at the pressure at systole and diastole, we have two
+simultaneous equations:
+(8)
+(9)
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 14
+
+Solving these simultaneous equations for RT:
+(
+
+)
+
+(
+
+)
+
+(10)
+
+Po can then be solved as:
+(11)
+Pressure offset (Po) values for PAH simulations can be seen in Table 9 of Section 5.3 in the main body of this
+document.
+Resistances values calculated for 0083_2000, 0085_1000, 0087_1000, 0088_1000, 0089_1000 and 0112_1000
+can be seen on the following pages in
+Table 12-
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 15
+
+Table 17.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 16
+
+Exhibit 1: Simulation Boundary Conditions
+Information on how resistance values were obtained is included in Appendix 5. RCR values for the final
+simulations are shown in the tables below.
+Table 12 – Resistances Values for 0083_2001
+
+LPA
+Outlet
+R (cgs)
+LPA
+15891
+LPA_1
+9796
+LPA_10 23231
+LPA_11 13100
+LPA_12 24934
+LPA_13 30023
+LPA_14 21548
+LPA_15 20193
+LPA_16 16225
+LPA_17 19610
+LPA_18 20536
+LPA_19 25183
+LPA_2
+16283
+LPA_20 14691
+LPA_21 23907
+LPA_22 17753
+LPA_23 19659
+LPA_24 20786
+LPA_25 19690
+LPA_26 23231
+LPA_27 27225
+LPA_28 18647
+LPA_29 21425
+LPA_3
+11961
+LPA_30 16963
+LPA_31 16842
+LPA_32 16570
+LPA_33 18282
+LPA_35 23231
+LPA_36 23318
+LPA_4
+12100
+LPA_5
+15347
+LPA_6
+19301
+LPA_7
+22531
+LPA_8
+17496
+LPA_9
+12093
+
+Outlet
+RPA
+RPA_1
+RPA_10
+RPA_11
+RPA_12
+RPA_13
+RPA_14
+RPA_15
+RPA_16
+RPA_17
+RPA_18
+RPA_19
+RPA_2
+RPA_20
+RPA_21
+RPA_22
+RPA_23
+RPA_24
+RPA_25
+RPA_26
+RPA_27
+RPA_28
+RPA_29
+RPA_3
+RPA_30
+RPA_31
+RPA_32
+RPA_33
+RPA_34
+RPA_34b
+RPA_35
+RPA_37
+RPA_39
+RPA_4
+RPA_40
+RPA_41
+
+RPA
+R (cgs) Outlet
+19330 RPA_42
+22943 RPA_43
+11331 RPA_44
+25018 RPA_45
+22735 RPA_47
+18701
+RPA_5
+20662
+RPA_6
+21055
+RPA_7
+23968
+RPA_8
+19627
+RPA_9
+13666
+18426
+16771
+23591
+18661
+31858
+24429
+23097
+28164
+28163
+25146
+36859
+16773
+16858
+19032
+20010
+18935
+12888
+12888
+22912
+17129
+11152
+17797
+13332
+21261
+18690
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+R (cgs)
+16207
+14198
+11295
+10040
+14361
+22577
+25131
+22381
+10140
+22056
+
+Page 17
+
+Table 13 – Resistance values for 0085_1000
+
+LPA
+Outlet
+R (cgs)
+LPA
+20527
+LPA_01
+13116
+LPA_02
+20821
+LPA_03
+21722
+LPA_04
+33513
+LPA_05
+31883
+LPA_06
+42105
+LPA_07
+15675
+LPA_08
+32073
+LPA_09
+15568
+LPA_10
+22307
+LPA_11
+27750
+LPA_12
+24186
+LPA_13
+32537
+LPA_14
+54628
+LPA_15
+26135
+LPA_16
+28588
+LPA_17
+35249
+LPA_18
+14306
+LPA_19
+21125
+LPA_20
+13035
+LPA_21
+25679
+LPA_22
+21959
+LPA_23
+11919
+LPA_24
+36715
+LPA_25
+26384
+LPA_26
+31435
+LPA_27
+25906
+LPA_28
+16039
+LPA_29
+30435
+LPA_30
+18526
+LPA_31
+21158
+LPA_32
+25239
+LPA_33
+26203
+LPA_34
+25818
+LPA_35
+22699
+LPA_36
+24888
+LPA_37
+28716
+LPA_38
+47051
+
+Outlet
+RPA
+RPA_01
+RPA_02
+RPA_03
+RPA_04
+RPA_05
+RPA_06
+RPA_07
+RPA_08
+RPA_09
+RPA_10
+RPA_11
+RPA_12
+RPA_13
+RPA_14
+RPA_15
+RPA_16
+RPA_17
+RPA_18
+RPA_19
+RPA_20
+RPA_21
+RPA_22
+RPA_23
+RPA_24
+RPA_25
+RPA_26
+RPA_27
+RPA_28
+RPA_29
+RPA_30
+RPA_31
+RPA_32
+RPA_33
+RPA_34
+RPA_35
+RPA_36
+RPA_37
+RPA_38
+
+RPA
+R (cgs)
+Outlet
+12692
+RPA_39
+15555
+RPA_40
+20489
+RPA_41
+24943
+RPA_42
+23638
+RPA_43
+31954
+RPA_44
+24286
+RPA_45
+38035
+RPA_46
+15409
+RPA_47
+22885
+RPA_48
+24156
+RPA_49
+14822
+RPA_50
+40795
+RPA_51
+31764
+RPA_52
+37868
+RPA_53
+29936
+18434
+25234
+25695
+21303
+44736
+41741
+28757
+25375
+53170
+24577
+22602
+24343
+49275
+23365
+45078
+15795
+12630
+16628
+17209
+26610
+22209
+18118
+32696
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+R (cgs)
+21237
+23394
+14984
+10783
+18329
+20434
+27280
+17191
+14209
+16002
+19602
+21738
+15765
+14489
+14857
+
+Page 18
+
+Table 14 – Resistance values for 0087_1000
+
+LPA
+Outlet
+R (cgs)
+mpa10o
+8007
+mpa11o
+6441
+mpa12o 11658
+mpa13o
+7853
+mpa14o 11826
+mpa15o 11411
+mpa16o 13350
+mpa17o 17370
+mpa18o 18998
+mpa19o 18549
+mpa1o
+16434
+mpa20o 20462
+mpa21o 10821
+mpa22o 19879
+mpa23o 14370
+mpa2o
+11385
+mpa3o
+4575
+mpa4o
+20595
+mpa5o
+16969
+mpa6o
+11725
+mpa7o
+19281
+mpa8o
+7263
+mpa9o
+5846
+mpao
+7918
+
+RPA
+Outlet
+R (cgs)
+rpa10o
+16913
+rpa11o
+16758
+rpa12o
+15242
+rpa13o
+26206
+rpa14o
+26086
+rpa15o
+16294
+rpa16o
+21549
+rpa17o
+8340
+rpa18o
+5232
+rpa19o
+10972
+rpa1o
+6069
+rpa20o
+14964
+rpa21o
+11639
+rpa22o
+7932
+rpa23o
+10748
+rpa24o
+7802
+rpa25o
+6747
+rpa26o
+10390
+rpa2o
+6939
+rpa3o
+10534
+rpa4o
+11244
+rpa5o
+7898
+rpa6o
+10439
+rpa7o
+6829
+rpa8o
+9255
+rpa9o
+8579
+rpao
+6441
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 19
+
+Table 15 – Resistance values for 0088_1000
+
+LPA
+Outlet
+R (cgs)
+mpa10o 23344
+mpa11o 34460
+mpa12o 18114
+mpa13o 17395
+mpa14o 29422
+mpa15o 35662
+mpa16o 24288
+mpa17o 31795
+mpa18o 32947
+mpa19o 41471
+mpa1o
+12162
+mpa20o 53644
+mpa21o 25955
+mpa22o 22549
+mpa23o 33530
+mpa24o 20589
+mpa25o 31277
+mpa26o 23673
+mpa27o 38425
+mpa28o 30621
+mpa29o 22478
+mpa2o
+15688
+mpa30o 22650
+mpa31o
+7629
+mpa3o
+21833
+mpa4o
+22643
+mpa5o
+30602
+mpa6o
+23148
+mpa7o
+13331
+mpa8o
+12474
+mpa9o
+30521
+
+RPA
+Outlet
+R (cgs)
+rpa10o
+33542
+rpa11o
+17459
+rpa12o
+18206
+rpa13o
+23601
+rpa14o
+12110
+rpa15o
+38549
+rpa16o
+22976
+rpa17o
+7780
+rpa18o
+12710
+rpa19o
+16220
+rpa1o
+11061
+rpa20o
+22779
+rpa21o
+32940
+rpa22o
+37221
+rpa23o
+14797
+rpa24o
+31742
+rpa25o
+24980
+rpa26o
+31637
+rpa27o
+15914
+rpa28o
+19677
+rpa29o
+18049
+rpa2o
+12740
+rpa3o
+16899
+rpa4o
+19854
+rpa5o
+18522
+rpa6o
+25117
+rpa7o
+25453
+rpa8o
+18767
+rpa9o
+15058
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 20
+
+Table 16 – Resistance values for 0089_1000
+
+LPA
+Outlet
+R (cgs)
+mpa10o 22176
+mpa11o 33757
+mpa12o 20555
+mpa13o 29751
+mpa14o 40177
+mpa15o 30938
+mpa16o 33560
+mpa17o 52695
+mpa18o 59242
+mpa19o 30144
+mpa1o
+18090
+mpa20o 33214
+mpa21o 14277
+mpa22o 29596
+mpa23o 37795
+mpa24o 32565
+mpa25o 38404
+mpa26o 43220
+mpa27o 62445
+mpa28o 55017
+mpa29o 39029
+mpa2o
+34155
+mpa30o 47594
+mpa31o 51374
+mpa32o 67134
+mpa3o
+34035
+mpa4o
+42533
+mpa5o
+53308
+mpa6o
+11829
+mpa7o
+12936
+mpa8o
+14742
+mpa9o
+22727
+
+RPA
+Outlet
+R (cgs)
+rpa1_2o 15745
+rpa10o
+17148
+rpa11o
+25079
+rpa12o
+52209
+rpa13o
+24834
+rpa14o
+38430
+rpa16o
+23198
+rpa17o
+50328
+rpa18o
+18850
+rpa19o
+24500
+rpa20o
+17487
+rpa21o
+33867
+rpa22o
+20684
+rpa23o
+38757
+rpa24o
+13553
+rpa25o
+24669
+rpa26o
+27884
+rpa27o
+18791
+rpa28o
+20896
+rpa29o
+19359
+rpa2o
+18513
+rpa30o
+15342
+rpa31o
+17661
+rpa32o
+28422
+rpa33o
+50655
+rpa34o
+20883
+rpa3o
+10729
+rpa4o
+21534
+rpa5o
+20759
+rpa6o
+19695
+rpa7o
+24343
+rpa8o
+19648
+rpa9o
+12269
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 21
+
+Table 17 – Resistance values for 0112_0000
+
+LPA
+Outlet
+R (cgs)
+mpa10o
+9787
+mpa11o 11479
+mpa12o 11958
+mpa13o 22226
+mpa14o
+7705
+mpa15o
+8634
+mpa16o 18686
+mpa17o 20031
+mpa18o 21516
+mpa19o 33964
+mpa1o
+12818
+mpa20o
+9216
+mpa21o 20810
+mpa22o 23975
+mpa23o 19747
+mpa24o 14163
+mpa25o 20183
+mpa26o 11807
+mpa27o 15168
+mpa28o 11335
+mpa29o
+9623
+mpa2o
+14893
+mpa30o 10599
+mpa31o 15264
+mpa32o 19066
+mpa33o 18445
+mpa34o 22496
+mpa3o
+16557
+mpa4o
+16573
+mpa5o
+18294
+mpa6o
+24080
+mpa7o
+21144
+mpa8o
+17362
+mpa9o
+12593
+
+Outlet
+rpa10o
+rpa11o
+rpa12o
+rpa13o
+rpa14o
+rpa15o
+rpa16o
+rpa17o
+rpa18o
+rpa19o
+rpa1o
+rpa20o
+rpa21o
+rpa22o
+rpa23o
+rpa24o
+rpa25o
+rpa26o
+rpa27o
+rpa28o
+rpa29o
+rpa2o
+rpa30o
+rpa31o
+rpa32o
+rpa33o
+rpa34o
+rpa35o
+rpa36o
+rpa37o
+rpa38o
+rpa39o
+rpa3o
+rpa40o
+
+RPA
+R (cgs)
+Outlet
+15183
+rpa41o
+23320
+rpa4o
+15064
+rpa5o
+21642
+rpa6o
+20601
+rpa7o
+19218
+rpa8o
+18802
+rpa9o
+14524
+26430
+22720
+11650
+23973
+10727
+14500
+14518
+10058
+15024
+5924
+12527
+16662
+30802
+9531
+22987
+12322
+16314
+12155
+9456
+10180
+13573
+23451
+26185
+7817
+17359
+15955
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+R (cgs)
+12933
+19360
+12252
+22322
+17385
+23201
+16112
+
+Page 22
+
+Appendix
+1. Image Data Orientation
+The RAS coordinate system was assumed for the image data orientation. Voxel Spacing, voxel dimensions, and
+physical dimensions are provided in the Right-Left (R), Anterior-Posterior (A), and Superior-Inferior (S) direction
+in all specification documents unless otherwise specified.
+
+2. Model Construction
+All anatomic models were constructed in RAS Space. The models are generated by selecting centerline paths
+along the vessels, creating 2D segmentations along each of these paths, and then lofting the segmentations
+together to create a solid model. A separate solid model was created for each vessel and Boolean addition was
+used to generate a single model representing the complete anatomic model. The vessel junctions were then
+blended to create a smoothed model.
+
+3. Physiological Assumptions
+Newtonian fluid behavior is assumed with standard physiological properties. Blood viscosity and density are
+given below in units used to input directly into the solver.
+Blood Viscosity: 0.04 g/cm•s2
+Blood Density: 1.06 g/cm3
+
+4. Simulation Parameters
+Conservation of mass and Navier-Stokes equations were solved using 3D finite element methods assuming rigid
+and non-slip walls. All simulations were ran in cgs units and ran for several cardiac cycles to allow the flow rate
+and pressure fields to stabilize.
+
+5. Outlet Boundary Conditions
+5.1 Resistance Methods
+Resistances values can be applied to the outlets to direct flow and pressure gradients. Total
+resistance for the model is calculated using relationships of the flow and pressure of the model.
+Total resistance is than distributed amongst the outlets using an inverse relationship of outlet area
+and the assumption that the outlets act in parallel.
+5.2 Windkessel Model
+In order to represent the effects of vessels distal to
+the CFD model, a three-element Windkessel model
+can be applied at each outlet. This model consists of
+proximal resistance (Rp), capacitance (C), and distal
+resistance (Rd) representing the resistance of the
+proximal vessels, the capacitance of the proximal
+vessels, and the resistance of the distal vessels
+downstream of each outlet, respectively (Figure 1).
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Figure 4 - Windkessel model
+
+Page 23
+
+First, total arterial capacitance (TAC) was calculated using inflow and blood pressure. The TAC was
+then distributed among the outlets based on the blood flow distributions. Next, total resistance (Rt)
+was calculated for each outlet using mean blood pressure and PC-MRI or calculated target flow
+(Rt=Pmean/Qdesired). Given that Rt=Rp+Rd, total resistance was distributed between Rp and Rd adjusting
+the Rp to Rt ratio for each outlet.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 24
+
+

@@ -1,0 +1,544 @@
+CPM Specifications Document
+Aortofemoral Normal:
+OSMSC 0110_0000
+
+May 27, 2013
+Version 1
+
+Open Source Medical Software Corporation
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+1. Clinical Significance & Condition
+Studying the hemodynamics of the vasculature distal to the abdominal aorta may be important in understanding
+common diseases in peripheral arteries downstream of the thoracic aorta. Diseases in the peripheral vasculature
+affect millions of people in the U.S and can have a profound effect on daily quality of life.
+Peripheral arterial disease is the build-up of fatty tissue, or atherosclerosis, in lower extremity arteries. By 2001
+at least 10 million people in the U.S were estimated to have peripheral arterial disease. The prevalence of
+peripheral arterial occlusive disease increases with age and can increase to up to 20% of the population in the
+geriatric population [1]. Up to 4 million people in the U.S suffer from intermittent claudication causing pain in
+the legs during exercise. Atherosclerotic occlusive disease of the lower extremity arteries is a major cause of
+walking impairment, pain, ulcerations and gangrene.
+Renal artery stenosis can have a prevalence of up to 45% in selective populations, specifically populations with
+other vascular disease. Prevalence can be from 1-6% in hypertensive patients to 30-45% in patients with
+aortoiliac occlusive disease or abdominal aortic aneurysms [1]. It is most often caused by atherosclerosis in the
+renal arteries and is often undetected until symptoms become severe. The most common symptom of renal
+artery stenosis is hypertension, which can have significant effects on the entire vascularture. Up to 24% of
+patients with renal insuffiency, which can lead to end-stage renal disease renal disease, had renal artery
+stenosis, suggesting that renal artery stenosis may play an important role in kidney failure [1].
+
+2. Clinical Data
+Patient-specific volumetric image data was obtained to create physiological models and blood flow simulations.
+Details of the imaging data used can be seen in Table 1. See Appendix 1 for details on image data orientation.
+Table 1 – Patient-specific volumetric image data details (mm). Voxel Spacing, voxel dimensions, and physical dimensions are provided in the Right-Left
+(R), Anterior-Posterior (A), and Superior-Inferior (S) direction.
+
+OSMSC ID
+0110_0000
+
+Modality
+
+Voxel Spacing
+
+Voxel Dimensions
+
+MR
+
+R
+A
+S
+0.7813 2.0000 0.7813
+
+R
+512
+
+A
+64
+
+S
+512
+
+Physical
+Dimensions
+R
+A
+S
+400
+128
+400
+
+No patient specific clinical data other than age and gender were available for patient 0110_0000. This
+information can be found in Table 2
+Table 2 – Available patient-specific clinical data
+
+OSMSC ID
+0110_0000
+
+Age
+67
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Gender
+M
+
+Page 2
+
+Details on available PCMRI can be seen in Table 3.
+Table 3 – Available PCMRI
+
+ID
+
+Slice Location
+
+Number of Frames
+
+aorta_above_celiac_SMA_2
+celiac_SMA
+right_renals
+left_renals
+0110_0000
+aorta_below_renals
+aorta_above_IMA
+aorta_below_IMA
+right_iliac
+left_iliac
+
+18
+18
+18
+18
+18
+18
+18
+18
+18
+
+Voxel Spacing (mm)
+X
+Y
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+1.5625
+
+3. Anatomic Model Description
+Anatomic models were created using customized SimVascular software (Simtk.org) and the image data
+described in Section 2. The aortofemoral model extends from the supraceliac aorta to the femoral and profunda
+femoris artery bifurcation. See
+Table 4 for a visual summary of the image data, paths, segmentations and solid model constructed.
+Table 4 – Visual summary of image data, paths, segmentations and solid model.
+
+OSMSC ID
+
+Image Data
+
+Paths
+
+Paths and
+Segmentations
+
+Model
+
+ID: OSMSC0110
+subID: 0000
+Age: 67
+Gender: M
+
+Details of anatomic models, such has number of outlets and model volume, can be seen in Table 5.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 3
+
+Table 5 – Anatomic Model details
+
+OSMSC ID
+
+Inlets
+
+Outlets (cm3)
+
+0110_0000
+
+1
+
+19
+
+Volume
+(cm2)
+182.581
+
+Surface Area
+(cm2)
+548.575
+
+Vesel
+Paths
+19
+
+2-D
+Segementations
+300
+
+4. Physiological Model Description
+In addition to the clinical data gathered for this model, several physiological assumptions were made in
+preparation for running the simulation. See Appendix 3 for details.
+
+5. Simulation Parameters & Details
+5. 1
+
+Simulation Parameters
+
+See Appendix 4 for information on the physiology and simulation specifications. For simulation parameters see
+Table 6.
+Table 6- Simulation Parameters
+
+OSMSC ID
+0110_0000
+
+5. 2
+
+Time Steps per Cycle
+3200
+
+Time Stepping Strategy
+fixed_step 3
+
+Inlet Boundary Conditions
+
+A supraceliac aorta blood flow waveform derived from PC-MRI data was prescribed to the inlet of the
+computational fluid dynamics (CFD) model (Figure 1). See Table 7 for the period and cardiac output for each
+simulation. Note that the cardiac output is not the same as the supraceliac flow, or the flow prescribed at the
+inlet. The flow to the supraceliac aorta from PC-MRI was 4.04 L/min.
+Table 7 – Period and Cardiac Output from waveforms seen in Figure 1
+
+OSMSC ID
+
+Period (s)
+
+Cardiac Output
+(L/min)
+
+Profile Type
+
+0110_0000
+
+0.75
+
+6.12
+
+Womersley
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 4
+
+Figure 1 – Inflow waveforms in L/min
+
+5. 3 Outlet Boundary Conditions
+A three element Windkessel model was applied at each outlet. For more information refer to Exhibit 1 and
+Appendix 5. To define the parameters in the Windkessel model the mean flow to each outlet were calculated
+from PC-MRI data. PCMRI data was available transverse to the celiac trunk, SMA, right superior and inferior
+renal arteries, left superior and inferior renal arteries, infrarenal aorta, supra-IMA aorta, infra-IMA aorta, right
+common iliac, and left common iliac. For larger arteries (i.e. supraceliac, infrarenal, supra-IMA and infra-IMA
+aorta), manual or threshold intensity magnitude segmentation techniques were used to calculate the flow. For
+medium-sized arteries (i.e. celiac trunk, SMA, left iliac and right iliac), maximum number of intensity pixels were
+included in PCMRI segmentations to calculate flow. For smaller arteries (i.e. renal arteries), pixels within the
+artery lumen that form reasonable flow waveforms were hand-picked and tagged to calculate flow. The
+supraceliac aortic flow, also calculated from PC-MRI, was assumed to be 66% of the cardiac output. Flows
+calculated from PCMRI were then scaled so that the sum of the flow going to all arteries in the abdominal aorta
+would equal 66% of the cardiac output. See Table 8 for target flow splits and target pressures used (based on
+pressure for healthy adult males).
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 5
+
+Table 8 – Flow distributions and Pressures
+
+OSMSC ID
+hepatic_br1
+hepatic_br2
+IMA
+l_ext_iliac
+l_inf_renal
+l_int_iliac
+l_int_iliac_br1
+l_int_iliac_br2
+l_sup_renal
+r_ext_iliac
+r_inf_renal
+r_int_iliac
+r_int_iliac_br1
+r_int_iliac_br2
+r_sup_renal
+SMA
+SMA_br1
+splenic_br1
+splenic_br2
+Diastolic Pressure (mmHg)
+Mean Pressure (mmHg)
+Ssytolic Pressure (mmHg)
+
+0110_0000
+5.3%
+3.8%
+5.0%
+11.1%
+9.6%
+2.0%
+1.8%
+0.9%
+6.0%
+11.1%
+3.6%
+2.5%
+1.1%
+1.1%
+13.1%
+9.2%
+4.9%
+3.8%
+3.8%
+78
+94
+117
+
+6. Simulation Results
+Simulation results were quantified for the last cardiac cycle. Paraview (Kitware, Clifton Park, NY), an opensource scientific visualization application, was used to visualize the results. A volume rendering of velocity
+magnitude for three time points during the cardiac cycle can be seen in Table 9.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 6
+
+Table 9 – Volume rendering velocity during peak systole, end systole, and end diastole. All renderings have the scale below with units of cm/s
+
+OSMSC ID
+
+Peak Systole
+
+End Systole
+
+End Diastole
+
+ID: OSMSC0110
+subID: 0000
+Age: 67
+Gender: M
+
+Surface distribution of time-averaged blood pressure (TABP), time-averaged wall shear stress (TAWSS) and
+oscillatory shear index (OSI) were also visualized and can be seen in Table 10.
+Table 10 – Time averaged blood pressure (TABP), time-average wall shear stress (TAWSS), and oscillatory shear index (OSI) surface distributions
+
+OSMSC ID
+
+TABP
+
+TAWSS
+
+OSI
+
+ID: OSMSC0110
+subID: 0000
+Age: 67
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 7
+
+7. References
+[1] W. R. Hiatt, A. T. Hirsch and J. Regensteiner, Peripheral Artery Disease Handbook, Boca Raton, FL: CRC Press
+LLC, 2001.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 8
+
+Exhibit 1: Aortofemoral Simulation RCR Values
+Information on how RCR values were obtained is included in Appendix 5. RCR values for the final simulations are
+shown on Table 11.
+
+Table 11 – RCR Values for 0110_0000
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+Face Name
+splenic_br1
+splenic_br2
+hepatic_br1
+hepatic_br2
+SMA
+SMA_br1
+R_sup_renal
+R_inf_renal
+L_sup_renal
+L_inf_renal
+IMA
+R_ext_iliac
+R_int_iliac
+R_int_iliac_br1
+R_int_iliac_br2
+L_ext_iliac
+L_int_iliac
+L_int_iliac_br1
+L_int_iliac_br2
+
+Rp
+2096.02
+2095.96
+1511.53
+2095.59
+867.84
+1617.35
+609.70
+2222.74
+1330.80
+829.38
+1583.13
+718.27
+3169.51
+7094.64
+7130.80
+718.27
+3903.05
+4424.33
+8737.84
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+C
+0.0000260
+0.0000260
+0.0000360
+0.0000260
+0.0000627
+0.0000337
+0.0000893
+0.0000245
+0.0000408
+0.0000656
+0.0000344
+0.0000760
+0.0000172
+0.0000077
+0.0000076
+0.0000760
+0.0000140
+0.0000123
+0.0000062
+
+Rd
+45005.00
+44904.30
+32383.60
+45243.00
+18429.90
+35259.30
+12991.00
+47359.60
+27260.40
+17593.90
+34215.40
+15945.20
+70363.10
+157504.00
+158139.00
+15945.20
+86649.70
+98323.60
+193983.00
+
+Page 9
+
+Appendix
+1. Image Data Orientation
+The RAS coordinate system was assumed for the image data orientation. Voxel Spacing, voxel dimensions, and
+physical dimensions are provided in the Right-Left (R), Anterior-Posterior (A), and Superior-Inferior (S) direction
+in all specification documents unless otherwise specified.
+
+2. Model Construction
+All anatomic models were constructed in RAS Space. The models are generated by selecting centerline paths
+along the vessels, creating 2D segmentations along each of these paths, and then lofting the segmentations
+together to create a solid model. A separate solid model was created for each vessel and Boolean addition was
+used to generate a single model representing the complete anatomic model. The vessel junctions were then
+blended to create a smoothed model.
+
+3. Physiological Assumptions
+Newtonian fluid behavior is assumed with standard physiological properties. Blood viscosity and density are
+given below in units used to input directly into the solver.
+Blood Viscosity: 0.04 g/cm•s2
+Blood Density: 1.06 g/cm3
+
+4. Simulation Parameters
+Conservation of mass and Navier-Stokes equations were solved using 3D finite element methods assuming rigid
+and non-slip walls. All simulations were ran in cgs units and ran for several cardiac cycles to allow the flow rate
+and pressure fields to stabilize.
+
+5. Outlet Boundary Conditions
+5.1 Resistance Methods
+Resistances values can be applied to the outlets to direct flow and pressure gradients. Total
+resistance for the model is calculated using relationships of the flow and pressure of the model.
+Total resistance is than distributed amongst the outlets using an inverse relationship of outlet area
+and the assumption that the outlets act in parallel.
+5.2 Windkessel Model
+In order to represent the effects of vessels distal to
+the CFD model, a three-element Windkessel model
+can be applied at each outlet. This model consists of
+proximal resistance (Rp), capacitance (C), and distal
+resistance (Rd) representing the resistance of the
+proximal vessels, the capacitance of the proximal
+vessels, and the resistance of the distal vessels
+downstream of each outlet, respectively (Figure 1).
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Figure 2 - Windkessel model
+
+Page 10
+
+First, total arterial capacitance (TAC) was calculated using inflow and blood pressure. The TAC was
+then distributed among the outlets based on the blood flow distributions. Next, total resistance (Rt)
+was calculated for each outlet using mean blood pressure and PC-MRI or calculated target flow
+(Rt=Pmean/Qdesired). Given that Rt=Rp+Rd, total resistance was distributed between Rp and Rd adjusting
+the Rp to Rt ratio for each outlet.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 11
+
+

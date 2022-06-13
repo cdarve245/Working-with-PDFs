@@ -1,0 +1,979 @@
+CPM Specifications Document
+Coronary Normal:
+OSMSC 0002_0001 0186_0001
+
+May 27, 2013
+Version 1
+
+Open Source Medical Software Corporation
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+1. Clinical Significance & Condition
+Coronary heart disease (CHD), also known as coronary artery disease is the leading cause of death in the U.S.,
+causing about 25% of total deaths in the U.S [1, 2]. Coronary artery stenosis and occlusion is caused by plague
+build up, often fatty materials resulting in atherosclerosis, in the arteries supplying blood to heart muscle
+resulting in ischemia. Coronary Artery aneurysms are also caused by atherosclerosis or other disease; however
+coronary artery aneurysms are less common with incidence varying from 1.5-5% [3]. The most common sites for
+coronary aneurysms, in order of highest to lowest frequency are the: (1) proximal Left anterior descending
+artery (LAD) and right coronary artery (RCA), (2) left main coronary artery (LMCA), (3) left circumflex artery
+(LCX), (4) and lastly the junction between the RCA and right posterior descending artery (RPD) [4].
+Understanding blood flow may serve as the basis for understanding coronary artery disease and aneurysm
+formation and considering therapeutic options.
+
+2. Clinical Data
+Patient-specific volumetric image data was obtained to create physiological models and blood flow simulations.
+Details of the imaging data used can be seen in Table 1. See Appendix 1 for details on image data orientation.
+Table 1 – Patient-specific volumetric image data details (mm). Voxel Spacing, voxel dimensions, and physical dimensions are provided in the Right-Left
+(R), Anterior-Posterior (A), and Superior-Inferior (S) direction.
+
+OSMSC ID
+0002_0001
+0186_0001
+
+Modality
+
+Voxel Spacing
+
+Voxel Dimensions
+
+CT
+CT
+
+R
+A
+S
+0.3867 0.3867 0.5000
+0.3320 0.3320 0.6250
+
+R
+512
+512
+
+A
+512
+512
+
+S
+276
+224
+
+Physical
+Dimensions
+R
+A
+S
+198
+198
+138
+170
+170
+140
+
+No patient specific clinical data other than age and gender were available for these patients. This information
+can be found in Table 2.
+Table 2 – Available patient-specific clinical data
+
+OSMSC ID
+0002_0001
+0186_0001
+
+Age
+63
+28
+
+Gender
+F
+F
+
+3. Anatomic Model Description
+Anatomic models were created using customized SimVascular software (Simtk.org) and the image data
+described in Section 2. Normal Coronary models include the ascending aorta ostium and the left and right
+coronary arteries. See
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 2
+
+Table 3 for a visual summary of the image data, paths, segmentations and solid model constructed.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 3
+
+Table 3 – Visual summary of image data, paths, segmentations and solid model.
+
+OSMSC ID
+
+Image Data
+
+Paths
+
+Paths and
+Segmentations
+
+Model
+
+ID: OSMSC0002
+subID: 0001
+Age: 63
+Gender: F
+
+ID: OSMSC0186
+subID: 0001
+Age: 28
+Gender: F
+
+Details of anatomic models, such has number of outlets and model volume, can be seen in Table 4.
+Table 4 – Anatomic Model details
+
+OSMSC ID
+
+Inlets
+
+Outlets
+
+0002_0001
+0186_0001
+
+1
+1
+
+25
+10
+
+Volume
+(cm3)
+64.629
+25.553
+
+Surface Area
+(cm2)
+159.507
+98.981
+
+Vessel
+Paths
+36
+10
+
+2-D
+Segmentations
+341
+114
+
+4. Physiological Model Description
+In addition to the clinical data gathered for this model, several physiological assumptions were made in
+preparation for running the simulation. See Appendix 3 for details.
+
+5. Simulation Parameters & Details
+5. 1
+
+Simulation Parameters
+
+See Appendix 4 for information on the physiology and simulation specifications. See Table 5 for solver
+parameters.
+Table 5- Solver Parameters
+
+OSMSC ID
+0002_0001
+0186_0001
+
+Time Steps per Cycle
+1000
+1000
+
+Time Stepping Strategy
+residual_control 1 min_iter 3 max_iter 10 criteria 0.001
+residual_control 0.001 min_iter 3 max_iter 10
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 4
+
+5. 2
+
+Inlet Boundary Conditions
+
+A typical aortic waveform was prescribed to the inlet of the model for 0002_0001. The waveform was obtained
+from a study by Cheng et. al., which quantified blood flow through the pulmonary circulation [5]. Since
+pulmonary blood flow is in series with the systemic blood flow it was assumed the amount of blood flow in the
+pulmonary circulation was approximately equal to that of the systemic circulation and the waveforms were
+similar. The inflow waveform used for the simulations was scaled to have a mean volumetric flow rate of 5 L/min
+and a period of 1 second (60 beats per minute). Likewise, a typical aortic waveform was used for 0186_0001 and
+scaled to have a mean volumetric flow rate of 5 L/min.
+Inflow waveforms were prescribed to the inlets of the computational fluid dynamics (CFD) models (Figure 1). See
+Table 6 for the period and prescribed cardiac inflow for each simulation.
+Table 6 – Period and Cardiac Output from waveforms seen in Figure 1
+
+OSMSC ID
+0002_0001
+0186_0001
+
+Period
+(s)
+1.000
+0.857
+
+Cardiac Output
+(L/min)
+5
+5
+
+Figure 1 – Inflow waveforms in L/min
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 5
+
+5. 3 Outlet Boundary Conditions
+A three element Windkessel model was applied at the aorta outlet for each model. For more information refer
+on RCR parameters to Exhibit 1 and Appendix 5. To define the parameters in the Windkessel model the mean
+flow to the aorta outlet was assumed to be 96% of the cardiac output. The coronary arteries were assumed to
+take 4% of the cardiac output with a split of 60% and 40% for the left and right coronary arteries respectively.
+Lumped parameter boundary conditions were applied at the coronary outlets using the coupled domain method
+[6]. Coronary boundary condition parameters were tuned to match target flow splits and pressures. Coronary
+Boundary parameters can be found in Exhibit 1. Target Pressures for both models were set based on typical
+pressures for healthy adults. See Table 6 for target flow splits and pressures.
+Table 7 – Flow distributions and Pressures
+
+Left
+Right
+Disastolic Systolic
+Coronary
+Coronary Coronary Pressure Pressure
+Flow
+Flow
+Flow
+(mmHg) (mmHg)
+0002_0001
+4.0%
+60.0%
+40.0%
+80
+120
+0186_0001
+4.0%
+60.0%
+40.0%
+80
+130
+OSMSC ID
+
+6. Simulation Results
+Simulation results were quantified for the last cardiac cycle. Paraview (Kitware, Clifton Park, NY), an opensource scientific visualization application, was used to visualize the results. A volume rendering of velocity
+magnitude for three time points during the cardiac cycle can be seen in
+
+Table 8 for each model.
+Table 8 – Volume rendering velocity during peak systole, end systole, and end diastole.
+All renderings have the scale below with units of cm/s
+
+OSMSC ID
+
+Peak Systole
+
+End Systole
+
+End Diastole
+
+ID: OSMSC0002
+subID: 0001
+Age: 63
+Gender: F
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 6
+
+ID: OSMSC0186
+subID: 0001
+Age: 28
+Gender: F
+
+Surface distribution of time-averaged blood pressure (TABP), time-averaged wall shear stress (TAWSS) and
+oscillatory shear index (OSI) were also visualized and can be seen in Table 9.
+
+Table 9 – Time averaged blood pressure (TABP), time-average wall shear stress (TAWSS), and oscillatory shear index (OSI) surface distributions
+
+OSMSC ID
+
+TABP
+
+TAWSS
+
+OSI
+
+ID: OSMSC0002
+subID: 0001
+Age: 63
+Gender: F
+
+ID: OSMSC0186
+subID: 0001
+Age: 28
+Gender: F
+
+7. References
+[1] American Heart Association, "Coronary Artery Disease -The ABCs of CAD," 14 February 2012. [Online].
+Available: http://www.heart.org/HEARTORG/Conditions/More/MyHeartandStrokeNews/Coronary-ArteryDisease---The-ABCs-of-CAD_UCM_436416_Article.jsp#.T3yHFat8B8E. [Accessed 4 April 2012].
+[2] Centers for Disease Control and Prevention, "Healthy, United States, 2010: With Special Feature of Death
+and Dying," U.S Government Printing Office, Washington, DC, 2011.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 7
+
+[3] M. Syed and M. Lesch, "Coronary artery aneurysm: a review," Prog Cardiovasc, vol. 40, no. 1, pp. 77-84,
+1997.
+[4] J. W. Newburger, "Diagnosis, Treatment, and Long-Term Management of Kawasaki Disease: A Statement for
+Health Professionals From the Committee on Rheumatic Fever, Endocarditis and Kawasaki Disease, Council
+on Cardiovascular Disease in the Young, American Heart Association," Circulaton, vol. 110, pp. 2747-2771,
+2004.
+[5] C. Cheng, R. Herfkens, A. Lightner, C. Taylor and J. Feisntein, "Blood flow conditionsi nt he proximal
+pulmonary arteries and vena cacae: healthy children during upright cycling exercise," Am J Physiol Health Circ
+Physiol, vol. 287, no. 2, pp. H921-6, 2004.
+[6] D. Segupta, A. M. Kahn, J. C. Burns, S. Sankaran, S. C. Shadden and A. L. Marsden, "Image-based modeling of
+hemodynamics in coronary srtery aneurysms caused by Kawasaki disease," Biomechanicacs and Modeling in
+Mechanobiology, 2011.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 8
+
+Exhibit 1: Coronary Simulations Boundary Conditions
+Information on how RCR values were obtained is included in Appendix 5. RCR values for the final simulations are
+shown on Tables 10 and 11 for 0002_0001 and 0186_0001 respectively. Coronary boundary parameters and
+Intramyocardial pressure plots from Sungupta et. al (2011) for each simulation are shown on Tables 12-13 and
+Error! Reference source not found., respectively [6].
+
+Table 10 – RCR Values for 0002_0001 in cgs
+
+OSMSC ID
+0002_0001
+
+solver ID
+2
+
+Face Name
+aorta
+
+Rp
+105.3798
+
+C
+0.001380
+
+Rd
+1650.9508
+
+Table 11 – RCR values for 0186_0001 in cgs
+
+OSMSC ID
+0186_0001
+
+solver ID
+2
+
+Face Name
+aorta_outlet
+
+Rp
+180.2884
+
+C
+0.001714
+
+Rd
+1822.9160
+
+Table 12- Coronary Parameter values for 0002_0001 in cgs
+
+OSMSC ID
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+0002_0001
+
+solver
+ID
+7
+10
+3
+9
+8
+4
+5
+6
+14
+11
+12
+13
+19
+18
+17
+16
+15
+26
+22
+21
+20
+24
+23
+25
+
+Face Name
+LAD
+LAD_b1
+LAD_b2
+LAD_b3
+LAD_b3_b1
+LAD_b4
+LAD_b5
+LAD_b6
+LCX
+LCX_b1
+LCX_b2
+LCX_b3
+LCX_b4
+LCX_b4_b1
+LCX_b5
+LCX_b6
+LCX_b7
+RCA
+RCA_b1
+RCA_b1_b1
+RCA_b2
+RCA_b3
+RCA_b3_b1
+RCA_b4
+
+dQinidT
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+dPinidT
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+
+q0
+992944.0
+1162546.3
+1185706.1
+826069.5
+1517486.3
+759878.0
+738918.3
+808233.9
+1038845.9
+1344891.4
+1288722.3
+1069381.8
+986676.6
+1726743.9
+1259845.6
+1219871.1
+1137720.3
+610864.4
+721175.4
+1219777.2
+849631.1
+362766.8
+903602.8
+487599.3
+
+q1
+1416603.0
+1658569.3
+1691610.8
+1178528.1
+2164951.4
+1084094.8
+1054192.2
+1153082.6
+1482089.7
+1918715.6
+1838580.8
+1525654.4
+1407661.4
+2463492.9
+1797383.3
+1740352.8
+1623150.8
+446299.9
+526893.5
+891173.9
+620743.8
+265038.8
+660175.7
+356241.9
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+q2
+58881.7
+68939.1
+70312.5
+48986.0
+89987.1
+45060.9
+43817.9
+47928.4
+61603.7
+79752.2
+76421.4
+63414.5
+58510.0
+102396.1
+74709.0
+72338.5
+67466.9
+30497.5
+36004.7
+60897.5
+42417.9
+18111.2
+45112.5
+24343.4
+
+p0
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+p1
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.8312
+1.0406
+1.0406
+1.0406
+1.0406
+1.0406
+1.0406
+1.0406
+
+p2
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1899
+0.1580
+0.1580
+0.1580
+0.1580
+0.1580
+0.1580
+0.1580
+
+b0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+b1
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+1.67846
+0.77164
+0.77164
+0.77164
+0.77164
+0.77164
+0.77164
+0.77164
+
+b2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+Page 9
+
+Table 13- Coronary Parameter values for 0186_0001 in cgs
+
+OSMSC ID
+0186_0001
+0186_0001
+0186_0001
+0186_0001
+0186_0001
+0186_0001
+0186_0001
+0186_0001
+0186_0001
+
+solver
+ID
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face
+Name
+lca_br1
+lca_br2
+lca_br3
+lca_br4
+lca_br5
+lca_br6
+rca_br1
+rca_br2
+rca_br3
+
+dQinidT
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+dPinidT
+100
+100
+100
+100
+100
+100
+100
+100
+100
+
+q0
+240853.9
+584930.9
+314962.8
+545935.5
+389953.9
+629925.6
+236230.7
+299225.5
+345260.2
+
+q1
+1336537.3
+3245876.2
+1747779.5
+3029484.5
+2163917.5
+3495559.0
+69100.6
+87527.4
+100993.2
+
+q2
+53107.2
+128974.5
+69447.8
+120376.2
+85983.0
+138895.6
+3380.4
+4281.8
+4940.5
+
+p0
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+p1
+6.84263
+6.84263
+6.84263
+6.84263
+6.84263
+6.84263
+0.48946
+0.48946
+0.48946
+
+p2
+0.70611
+0.70611
+0.70611
+0.70611
+0.70611
+0.70611
+0.04529
+0.04529
+0.04529
+
+b0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+b1
+6.70032
+6.70032
+6.70032
+6.70032
+6.70032
+6.70032
+0.26475
+0.26475
+0.26475
+
+b2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+Figure 2- Left and Right Intra-myocradial Pressure
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 10
+
+Appendix
+1. Image Data Orientation
+The RAS coordinate system was assumed for the image data orientation. Voxel Spacing, voxel dimensions, and
+physical dimensions are provided in the Right-Left (R), Anterior-Posterior (A), and Superior-Inferior (S) direction
+in all specification documents unless otherwise specified.
+
+2. Model Construction
+All anatomic models were constructed in RAS Space. The models are generated by selecting centerline paths
+along the vessels, creating 2D segmentations along each of these paths, and then lofting the segmentations
+together to create a solid model. A separate solid model was created for each vessel and Boolean addition was
+used to generate a single model representing the complete anatomic model. The vessel junctions were then
+blended to create a smoothed model.
+
+3. Physiological Assumptions
+Newtonian fluid behavior is assumed with standard physiological properties. Blood viscosity and density are
+given below in units used to input directly into the solver.
+Blood Viscosity: 0.04 g/cm•s2
+Blood Density: 1.06 g/cm3
+
+4. Simulation Parameters
+Conservation of mass and Navier-Stokes equations were solved using 3D finite element methods assuming rigid
+and non-slip walls. All simulations were ran in cgs units and ran for several cardiac cycles to allow the flow rate
+and pressure fields to stabilize.
+
+5. Outlet Boundary Conditions
+5.1 Resistance Methods
+Resistances values can be applied to the outlets to direct flow and pressure gradients. Total
+resistance for the model is calculated using relationships of the flow and pressure of the model.
+Total resistance is than distributed amongst the outlets using an inverse relationship of outlet area
+and the assumption that the outlets act in parallel.
+5.2 Windkessel Model
+In order to represent the effects of vessels distal to
+the CFD model, a three-element Windkessel model
+can be applied at each outlet. This model consists of
+proximal resistance (Rp), capacitance (C), and distal
+resistance (Rd) representing the resistance of the
+proximal vessels, the capacitance of the proximal
+vessels, and the resistance of the distal vessels
+downstream of each outlet, respectively (Figure 1).
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Figure 3 - Windkessel model
+
+Page 11
+
+First, total arterial capacitance (TAC) was calculated using inflow and blood pressure. The TAC was
+then distributed among the outlets based on the blood flow distributions. Next, total resistance (Rt)
+was calculated for each outlet using mean blood pressure and PC-MRI or calculated target flow
+(Rt=Pmean/Qdesired). Given that Rt=Rp+Rd, total resistance was distributed between Rp and Rd adjusting
+the Rp to Rt ratio for each outlet.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 12
+
+

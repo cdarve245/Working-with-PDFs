@@ -1,0 +1,2647 @@
+CPM Specifications Document
+Abdominal Aortic Aneurysms:
+OSMSC 0138_1001, 0139_1001, 0140_2000, 0141_1001, 0142_1001, 0144_1001, 0145_1001,
+0146_1001, 0147_1001, 0148_1001, 0149_1001, 0150_0001, 0151_0001, 0156_0001, 0157_0001
+
+May 22, 2013
+Version 1
+
+Open Source Medical Software Corporation
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+1. Clinical Significance & Condition
+Hemodynamic may play an important role in other anomalies in the aorta. An overview of some of major
+anomalies has been provided below.
+Both the thoracic and abdominal aorta are prone to the development of aneurysms and hemodynamic and
+biomechanical forces are thought to play a role in the progression of the disease and risk of rupture.
+Rupture of Abdominal Aortic Aneurysms (AAA) carries a risk of death of up to 90%. They are more common in
+men and are present in 1.3% of men aged 45-54 and 12.5% of men 75-84 years old. They are present in 0% and
+5.2% of women in respective age groups [1]. On the other hand, the prevalence of Thoracic aortic aneurysms is
+equal in men and women with an incidence rate of 10.4 per 100,000 person-years [1].Thoracic aortic aneurysms
+can occur as a result of aortic dissection, which can occur anywhere in the aorta but more often occur in the
+thoracic aorta. Aortic dissection is a tear in the internal lining of the wall of the aorta. The prevalence of aortic
+dissection is estimated to be around 2.9-3.5% per 100,000 person-years, a majority of which are male [1].
+Coarctation of the Aorta (CoA) refers to the narrowing of any section of the aorta; however, CoA is most
+commonly seen in the area immediately after the arch of the aorta, the site where the ductus arteriosus closes
+[2]. CoA is the fifth of most common cardiovascular defect at birth, though it may also develop as a result of
+other cardiovascular anomalies in infancy, adolescence, and early adulthood [3]. It accounts for 8-11% of
+congenital heart defects in the U.S and affects about 1 out of 10,000 individuals of all ages [4, 5]. Despite the
+various options for treatment, CoA has been associated with decreased in life expectancy and long term
+morbidity [4].
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 2
+
+2. Clinical Data
+Patient-specific volumetric image data was obtained to create physiological models and blood flow simulations.
+Details of the imaging data used can be seen in Table 1. See Appendix 1 for details on image data orientation.
+Table 1 – Patient-specific volumetric image data details (mm). Voxel Spacing, voxel dimensions, and physical dimensions are provided in the Right-Left
+(R), Anterior-Posterior (A), and Superior-Inferior (S) direction.
+
+OSMSC ID
+0138_1001
+0139_1001
+0140_2000
+0141_1001
+0142_1001
+0144_1001
+0145_1001
+0146_1001
+0147_1000
+0148_1001
+0149_1001
+0150_0001
+0151_0001
+0156_0001
+0157_0000
+
+Modality
+CT
+CT
+CT
+CT
+CT
+CT
+CT
+CT
+CT
+CT
+CT
+CT
+CT
+CT
+CT
+
+Voxel Spacing
+R
+A
+0.5469
+0.5469
+0.5469
+0.5469
+0.5469
+0.5469
+0.5469
+0.5469
+0.5469
+0.5469
+0.5469
+0.5469
+0.4883
+0.4883
+0.5469
+0.5469
+0.4883
+0.4883
+0.5469
+0.5469
+0.5469
+0.5469
+0.5469
+0.5469
+0.4883
+0.4883
+0.5469
+0.5469
+0.7031
+0.7031
+
+S
+2.5
+2.0
+2.5
+2.0
+2.5
+2.0
+2.0
+2.0
+2.0
+2.5
+2.5
+2.0
+2.0
+2.0
+2.5
+
+Voxel Dimensions
+R
+A
+S
+512
+512
+171
+512
+512
+196
+512
+512
+196
+512
+512
+201
+512
+512
+190
+512
+512
+215
+512
+512
+202
+512
+512
+234
+512
+512
+185
+512
+512
+149
+512
+512
+199
+512
+512
+213
+512
+512
+227
+512
+512
+232
+512
+512
+165
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Physical Dimensions
+R
+A
+S
+280
+280
+427.5
+280
+280
+392.0
+280
+280
+490.0
+280
+280
+402.0
+280
+280
+475.0
+280
+280
+430.0
+250
+250
+404.0
+280
+280
+468.0
+250
+250
+370.0
+280
+280
+372.5
+280
+280
+497.5
+280
+280
+426.0
+250
+250
+454.0
+280
+280
+464.0
+360
+360
+412.5
+
+Page 3
+
+Available patient-specific clinical data collected can be seen in Table 2.
+Table 2 – Available patient-specific clinical data
+
+OSMSC ID
+
+Age
+
+Gender
+
+Heart Rate
+(bpm)
+
+0138_1001
+0139_1001
+0140_2000
+0141_1001
+0142_1001
+0144_1001
+0145_1001
+0146_1001
+0147_1000
+0148_1001
+0149_1001
+0150_0001
+0151_0001
+0156_0001
+0157_0000
+
+73
+79
+76
+64
+75
+66
+68
+70
+63
+70
+75
+48
+71
+69
+71
+
+M
+F
+M
+M
+M
+M
+M
+M
+M
+M
+M
+M
+M
+M
+M
+
+62
+62
+68
+76
+64
+76
+68
+68
+90
+70
+72
+51
+70
+72
+69
+
+Height
+(m)
+1.73
+1.57
+1.73
+1.80
+1.73
+1.68
+1.65
+1.78
+1.60
+1.78
+1.80
+1.73
+1.75
+1.78
+1.73
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Systolic
+Pressure
+(mmHg)
+74
+78
+80
+82
+78
+70
+80
+80
+80
+60
+80
+80
+80
+80
+77
+
+Diastolic
+Pressure
+(mmHg)
+122
+124
+138
+130
+118
+130
+130
+138
+140
+100
+122
+140
+130
+122
+130
+
+Weight
+(Kg)
+94.3
+72.6
+88.5
+70.3
+86.6
+89.8
+70.3
+106.1
+70.3
+153
+97.5
+81.2
+89.4
+99.8
+85.7
+
+Page 4
+
+3. Anatomic Model Description
+Anatomic models were created using customized SimVascular software (Simtk.org) and the image data
+described in Section 2. AAA models extend from the supraceliac aorta, include the splenic, hepatic, renal,
+superior and inferior mesenteric (when visible), and iliac arteries, and end before the femoral and profunda
+femoris artery bifurcation. See Appendix 2 for a description of modeling methods. See Table 3 for a visual
+summary of the image data, paths, segmentations and solid model constructed.
+Table 3 – Visual summary of image data, paths, segmentations and solid model.
+
+OSMSC ID
+
+Image Data
+
+Paths
+
+Paths and
+Segmentations
+
+Model
+
+ID: OSMSC0138
+subID: 1001
+Age: 73
+Gender: M
+
+ID: OSMSC0139
+subID: 1001
+Age: 79
+Gender: F
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 5
+
+ID: OSMSC0140
+subID: 2000
+Age: 76
+Gender: M
+
+ID: OSMSC0141
+subID: 1001
+Age: 64
+Gender: M
+
+ID: OSMSC0142
+subID: 1001
+Age: 75
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 6
+
+ID: OSMSC0144
+subID: 1001
+Age: 66
+Gender: M
+
+ID: OSMSC0145
+subID: 1001
+Age: 68
+Gender: M
+
+ID: OSMSC0146
+subID: 1001
+Age: 70
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 7
+
+ID: OSMSC0147
+subID: 1000
+Age: 63
+Gender: M
+
+ID: OSMSC0148
+subID: 1001
+Age: 70
+Gender: M
+
+ID: OSMSC0149
+subID: 1001
+Age: 75
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 8
+
+ID: OSMSC0150
+subID: 0001
+Age: 48
+Gender: M
+
+ID: OSMSC0151
+subID: 0001
+Age: 71
+Gender: M
+
+ID: OSMSC0156
+subID: 0001
+Age: 69
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 9
+
+ID: OSMSC0157
+subID: 0000
+Age: 71
+Gender: M
+
+Details of anatomic models, such has number of outlets and model volume, can be seen in Table 4.
+Table 4 – Anatomic Model details
+
+OSMSC ID
+
+Inlets
+
+Outlets (cm3)
+
+0138_1001
+0139_1001
+0140_2000
+0141_1001
+0142_1001
+0144_1001
+0145_1001
+0146_1001
+0147_1000
+0148_1001
+0149_1001
+0150_0001
+0151_0001
+0156_0001
+0157_0000
+
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+9
+9
+10
+10
+11
+10
+10
+10
+10
+10
+10
+10
+10
+10
+9
+
+Volume
+(cm2)
+130.1415
+105.8332
+167.6048
+135.5448
+219.7345
+139.3173
+114.3593
+180.2245
+133.9180
+80.1086
+166.5918
+209.5925
+178.8204
+188.8929
+226.3561
+
+Surface Area
+(cm2)
+350.7709
+313.3079
+455.9479
+337.2218
+510.3702
+356.1389
+362.6237
+445.8886
+378.1500
+256.9141
+440.5111
+493.8303
+451.8845
+468.7181
+525.3924
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Vesel Paths
+9
+9
+10
+10
+11
+10
+13
+12
+10
+10
+11
+10
+10
+10
+9
+
+2-D
+Segementations
+239
+232
+231
+212
+226
+258
+228
+179
+259
+237
+266
+217
+238
+144
+205
+
+Page 10
+
+4. Physiological Model Description
+In addition to the clinical data gathered for this model, several physiological assumptions were made in
+preparation for running the simulation. See Appendix 3 for details.
+
+5. Simulation Parameters & Details
+5. 1
+
+Simulation Parameters
+
+See Appendix 4 and the conference presentation featuring these models [6] for information on the physiology
+and simulation specifications. Simulation parameters are shown in Table 5.
+Table 5 –Simulation Parameters
+
+OSMSC ID
+0138_1001
+0139_1001
+0140_2000
+0141_1001
+0142_1001
+0144_1001
+0145_1001
+0146_1001
+0147_1000
+0148_1001
+0149_1001
+0150_0001
+0151_0001
+0156_0001
+0157_0000
+
+5. 2
+
+Time Steps per
+Cycle
+3200
+3200
+3200
+3200
+3200
+3200
+3200
+3200
+3200
+3200
+3200
+3200
+3200
+3200
+3200
+
+Time Stepping Strategy
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 5 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 5 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 10 criteria 0.01
+residual_control 1 min_iter 3 max_iter 5 criteria 0.01
+
+Inlet Boundary Conditions
+
+Clinically acquired patient height and weight were used to calculate patient BSA based on the Moseller
+equation. The BSA was then used to calculate the cardiac output based on the Baker equation. Flow to the
+supraceliac aorta was assumed to be 66% of the cardiac output [7, 8]. Patient-specific inflow waveforms were
+created by scaling a gender-matched representative supraceliac aortic waveform and prescribed to the inlets of
+the computational fluid dynamics (CFD) models (Figure 1). See
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 11
+
+Table 6 for the period and calculated cardiac output for each simulation.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 12
+
+Table 6 – Period and Cardiac Output from waveforms seen in Figure 1
+
+OSMSC ID
+
+Period (s)
+
+Cardiac Output
+(L/min)
+
+Profile Type
+
+0138_1001
+0139_1001
+0140_2000
+0141_1001
+0142_1001
+0144_1001
+0145_1001
+0146_1001
+0147_1000
+0148_1001
+0149_1001
+0150_0001
+0151_0001
+0156_0001
+0157_0000
+
+0.968
+0.968
+0.882
+0.789
+0.938
+0.789
+0.882
+0.882
+0.667
+0.857
+0.833
+1.176
+0.857
+0.833
+0.870
+
+5.71
+4.57
+5.49
+4.88
+5.42
+5.44
+4.62
+6.24
+4.53
+4.8
+5.98
+5.2
+5.57
+6.01
+5.38
+
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+Womersley
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 13
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 14
+
+Figure 1 – Inflow waveforms in L/min
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 15
+
+5. 3
+
+Outlet Boundary Conditions
+
+Volumetric flow to each outlet vessel was distributed based on literature data. From the supraceliac flow 21.7%
+was prescribed to the celiac artery, 14.7% to the superior mesenteric artery, and 4.8% to the inferior mesenteric
+artery when visible in the image data [9]. The flow to the celiac artery was split between the hepatic and splenic
+arteries based on outlet areas. About 23.3% of cardiac output is thought to go to the kidneys [10]. This flow was
+split evenly between the right and left renal arteries. This leaves 29.8% of the remaining flow from the
+supraceliac aorta to flow through the infrarenal aorta, which is consistent with findings from Cheng et. al. based
+on PCMRI flow data collected in healthy male subjects ages 20 to 24 years [11]. The remaining flow to the
+infrarenal aorta was then split evenly between the left and right common iliac arteries. Flow was then
+distributed to the external iliac and internal iliac arteries at a 70% and 30% of the common iliac artery flow
+respectively.
+Pressure targets for the simulation were obtained from clinical values (see Section 2 above).
+Table 7 – Flow distributions
+
+IMA
+
+Left
+External
+Iliac
+
+Left
+Internal
+Iliac
+
+Left
+Renal
+
+Right
+External
+Iliac
+
+Right
+Internal
+Iliac
+
+Right
+Renal
+
+SMA
+
+Splenic
+
+10.7%
+
+-
+
+9.9%
+
+4.2%
+
+17.7%
+
+9.9%
+
+4.2%
+
+17.7%
+
+14.7%
+
+11.0%
+
+0139_1001
+
+11.6%
+
+-
+
+9.9%
+
+4.2%
+
+17.7%
+
+9.9%
+
+4.2%
+
+17.7%
+
+14.7%
+
+10.1%
+
+0140_2000
+
+13.8%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+7.9%
+
+0141_1001
+
+10.8%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+10.9%
+
+0142_1001
+
+7.2%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+14.5%
+
+0144_1001
+
+10.6%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+11.1%
+
+0145_1001
+
+3.8%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+17.9%
+
+0146_1001
+
+11.7%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+10.0%
+
+0147_1000
+
+8.9%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+12.8%
+
+0148_1001
+
+8.6%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+13.6%
+
+0149_1001
+
+12.1%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+9.6%
+
+0150_0001
+
+10.1%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+11.6%
+
+0151_0001
+
+8.1%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+13.6%
+
+0156_0001
+
+6.9%
+
+4.8%
+
+8.2%
+
+3.5%
+
+17.7%
+
+8.2%
+
+3.5%
+
+17.7%
+
+14.7%
+
+14.8%
+
+0157_0000
+
+9.5%
+
+-
+
+9.9%
+
+4.2%
+
+17.7%
+
+9.9%
+
+4.2%
+
+17.7%
+
+14.7%
+
+12.2%
+
+OSMSC
+ID
+
+Hepatic
+
+0138_1001
+
+6. Simulation Results
+Simulation results were quantified for the last cardiac cycle. Paraview (Kitware, Clifton Park, NY), an opensource scientific visualization application, was used to visualize the results. A volume rendering of velocity
+magnitude for three time points during the cardiac cycle can be seen in Table 9 for each model.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 16
+
+Table 8 – Volume rendering velocity during peak systole, end systole, and end diastole. All renderings have the scale below with units of cm/s
+
+OSMSC ID
+
+Peak Systole
+
+End Systole
+
+End Diastole
+
+ID: OSMSC0138
+subID: 1001
+Age: 73
+Gender: M
+
+ID: OSMSC0139
+subID: 1001
+Age: 79
+Gender: F
+
+ID: OSMSC0140
+subID: 2000
+Age: 76
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 17
+
+ID: OSMSC0141
+subID: 1001
+Age: 64
+Gender: M
+
+ID: OSMSC0142
+subID: 1001
+Age: 75
+Gender: M
+
+ID: OSMSC0144
+subID: 1001
+Age: 66
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 18
+
+ID: OSMSC0145
+subID: 1001
+Age: 68
+Gender: M
+
+ID: OSMSC0146
+subID: 1001
+Age: 70
+Gender: M
+
+ID: OSMSC0147
+subID: 1000
+Age: 63
+Gender: M
+
+ID: OSMSC0148
+subID: 1001
+Age: 70
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 19
+
+ID: OSMSC0149
+subID: 1001
+Age: 75
+Gender: M
+
+ID: OSMSC0150
+subID: 0001
+Age: 48
+Gender: M
+
+ID: OSMSC0151
+subID: 0001
+Age: 71
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 20
+
+ID: OSMSC0156
+subID: 0001
+Age: 69
+Gender: M
+
+ID: OSMSC0157
+subID: 0000
+Age: 71
+Gender: M
+
+Surface distribution of time-averaged blood pressure (TABP), time-averaged wall shear stress (TAWSS) and
+oscillatory shear index (OSI) were also visualized and can be seen in Table 9.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 21
+
+Table 9 – Time averaged blood pressure (TABP), time-average wall shear stress (TAWSS),
+and oscillatory shear index (OSI) surface distributions
+
+OSMSC ID
+
+TABP
+
+TAWSS
+
+OSI
+
+ID: OSMSC0138
+subID: 1001
+Age: 73
+Gender: M
+
+ID: OSMSC0139
+subID: 1001
+Age: 79
+Gender: F
+
+ID: OSMSC0140
+subID: 2000
+Age: 76
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 22
+
+ID: OSMSC0141
+subID: 1001
+Age: 64
+Gender: M
+
+ID: OSMSC0142
+subID: 1001
+Age: 75
+Gender: M
+
+ID: OSMSC0144
+subID: 1001
+Age: 66
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 23
+
+ID: OSMSC0145
+subID: 1001
+Age: 68
+Gender: M
+
+ID: OSMSC0146
+subID: 1001
+Age: 70
+Gender: M
+
+ID: OSMSC0147
+subID: 1000
+Age: 63
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 24
+
+ID: OSMSC0148
+subID: 1001
+Age: 70
+Gender: M
+
+ID: OSMSC0149
+subID: 1001
+Age: 75
+Gender: M
+
+ID: OSMSC0150
+subID: 0001
+Age: 48
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 25
+
+ID: OSMSC0151
+subID: 0001
+Age: 71
+Gender: M
+
+ID: OSMSC0156
+subID: 0001
+Age: 69
+Gender: M
+
+ID: OSMSC0157
+subID: 0000
+Age: 71
+Gender: M
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 26
+
+7. References
+[1]
+
+Centers for Disease Control and Prevention, "Aortic Aneurysms FAct Sheet," 3 January 2011. [Online].
+Available: http://www.cdc.gov/dhdsp/data_statistics/fact_sheets/fs_aortic_aneurysm.htm. [Accessed 4
+April 2012].
+
+[2]
+
+American Heart Association, "Coarctation of the Aorta," 24 January 2011. [Online]. Available:
+http://www.heart.org/HEARTORG/Conditions/CongenitalHeartDefects/AboutCongenitalHeartDefects/Coa
+rctation-of-the-Aorta-CoA_UCM_307022_Article.jsp#.TwX7UNR8AsK. [Accessed 5 January 2012].
+
+[3]
+
+American Heart Association, "Heart Disease and Stroke Statistics--2012 Update: A Report From the
+American Heart Association," Circulation, vol. 125, pp. e2-e220, 2012.
+
+[4]
+
+J. LaDisa, A. Figueroa, I. Vignon-Clementel, H. J. Kim, N. Xiao, L. Ellwein, F. Chan, J. Feinstein and C. Taylor,
+"Computational Simulations for Aortic Coarctation: Representative Results From a Sampling of Patients,"
+Journal of Biomedical Engineering, vol. 133, 2011.
+
+[5]
+
+MDGuidelines, "Coarctation of tha Aorta," [Online]. Available:
+http://www.mdguidelines.com/coarctation-of-the-aorta. [Accessed 06 January 2012].
+
+[6]
+
+A. K. Ortiz, A. A. Aleiou, J. F. J. LaDisa and N. M. Wilson, "A Sampling of Patients with Abdominal Aortic
+Aneurysms from a Public Repository of Image-based Computational Models and Subject-specific Blood
+Flow Simulation Results," Proceedings of the Midwest Biomedical Engineering Career Conference , 2013.
+
+[7]
+
+P. Reymond, F. Merenda, F. Perren, D. Rufenacht and N. Stergiopulos, "Validation of a One-Dimensional
+Model of the Systemic Arterial Tree," Am J Physiol Heart Circ Physiol, no. 297, pp. H208-H222, 2009.
+
+[8]
+
+B. N. Steele, M. S. Olufsen and C. A. Taylor, "Fractal network for Simulating Abdominal and Lower
+Extremity Blood Flow During Resting and Exercise Conditions," Comput. Methods Biomech. Biomed Engin.,
+vol. 10, no. 1, pp. 39-51, 2007.
+
+[9]
+
+J. E. Moore Jr. and D. N. Ku, "Pulsatile Velocity Meaurements in a Model of the Human Abdominal aorta
+Under Resting Conditions," ASME Journal of Biomechanical Engineering, vol. 116, pp. 337-346, 1994.
+
+[10] W. W. Nichols, M. F. Rourke and C. Vlachopoulos, McDonald's Blood Flow Arteries: Theoretical,
+Experimental and Clinical Principles, London: Hoddel Arnold, 2011.
+[11] C. P. Cheng, R. J. Herfkens and C. A. Taylor, "Comparison of Abdominal Aortic Hemodynamics Between
+Men and Women at Rest and During Lowe Limb Exercise," Journal of Vascular Surgery, vol. 37, no. 1, pp.
+118-123, 2002.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 27
+
+Exhibit 1: AAA Simulation RCR Values
+Information on how RCR values were obtained is included in Appendix 5. For all abdominal aortic aneurysm
+simulations, an initial ratio or 0.056 was used to calculate the TAC. The ratio was then adjusted to match the
+target pressures at the inlet. The final TAC was based on the final adjusted ratio. RCR parameters for each
+simulation are shown in the tables below.
+Table 10 – RCR Values for 0138_1001 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+1163.89
+1138.97
+1250.17
+1408.47
+2919.11
+2928.70
+706.68
+712.16
+842.28
+
+C
+0.00011045
+0.00011354
+0.00010223
+0.00010223
+0.00004381
+0.00004381
+0.00018220
+0.00018220
+0.00015174
+
+Rd
+15344.32
+14645.50
+17016.15
+13781.98
+39718.05
+39559.16
+9105.82
+9066.42
+11484.46
+
+C
+0.00010112
+0.00008850
+0.00008654
+0.00008654
+0.00003709
+0.00003709
+0.00015425
+0.00015425
+0.00012845
+
+Rd
+19693.46
+22406.18
+23477.84
+23552.65
+55249.58
+55317.94
+10574.92
+11186.81
+15664.69
+
+C
+0.00010529
+0.00006049
+0.00006277
+0.00006277
+0.00003670
+0.00002696
+0.00002696
+0.00013478
+0.00013478
+0.00011225
+
+Rd
+13335.72
+23055.22
+21136.07
+22067.45
+38604.41
+51446.11
+51680.49
+10230.62
+10019.46
+12537.03
+
+Table 11 – RCR values for 0139_1001 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+1128.23
+1288.95
+1318.69
+1318.76
+3077.44
+3077.48
+736.68
+737.59
+888.30
+
+Table 12 – RCR values for 0140_2000 in cgs
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Rp
+2084.44
+3627.55
+3492.25
+3495.47
+5981.26
+8139.87
+8140.64
+1627.76
+1627.06
+1955.24
+
+Page 28
+
+Table 13 – RCR values for 0141_1001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+2382.29
+2366.00
+3134.40
+3133.96
+5354.31
+7312.70
+7314.04
+1460.15
+1459.22
+1753.00
+
+C
+0.0000779
+0.0000784
+0.0000592
+0.0000592
+0.0000346
+0.0000254
+0.0000254
+0.0001271
+0.0001271
+0.0001059
+
+Rd
+18492.99
+18635.60
+25290.86
+25122.71
+38005.38
+58685.47
+59142.78
+11704.77
+11365.54
+13945.24
+
+C
+0.0000839
+0.0001690
+0.0000959
+0.0000959
+0.0000559
+0.0000411
+0.0000411
+0.0002058
+0.0000753
+0.0001305
+0.0001714
+
+Rd
+25067.52
+12315.84
+22126.44
+22126.44
+37073.91
+51748.30
+51748.30
+9720.49
+26658.87
+15519.70
+12190.12
+
+C
+0.0000627
+0.0000660
+0.0000487
+0.0000487
+0.0000284
+0.0000209
+0.0000209
+0.0001046
+0.0001046
+0.0000870
+
+Rd
+15622.39
+14745.56
+20673.65
+20680.72
+33655.07
+48435.63
+48336.13
+8637.53
+7894.19
+11544.47
+
+Table 14 – RCR values for 0142_1001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right_a
+renal_right_b
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal branch 1
+Right Renal branch 2
+Superior Mesenteric
+
+Rp
+2497.32
+1239.73
+2186.74
+2186.74
+3744.92
+5102.47
+5102.47
+1017.48
+2780.41
+1605.13
+1222.86
+
+Table 15 – RCR values for 0144_1001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Rp
+2390.66
+2264.95
+3086.93
+3087.98
+5261.19
+7214.88
+7208.61
+1459.66
+1491.77
+1725.90
+
+Page 29
+
+Table 16– RCR values for 0145_1001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+6840.39
+1459.82
+3178.56
+3178.71
+5420.44
+7422.89
+7423.07
+1480.13
+1480.34
+1778.46
+
+C
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+Rd
+54893.15
+11688.01
+26965.38
+26995.04
+37783.06
+63108.10
+63178.00
+12135.75
+12218.94
+15005.63
+
+C
+0.0001021
+0.0000864
+0.0000715
+0.0000715
+0.0000418
+0.0000306
+0.0000306
+0.0001534
+0.0001534
+0.0001277
+
+Rd
+13776.95
+15817.03
+20664.60
+20664.60
+28481.22
+48345.90
+48396.19
+8214.05
+8793.43
+11511.30
+
+C
+0.0000386
+0.0000557
+0.0000357
+0.0000357
+0.0000209
+0.0000153
+0.0000153
+0.0000767
+0.0000767
+0.0000639
+
+Rd
+24156.20
+16772.90
+26710.50
+26710.50
+43681.20
+61828.80
+62041.20
+11949.10
+12232.20
+14807.20
+
+Table 17– RCR values for 0146_1001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+1674.78
+1977.37
+2394.99
+2394.99
+4075.61
+5591.76
+5591.99
+1111.72
+1113.93
+1340.89
+
+Table 18– RCR values for 0147_1001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Celiac
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+4441.79
+3080.68
+4802.07
+4802.07
+8219.35
+11202.60
+11203.80
+2235.42
+2236.48
+2686.01
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 30
+
+Table 19– RCR values for 0148_1001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+734.52
+485.14
+767.50
+758.40
+1389.80
+1776.97
+1783.20
+358.79
+362.96
+425.72
+
+C
+0.0000798
+0.0001225
+0.0000766
+0.0000766
+0.0000446
+0.0000328
+0.0000328
+0.0001644
+0.0001644
+0.0001369
+
+Rd
+19052.62
+11902.58
+19995.80
+20391.88
+27769.99
+47374.36
+49165.44
+8843.55
+8408.98
+11640.63
+
+C
+0.0002050
+0.0001634
+0.0001396
+0.0001396
+0.0000815
+0.0000598
+0.0000598
+0.0002997
+0.0002997
+0.0002496
+
+Rd
+14050.82
+17289.22
+21369.95
+21345.95
+33409.36
+50088.08
+49812.07
+6954.84
+8114.20
+11415.73
+
+C
+0.0000896
+0.0001029
+0.0000730
+0.0000730
+0.0000426
+0.0000313
+0.0000313
+0.0001565
+0.0001565
+0.0001304
+
+Rd
+18825.00
+16444.18
+23560.31
+23560.31
+38504.09
+54935.16
+54997.93
+10672.54
+10433.48
+13089.08
+
+Table 20– RCR values for 0149_1001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+644.27
+813.33
+949.84
+949.07
+1778.46
+2219.93
+2212.33
+686.75
+505.09
+527.87
+
+Table 21– RCR values for 0150_0001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+3644.63
+3172.84
+4474.39
+4474.39
+7656.03
+10433.02
+10433.22
+2085.31
+2084.33
+2505.48
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 31
+
+Table 22– RCR values for 0151_0001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+3075.84
+1817.56
+3015.15
+3015.14
+5164.61
+7035.05
+7035.58
+1403.42
+1403.07
+1686.51
+
+C
+0.0000680
+0.0001151
+0.0000694
+0.0000694
+0.0000405
+0.0000297
+0.0000297
+0.0001489
+0.0001489
+0.0001240
+
+Rd
+22485.36
+13357.38
+22352.89
+22328.50
+37754.65
+52061.67
+52264.07
+9880.94
+9741.75
+12375.26
+
+C
+0.0000744
+0.0001580
+0.0000881
+0.0000881
+0.0000515
+0.0000378
+0.0000378
+0.0001890
+0.0001890
+0.0001570
+
+Rd
+23853.67
+11295.36
+20495.92
+20495.92
+34588.62
+47906.82
+47906.82
+8998.07
+8783.22
+11393.54
+
+C
+0.0000750
+0.0000957
+0.0000779
+0.0000779
+0.0000334
+0.0000334
+0.0001388
+0.0001388
+0.00
+
+Rd
+17604.00
+14074.17
+18253.48
+18264.14
+42815.88
+42880.96
+10083.33
+9861.53
+12239.05
+
+Table 23– RCR values for 0156_0001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+IMA
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Inferior Mesenteric
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+Rp
+2472.55
+1162.79
+2086.62
+2086.62
+3568.65
+4871.87
+4871.87
+970.77
+970.30
+1167.63
+
+Table 24– RCR values for 0157_0001
+
+Solver ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Face Name
+celiac_hepatic
+celiac_splenic
+ext_iliac_left
+ext_iliac_right
+int_iliac_left
+int_iliac_right
+renal_left
+renal_right
+SMA
+
+Artery Name
+Hepatic
+Splenic
+Left External Iliac
+Right External Iliac
+Left Internal Iliac
+Right Internal Iliac
+Left Renal
+Right Renal
+Superior Mesenteric
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Rp
+2890.51
+2266.09
+2787.41
+2787.47
+6504.74
+6504.98
+1563.38
+1562.53
+1877.80
+
+Page 32
+
+Appendix
+1. Image Data Orientation
+The RAS coordinate system was assumed for the image data orientation. Voxel Spacing, voxel dimensions, and
+physical dimensions are provided in the Right-Left (R), Anterior-Posterior (A), and Superior-Inferior (S) direction
+in all specification documents unless otherwise specified.
+
+2. Model Construction
+All anatomic models were constructed in RAS Space. The models are generated by selecting centerline paths
+along the vessels, creating 2D segmentations along each of these paths, and then lofting the segmentations
+together to create a solid model. A separate solid model was created for each vessel and Boolean addition was
+used to generate a single model representing the complete anatomic model. The vessel junctions were then
+blended to create a smoothed model.
+
+3. Physiological Assumptions
+Newtonian fluid behavior is assumed with standard physiological properties. Blood viscosity and density are
+given below in units used to input directly into the solver.
+Blood Viscosity: 0.04 g/cm•s2
+Blood Density: 1.06 g/cm3
+
+4. Simulation Parameters
+Conservation of mass and Navier-Stokes equations were solved using 3D finite element methods assuming rigid
+and non-slip walls. All simulations were ran in cgs units and ran for several cardiac cycles to allow the flow rate
+and pressure fields to stabilize.
+
+5. Outlet Boundary Conditions
+5.1 Resistance Methods
+Resistances values can be applied to the outlets to direct flow and pressure gradients. Total
+resistance for the model is calculated using relationships of the flow and pressure of the model.
+Total resistance is than distributed amongst the outlets using an inverse relationship of outlet area
+and the assumption that the outlets act in parallel.
+5.2 Windkessel Model
+In order to represent the effects of vessels distal to
+the CFD model, a three-element Windkessel model
+can be applied at each outlet. This model consists of
+proximal resistance (Rp), capacitance (C), and distal
+resistance (Rd) representing the resistance of the
+proximal vessels, the capacitance of the proximal
+vessels, and the resistance of the distal vessels
+downstream of each outlet, respectively (Figure 1).
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Figure 2 - Windkessel model
+
+Page 33
+
+First, total arterial capacitance (TAC) was calculated using inflow and blood pressure. The TAC was
+then distributed among the outlets based on the blood flow distributions. Next, total resistance (Rt)
+was calculated for each outlet using mean blood pressure and PC-MRI or calculated target flow
+(Rt=Pmean/Qdesired). Given that Rt=Rp+Rd, total resistance was distributed between Rp and Rd adjusting
+the Rp to Rt ratio for each outlet.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 34
+
+

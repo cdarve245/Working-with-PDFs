@@ -1,0 +1,1497 @@
+CPM Specifications Document
+Fontan:
+OSMSC 0063_0000, 0064_0000, 0065_0000, 0075_0000, 0076_0000, 0077_0000
+
+May 1, 2013
+Version 1
+
+Open Source Medical Software Corporation
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+1. Clinical Significance & Condition
+Congenital heart defects are structural abnormalities present at birth that disrupt normal blood flow through
+the heart, affecting 8 of every 1,000 newborns [1]. There are at least 18 documented types of congenital heart
+defects, including coarcataion of the aorta, single ventricle defects, and complete atrioventricular canal defect
+[2]. A large amount of anatomical variation is present within these individual congenital heart defect types.
+In a study that examined congenital heart disease in the general population, the prevalence of single ventricle
+defects was found to be 0.13 per 1000 children and 0.03 per 1000 adults [3]. Single ventricle defects cover a set
+of cardiac abnormalities that result in one of the two ventricles being underdeveloped. With one ventricle being
+of inadequate functionality or size, only one ventricle is available to pump the blood throughout the entire body.
+Some examples of single ventricle defects include: hypoplastic left heart syndrome, pulmonary atresia, tricuspid
+atresia, and double inlet left ventricle [2] [4]. Single ventricle heart patients are severely cyanotic at birth, and
+these conditions are fatal with no interventions.
+In order to provide adequate oxygenation, and separate the pulmonary and
+systemic blood supplies, the blood returning to the heart is surgically redirected
+to the pulmonary arteries, bypassing the heart. This surgical course typically
+consists of three staged surgeries, a Blalock Taussig (BT) shunt and/or Norwood
+procedure, a Glenn procedure, and finally a Fontan procedure (or total
+cavopulmonary connection, TCPC).
+The first stage is performed immediately after birth, and can vary among
+patients depending on the defect and the pulmonary resistances. A systemic1 –Systemic-pulmonary shunt
+pulmonary shunt (BT shunt, central shunt, or Sano shunt) is used to maintain Figure
+for a single ventricle heart.
+adequate ventricle volume load and providing sufficient pulmonary blood flow.
+This is accomplished by connecting a systemic artery, such as the brachocephalic artery, to the pulmonary
+arteries with a tube graft (Figure 1) [4] [5]. For situations where there is too much blood flow to the lungs, the
+pulmonary artery can be narrowed with a synthetic band to restrict blood flow [4]. In patients with aortic
+atresia, a neo-aorta is also constructed during the first stage of surgery. About 65-80% of hypoplastic left
+ventricles have been found to be related to aortic atresia in several reviews [6]. During reconstruction of a neoaorta, the distal stump of the pulmonary artery and homograft tissue are used to
+direct flow through the ascending aorta to the carotid and subclavian arteries [6, 7].
+
+Figure 2 –Glenn procedure.
+Arrows represent blood flow,
+with blue being deoxygenated
+blood, red being oxygenated
+blood, and purple being a mix
+of both.
+
+The second stage is typically completed between the ages of 2-6 months [5]. The
+Glenn procedure connects the superior vena cava to the right pulmonary artery in
+order to improve oxygenation and decrease ventricle volume load (Figure 2) [8]. If
+the patient had previously gone through a stage one procedure, it is removed during
+stage two [4]. Oxygen saturation in patients who have undergone the Glenn
+procedure typically is between 75-85% [4]. Another variation of the second stage is
+the hemi-Fontan, where the pulmonary artery and superior vena cava are connected
+through the right atrium and closed off to the rest of heart with a patch.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 2
+
+The third stage, a complete Fontan procedure, is typically completed between the ages of 1-5 years [5]. This
+final stage redirects the inferior vena cava to the pulmonary artery. In combination with the previous stage,
+deoxygenated blood bypasses the heart completely and is routed directly to the pulmonary artery so the single
+ventricle is only pumping oxygenated blood throughout the body. A complete Fontan procedure is typically
+done through a lateral tunnel or extracardiac method. A lateral
+tunnel Fontan incorporates the wall of the atrium with a baffle
+from the inferior vena cava to the pulmonary artery. On the
+other hand, an extracardiac Fontan connects the inferior vena
+cava to the pulmonary artery with a synthetic tube-shaped graft,
+bypassing the heart altogether (Figure 3) [4]. In both methods, a
+small hole, or fenestration, is often needed between the newly
+formed channel and the atrium to reduce pressure in the Fontan
+Figure 3 – Complete Fontan Circulation: Laterial Tunnel
+circuit [4] [5]. A complete Fontan procedure increases oxygen Fontan (leff), Extracardiac Fontan (right). Arrows represent
+blood flow, with blue being deoxygenated blood and red
+saturation to virtually normal levels [4].
+being oxygenated blood.
+
+2. Clinical Data
+Patient-specific volumetric image data was obtained to create physiological models and blood flow simulations.
+Details of the imaging data used can be seen in Table 1. See Appendix 1 for details on image data orientation.
+Table 1 – Patient-specific volumetric image data details (mm)
+
+OSMSC ID
+
+Modality
+
+0063_0000
+0064_0000
+0065_0000
+0075_0000
+0076_0000
+0077_0000
+
+MR
+MR
+CT
+MR
+MR
+MR
+
+Voxel Spacing
+R
+A
+S
+1.0000 0.5469 0.5469
+1.5000 1.1719 1.1719
+0.3691 0.3691 0.5000
+1.5000 0.6836 0.6836
+1.5000 0.6836 0.6836
+0.5859 1.5000 0.5859
+
+Voxel Dimensions
+R
+A
+S
+120 512 512
+64
+256 256
+512 512 296
+80
+512 512
+88
+512 512
+512
+52
+512
+
+Physical Dimensions
+R
+A
+S
+120 280
+280
+96
+300
+300
+189 189
+148
+120 350
+350
+132 350
+350
+300
+78
+300
+
+Available patient-specific clinical data collected for resting conditions can be seen in Table 2.
+Table 2 – Available patient-specific clinical data
+
+OSMSC ID
+
+Age
+
+Gender
+
+BSA
+
+CI
+
+0063_0000
+0064_0000
+0065_0000
+0075_0000
+0076_0000
+0077_0000
+
+3
+6
+5
+17
+27
+3
+
+M
+F
+F
+F
+F
+F
+
+0.63
+0.71
+0.68
+1.55
+0.68
+0.67
+
+3.8
+2.7
+2.8
+2.3
+3.8
+2.8
+
+Aorta
+Aorta
+Aorta
+Psys
+Pdia
+Pavg
+(mmHg) (mmHg) (mmHg)
+80
+50
+63
+95
+63
+78
+102
+67
+78
+140
+95
+108
+100
+61
+79
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+IVC
+Pavg
+(mmhg)
+11
+9
+11
+18
+15
+7
+
+LPA
+RPA
+SVC
+Pavg
+Pavg
+Pavg
+(mmHg) (mmHg) (mmHg)
+10
+10
+11
+6
+6
+9
+7
+9
+11
+17
+17
+18
+14
+14
+15
+6
+6
+7
+Page 3
+
+Details on available PCMRI can be seen in Table 3.
+Table 3 – Available PCMRI
+
+OSMSC ID
+
+0063_0000
+
+0064_0000
+
+0075_0000
+
+0076_0000
+
+Slice Location
+
+Number of Frames
+
+Aorta
+IVC
+LPA
+RPA
+RPA_v2
+SVC
+Aorta
+IVC
+LPA
+PA
+RPA
+SVC
+Aorta
+IVC
+LPA
+RPA
+SVC
+Aorta
+IVC
+LPA
+RPA
+SVC
+
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+20
+
+Voxel Spacing (mm)
+X
+Y
+0.937507 0.937496
+0.937502 0.937494
+0.937508 0.937497
+0.937495 0.937509
+0.937504 0.937493
+0.937502 0.937487
+1.09375 1.09375
+1.09376 1.09375
+1.09375 1.09374
+1.09375 1.09375
+1.09375 1.09374
+1.09375 1.09376
+1.09377 1.09375
+1.09375 1.09375
+1.09375 1.09373
+1.09375 1.09374
+1.09374 1.09375
+1.09376 1.09375
+1.09374 1.09375
+1.09374 1.09376
+1.09376 1.09376
+1.09376 1.09374
+
+3. Anatomic Model Description
+Anatomic models were created using customized SimVascular software (Simtk.org) and the image data
+described in Section 2. See Appendix 2 for a description of modeling methods. See Table 4 for a visual summary
+of the image data, paths, segmentations and solid model constructed.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 4
+
+Table 4 – Visual summary of image data, paths, segmentations and solid model.
+
+OSMSC ID
+
+Image Data
+
+Paths
+
+Paths and
+Segmentations
+
+Model
+
+ID:
+OSMSC0063
+subID: 0000
+Age: 3
+Gender: M
+
+ID:
+OSMSC0064
+subID: 0000
+Age: 6
+Gender: F
+
+ID:
+OSMSC0065
+subID: 0000
+Age: 5
+Gender: F
+
+ID:
+OSMSC0075
+subID: 0000
+Age: 17
+Gender: F
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 5
+
+ID:
+OSMSC0076
+subID: 0000
+Age: 27
+Gender: F
+
+N/A
+
+N/A
+
+ID:
+OSMSC0077
+subID: 0000
+Age: 3
+Gender: F
+
+Details of anatomic models, such has number of outlets and model volume, can be seen in Table 5.
+Table 5 – Anatomic Model details
+
+OSMSC ID
+
+Inlets
+
+Outlets
+
+Volume (cm3)
+
+Surface Area (cm2)
+
+Vessel Paths
+
+2-D Segmentations
+
+0063_0000
+0064_0000
+0065_0000
+0075_0000
+0076_0000
+0077_000
+
+2
+2
+4
+2
+2
+2
+
+20
+20
+23
+26
+20
+20
+
+17.3673
+21.2094
+26.3423
+68.5137
+46.5195
+32.8507
+
+90.6586
+106.402
+141.003
+262.946
+188.944
+151.788
+
+22
+23
+25
+28
+N/A
+17
+
+125
+100
+154
+160
+N/A
+131
+
+4. Physiological Model Description
+In addition to the clinical data gathered for this model, several physiological assumptions were made in
+preparation for running the simulation. See Appendix 3 for details.
+
+5. Simulation Parameters & Details
+5. 1
+
+Simulation Parameters
+
+See Appendix 4 and the peer-reviewed publication featuring these models [9] for information on the physiology
+and simulation specifications. Solver parameters can be seen in Table 6.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 6
+
+Table 6 – Solver Parameters
+
+OSMSC ID
+0063_0000
+0064_0000
+0065_0000
+0075_0000
+0076_0000
+0077_0000
+
+5. 2
+
+Time Steps per Cycle
+5720
+5720
+5720
+5720
+5720
+6000
+
+Time Stepping Strategy
+Fixed step - 4
+Fixed step - 3
+Fixed step - 3
+Fixed step - 3
+Fixed step - 4
+Fixed step - 3
+
+Inlet Boundary Conditions
+
+PC-MRI data was used to generate a flow waveform to be applied to the inlets of the computational fluid
+dynamics (CFD) model as the volumetric inflow rate (Q). A two-part polynomial model was used to account for
+the effects of respiration on pressures/flow rates and superimposed on the IVC PCMRI derived waveform [10].
+No significant resspiration effects are seen in the SVC, internal jugular vien (IJV) and broncheocephilic cien (BrS)
+therefore the PCMRI derived waveform with no respiration model modification was used [10]. See Figure 4 for a
+plot of total inflow for each model and Table 7 for more inflow details.
+
+Table 7 – Inflow details from waveforms seen in Figure 4
+
+OSMSC ID
+0063_0000
+0064_0000
+0065_0000
+0075_0000
+0076_0000
+0077_0000
+
+Period
+(sec)
+2.86
+2.86
+2.86
+2.86
+2.86
+2.86
+
+Mean Flow (L/Min)
+SVC
+1.26619
+0.893928
+0.48824
+1.11622
+0.952956
+0.846252
+
+Profile
+Type
+
+IVC
+BrS
+IJV
+Total
+0.84072
+2.10691 parabolic
+1.11319
+2.007118 parabolic
+1.06826 0.090532 0.276337 1.923369 parabolic
+1.82512
+2.94134 parabolic
+1.31713
+2.270086 parabolic
+1.06128
+1.907532 parabolic
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 7
+
+Figure 4 – Inflow waveforms in L/min
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 8
+
+5. 3 Outlet Boundary Conditions
+RCR boundary conditions were applied to each outlet. Initial LPA/RPA flow splits were prescribed at 45/55, with
+a 20:40:40 split between the upper, middle, and lower lobes, respectively, for both the left and right pulmonary
+artery. Clinical pressure values seen Table 2 were used as targets. See Appendix 5 for more details on RCR
+calculations and Exhibit 1 for the values used in each simulation.
+
+6. Simulation Results
+Simulation results were quantified for the last cardiac cycle. Paraview (Kitware, Clifton Park, NY), an opensource scientific visualization application, was used to visualize the results. A volume rendering of velocity
+magnitude for three time points during the cardiac cycle can be seen in Table 9 for each model.
+Table 8 – Volume rendering velocity during max flow and min flow.
+
+OSMSC ID
+ID:
+OSMSC0063
+subID: 0000
+Age: 3
+Gender: M
+
+Sim High
+
+Sim Low
+
+ID:
+OSMSC0064
+subID: 0000
+Age: 6
+Gender: F
+ID:
+OSMSC0065
+subID: 0000
+Age: 5
+Gender: F
+ID:
+OSMSC0075
+subID: 0000
+Age: 17
+Gender: F
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 9
+
+ID:
+OSMSC0076
+subID: 0000
+Age: 26
+Gender: F
+
+ID:
+OSMSC0077
+subID: 0000
+Age: 3
+Gender: F
+
+Surface distribution of time-averaged blood pressure (TABP), time-averaged wall shear stress (TAWSS) and
+oscillatory shear index (OSI) were also visualized and can be seen in Table 9.
+Table 9 – Time averaged blood pressure (TABP), time-average wall shear stress (TAWSS), and oscillatory shear index (OSI) surface distributions
+
+OSMSC ID
+ID: OSMSC0063
+subID: 0000
+Age: 3
+Gender: M
+
+Time Averaged Pressure
+
+TAWSS
+
+OSI
+
+ID: OSMSC0064
+subID: 0000
+Age: 6
+Gender: F
+
+ID: OSMSC0065
+subID: 0000
+Age: 5
+Gender: F
+
+ID: OSMSC0075
+subID: 0000
+Age: 17
+Gender: F
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 10
+
+ID: OSMSC0076
+subID: 0000
+Age: 26
+Gender: F
+
+ID: OSMSC0077
+subID: 0000
+Age: 3
+Gender: F
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 11
+
+7. References
+[1] National Heart Blood and Lung Institute, "Congenital Heart Defects," 1 July 2011. [Online]. Available:
+http://www.nhlbi.nih.gov/health/health-topics/topics/chd/. [Accessed January 2012].
+[2] American Heart Association, "Common Types of Heart Defects," 2 May 2011. [Online]. Available:
+http://www.heart.org/HEARTORG/Conditions/CongenitalHeartDefects/AboutCongenitalHeartDefects/CommonTypes-of-Heart-Defects_UCM_307017_Article.jsp#.TwHuCNQS01I. [Accessed Januaray 2012].
+[3] A. Marelli, A. Mackie, R. Ionescu-Ittu, E. Rahme and L. Pilote, "Congenital Heart Disease in the General
+Population: Changing Prevalence and Age Distribution," Circulation, vol. 115, pp. 163-172, 2007.
+[4] Cincinnati Children's, "Single Ventricle Anomalies and Fontan Circulation," March 2010. [Online]. Available:
+http://www.cincinnatichildrens.org/health/s/sv/. [Accessed January 2012].
+[5] S. Nayak and P. Booker, "The Fontan Circulation," British Journal of Anaesthesia, vol. 8, no. 1, pp. 26-30, 2008.
+[6] A. M. Rudolph, "Aortic atresia, mitral atresia, and hypoplastic left ventricle," in Congenital Disease of the Heart:
+Clinical Physioloical Considerations, Hoboken, Blackwell Publishing, 2009, pp. 257-288.
+[7] Children's Hospital of Wisconsin, "Norwood Procedure of Hypoplastic Left Heart Syndrome," 2012. [Online].
+Available: http://www.chw.org/display/router.asp?DocID=21364#. [Accessed 24 May 2012].
+[8] S. Yuan and H. Jing, "Palliative Procedures for Congenital Heart Defects," Archives of Cardiovascular Disease, vol.
+102, pp. 549-557, 2009.
+[9] A. L. Marsden, I. E. Vignon-Clmentel, F. P. Chan, J. A. Feinstein and C. A. Taylor, "Effects of exercise and
+respiration on hemodynamics efficiency in CFD simulations of the total cavopulmonary connection," Annals of
+Biomedical Engineering, vol. 35, no. 2, pp. 250-263, 2007.
+[10] A. L. Marsden, M. Reddy, S. Shadden, F. Chan, C. Taylor and J. Feinstein, "A New Multiparameter Approach to
+Computational Simulation for Fontan Assessment and Redesign," Congenit Heart Dis., vol. 5, pp. 104-117, 2010.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 12
+
+Exhibit 1: Simulation RCR Values
+Table 10 – RCR Values for 0063_0000 in cgs units
+
+ID
+Face Name
+Rp
+2
+LPA_ul1_final
+1153
+3
+LPA_ul2_final
+1362
+4
+LPA_ulbr_final 1072
+5
+LPA_ul_final
+1072
+6
+LPA_ml_final
+1425
+7
+LML_final
+1128
+8
+LMML_final
+1574
+9
+LML2_final
+1862
+10
+LPA_br1_final
+1122
+11
+LPA
+825
+12
+LPA_llbr_final
+1849
+13
+RPA_br3_final
+800
+14
+RPA_br2_final
+1545
+15 RPA_mmbr_final 1355
+16
+RUML2_final
+1812
+17 RPA_mm_final 1785
+18
+RPA_ml_final
+922
+19 RPA_mlbr_final
+779
+20
+RPA_br1_final
+581
+21
+RPA
+557
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+C
+2.20E-05
+2.03E-05
+2.07E-05
+2.07E-05
+1.79E-05
+2.25E-05
+1.29E-05
+1.16E-05
+2.00E-05
+3.21E-05
+1.03E-05
+4.10E-05
+1.65E-05
+1.32E-05
+1.71E-05
+1.36E-05
+2.85E-05
+4.15E-05
+5.92E-05
+6.70E-05
+
+Rd
+5975
+6662
+6354
+6354
+7274
+5743
+9862
+12496
+6656
+4739
+13671
+3733
+8149
+9033
+8251
+10129
+5453
+3959
+2575
+2467
+
+Page 13
+
+Table 11 – RCR Values for 0064_0000 in cgs units
+
+ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+
+Face Name
+LUL2_final
+LUL2b_final
+LUL
+LUML2_final
+LPA_2_final
+LPA_3_final
+LML
+LPA_4_final
+LPA_final
+PA_ex2_final
+RUL
+RUL_3_final
+RUL4_final
+RUL_2_final
+RML_final
+RML2_final
+RMML_final
+RLML_final
+RLL_2
+RPA_final
+
+Rp
+2118
+2687
+1374
+2434
+828
+1121
+1174
+914
+773
+1856
+872
+1581
+3523
+1107
+580
+680
+732
+831
+579
+557
+
+C
+7.92E-06
+4.90E-06
+1.20E-05
+6.52E-06
+3.59E-05
+2.33E-05
+2.17E-05
+2.88E-05
+3.96E-05
+1.46E-05
+3.35E-05
+1.57E-05
+4.68E-06
+1.95E-05
+6.33E-05
+5.93E-05
+4.01E-05
+3.58E-05
+7.43E-05
+6.71E-05
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Rd
+14631
+21732
+9945
+18889
+4586
+5583
+6077
+5369
+3671
+9556
+4784
+8551
+23573
+6852
+2358
+2628
+3551
+4647
+2179
+2465
+
+Page 14
+
+Table 12 – RCR Values for 0065_0000 in cgs units
+
+ID
+Face Name
+Rp
+9
+LLL2_final
+1010
+11
+LLL3_final
+1491
+8
+LLL_final
+1010
+4
+LML2_final
+928
+5
+LML_final
+756
+10
+LPA_final
+731
+2
+LUL2_final
+1074
+3
+LUL_final
+872
+7
+LUML2_final 1261
+6
+LUML_final
+1261
+17
+RL1_final
+739
+18
+RL1a_final
+911
+23
+RL1b_final
+1423
+21 RL2_new_final 765
+22
+RL2a_final
+1112
+20
+RL3_final
+1655
+19
+RL3b_final
+1655
+24
+RL3c_final
+1668
+15
+RML4_final
+1496
+16
+RML_final
+757
+14
+RPA_final
+1799
+12
+RUL2_final
+1129
+13
+RUL_final
+888
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+C
+2.06E-05
+2.00E-05
+2.06E-05
+2.84E-05
+4.09E-05
+4.02E-05
+2.07E-05
+3.52E-05
+2.09E-05
+2.09E-05
+6.04E-05
+2.89E-05
+1.79E-05
+3.17E-05
+2.35E-05
+1.71E-05
+1.71E-05
+1.45E-05
+1.70E-05
+3.59E-05
+8.85E-06
+2.25E-05
+2.98E-05
+
+Rd
+6328
+6941
+6327
+5519
+3994
+3543
+6368
+4741
+6447
+6447
+2694
+5334
+7257
+4392
+5495
+7790
+7790
+9228
+7666
+4157
+12705
+5750
+5075
+
+Page 15
+
+Table 13 – RCR values for 0075_0000 in cgs units
+
+ID
+Face Name
+Rp
+2 LUL2_new_final 1615
+3 LUL_new_final 1407
+4
+LUML2_final
+2403
+5
+LUML3_final
+2403
+6
+LUML_final
+1542
+7
+LML_final
+1621
+8
+LML2_final
+1859
+9
+LML4_final
+1859
+10
+LML5_final
+2328
+11
+LLL2_final
+1799
+12
+LLL3_final
+2328
+13
+LLL_final
+1385
+14
+LPA_final
+1132
+15
+RUL_final
+1422
+16
+RULbr3_final
+4481
+17
+RULbr2_final
+3849
+18
+RULbr4_final
+2422
+19
+RULbr_final
+2703
+20
+RML5_final
+1863
+21
+RML2_final
+1796
+22
+RML3_final
+1476
+23
+RML4_final
+1146
+24
+RML_final
+1378
+25
+RLL_final
+886
+26
+RLL2_final
+1388
+27
+RPA_final
+783
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+C
+1.12E-05
+1.99E-05
+6.96E-06
+6.97E-06
+1.18E-05
+1.36E-05
+7.91E-06
+7.91E-06
+6.75E-06
+8.85E-06
+6.75E-06
+1.16E-05
+2.24E-05
+1.38E-05
+2.78E-06
+3.61E-06
+6.92E-06
+4.56E-06
+8.19E-06
+1.52E-05
+1.70E-05
+2.21E-05
+1.17E-05
+2.98E-05
+1.16E-05
+4.32E-05
+
+Rd
+11778
+6917
+17046
+17045
+10851
+9590
+15256
+15256
+17705
+12706
+17705
+11737
+5783
+8825
+38549
+30699
+17247
+23992
+15642
+9055
+7760
+5909
+11634
+5057
+11780
+3529
+
+Page 16
+
+Table 14 – RCR Values for 0076_0000 in cgs units
+
+ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+
+Face Name
+LUL1
+LUL2
+LML1
+LML2
+LML3
+LML4
+LLL1
+LLL2
+LLL3
+RUL1
+RUL2
+RUL3
+RUL4
+RML1
+RML2
+RML3
+RLL1
+RLL2
+RLL3
+RLL4
+
+Rp
+1016
+2408
+1141
+1391
+1939
+1560
+1920
+882
+1260
+1723
+2236
+1826
+2471
+1555
+1116
+796
+1806
+1124
+1487
+1302
+
+C
+2.05E-05
+6.57E-06
+2.22E-05
+1.16E-05
+7.29E-06
+1.38E-05
+1.01E-05
+3.20E-05
+2.09E-05
+8.38E-06
+7.04E-06
+8.44E-06
+6.44E-06
+1.59E-05
+2.34E-05
+3.83E-05
+1.40E-05
+2.26E-05
+1.27E-05
+2.02E-05
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Rd
+6384
+18602
+5863
+11827
+16463
+9147
+13288
+5009
+6433
+14014
+16668
+14591
+19291
+8469
+5534
+4292
+9724
+5706
+9801
+6700
+
+Page 17
+
+Table 15 – RCR Values for 0077_0000 in cgs units
+
+ID
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+
+Face Name
+LUL
+LMA
+LMAA
+LML
+LMB
+LMBA
+LMC
+LMCB
+LLL
+LPA
+RUL
+RULB
+RMAB
+RMBA
+RMA
+RLL
+RMB
+RMC
+RPA
+RLL_2
+
+Rp
+1264
+1709
+1374
+1129
+1408
+1656
+802
+875
+819
+888
+766
+1342
+1257
+881
+762
+635
+754
+881
+1135
+1129
+
+C
+1.99E-05
+1.77E-05
+1.17E-05
+2.25E-05
+1.99E-05
+1.71E-05
+4.55E-05
+3.23E-05
+4.37E-05
+3.74E-05
+5.27E-05
+2.01E-05
+2.10E-05
+3.30E-05
+4.22E-05
+5.10E-05
+5.54E-05
+3.30E-05
+2.23E-05
+1.99E-05
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Rd
+6636
+7828
+11589
+5757
+6925
+7803
+3491
+4939
+3583
+3823
+3167
+6792
+6406
+4828
+3542
+3150
+3093
+4828
+5805
+6725
+
+Page 18
+
+Appendix
+1. Image Data Orientation
+The RAS coordinate system was assumed for the image data orientation. Voxel Spacing, voxel dimensions, and
+physical dimensions are provided in the Right-Left (R), Anterior-Posterior (A), and Superior-Inferior (S) direction
+in all specification documents unless otherwise specified.
+
+2. Model Construction
+All anatomic models were constructed in RAS Space. The models are generated by selecting centerline paths
+along the vessels, creating 2D segmentations along each of these paths, and then lofting the segmentations
+together to create a solid model. A separate solid model was created for each vessel and Boolean addition was
+used to generate a single model representing the complete anatomic model. The vessel junctions were then
+blended to create a smoothed model.
+
+3. Physiological Assumptions
+Newtonian fluid behavior is assumed with standard physiological properties. Blood viscosity and density are
+given below in units used to input directly into the solver.
+Blood Viscosity: 0.04 g/cm•s2
+Blood Density: 1.06 g/cm3
+
+4. Simulation Parameters
+Conservation of mass and Navier-Stokes equations were solved using 3D finite element methods assuming rigid
+and non-slip walls. All simulations were ran in cgs units and ran for several cardiac cycles to allow the flow rate
+and pressure fields to stabilize.
+
+5. Outlet Boundary Conditions
+5.1 Resistance Methods
+Resistances values can be applied to the outlets to direct flow and pressure gradients. Total
+resistance for the model is calculated using relationships of the flow and pressure of the model.
+Total resistance is than distributed amongst the outlets using an inverse relationship of outlet area
+and the assumption that the outlets act in parallel.
+5.2 Windkessel Model
+In order to represent the effects of vessels distal to
+the CFD model, a three-element Windkessel model
+can be applied at each outlet. This model consists of
+proximal resistance (Rp), capacitance (C), and distal
+resistance (Rd) representing the resistance of the
+proximal vessels, the capacitance of the proximal
+vessels, and the resistance of the distal vessels
+downstream of each outlet, respectively (Figure 1).
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Figure 5 - Windkessel model
+
+Page 19
+
+First, total arterial capacitance (TAC) was calculated using inflow and blood pressure. The TAC was
+then distributed among the outlets based on the blood flow distributions. Next, total resistance (Rt)
+was calculated for each outlet using mean blood pressure and PC-MRI or calculated target flow
+(Rt=Pmean/Qdesired). Given that Rt=Rp+Rd, total resistance was distributed between Rp and Rd adjusting
+the Rp to Rt ratio for each outlet.
+
+© 2013 Open Source Medical Software Corporation. All Rights Reserved.
+
+Page 20
+
+
