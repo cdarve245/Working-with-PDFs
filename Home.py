@@ -1,3 +1,5 @@
+from array import array
+from distutils.command.clean import clean
 import os
 
 with open('pdfInfo.txt', 'w') as text:
@@ -75,28 +77,32 @@ with open('pdfInfo.txt', 'w') as text:
             curCount = IDcount
             if value in listOfIDs:
                 newID = ["ID: N/A", "PDF: N/A",
-                         "Title: N/A", "Age: N/A", "Gender: N/A"]
-                newID[0] = value
-                newID[1] = pdf[0]
-                newID[2] = pdf[1]
+                         "Title: N/A", "Age: N/A", "Gender: N/A", "\n"]
+                newID[0] = "ID:" + value + "\n"
+                newID[1] = "File:" + pdf[0] + "\n"
+                newID[2] = "Title:" + pdf[1] + "\n"
+                newID[3] = "---------------------------\n"
                 IDcount += 1
             if "Age: " in value:
-                # text.write("\t" + value + "\n")
-                newID[3] = value
+                newID[3] = value + "\n"
             if "Gender: " in value:
-                # text.write("\t" + value + "\n\n")
-                newID[4] = value
+                newID[4] = value + "\n"
+                newID[5] = "---------------------------\n"
             if curCount != IDcount:
                 newIDS.append(newID)
         idInfo.append(newIDS)
 
-    for ids in idInfo:
-        for id in ids:
-            text.write("ID: " + id[0] + "\n")
-            text.write("File: " + id[1] + "\n")
-            text.write("Title: " + id[2] + "\n")
-            if id[3] is not None:
-                text.write(id[3] + "\n")
-            if id[4] is not None:
-                text.write(id[4] + "\n")
-            text.write("-------------------------------\n\n")
+    idAdded = []
+    cleanIdInfoList = []
+    for info in idInfo:
+        for i in info:
+            if i[0] not in idAdded:
+                idAdded.append(i[0])
+                for e in i:
+                    cleanIdInfoList.append(e)
+            else:
+                index = cleanIdInfoList.index(i[0])
+                cleanIdInfoList.insert(index + 1, i[1])
+
+    for i in cleanIdInfoList:
+        text.write(i)
