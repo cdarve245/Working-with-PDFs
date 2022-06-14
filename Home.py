@@ -78,9 +78,9 @@ with open('pdfInfo.txt', 'w') as text:
             if value in listOfIDs:
                 newID = ["ID: N/A", "PDF: N/A",
                          "Title: N/A", "Age: N/A", "Gender: N/A", "\n"]
-                newID[0] = "ID:" + value + "\n"
-                newID[1] = "File:" + pdf[0] + "\n"
-                newID[2] = "Title:" + pdf[1] + "\n"
+                newID[0] = "ID: " + value + "\n"
+                newID[1] = "File: " + pdf[0] + "\n"
+                newID[2] = "Title: " + pdf[1] + "\n"
                 newID[3] = "---------------------------\n"
                 IDcount += 1
             if "Age: " in value:
