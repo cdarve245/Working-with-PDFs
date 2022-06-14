@@ -3,3052 +3,6656 @@
 
 Healthy Cerebral
 	0001_0000
+	Age:  30
+	Gender:  F
 NEW PDF 
 
 0001_0001-sample.txt
 
 Healthy Cerebral
 	0001_0000
+	Age:  30
+	Gender:  F
 NEW PDF 
 
 0002_0001-sample.txt
 
 Coronary Normal
 	0002_0001
+	Age:  63
+	Gender:  F
 	0186_0001
+	Age:  28
+	Gender:  F
 NEW PDF 
 
 0002_0002-sample.txt
 
 Coronary Normal
 	0002_0001
+	Age:  63
+	Gender:  F
 	0186_0001
+	Age:  28
+	Gender:  F
 NEW PDF 
 
 0003_0000-sample.txt
 
 Aortofemoral Normal
 	0003_0000
+	Age:  21
+	Gender:  F
 	0006_0000
+	Age:  30
+	Gender:  M
 NEW PDF 
 
 0003_0001-sample.txt
 
 Aortofemoral Normal
 	0003_0000
+	Age:  21
+	Gender:  F
 	0006_0000
+	Age:  30
+	Gender:  M
 NEW PDF 
 
 0004_0001-sample.txt
 
 Healthy Aortofemoral – Lower Extremity
 	0004_0001,
+	Age:  23
+	Gender:  F
 	0159_0001
+	Age:  40
+	Gender:  F
 NEW PDF 
 
 0004_0002-sample.txt
 
 Healthy Aortofemoral – Lower Extremity
 	0004_0001,
+	Age:  23
+	Gender:  F
 	0159_0001
+	Age:  40
+	Gender:  F
 NEW PDF 
 
 0005_1000-sample.txt
 
 Healthy Pulmonary
 	0005_0000
+	Age:  40
+	Gender:  F
 NEW PDF 
 
 0005_1001-sample.txt
 
 Healthy Pulmonary
 	0005_0000
+	Age:  40
+	Gender:  F
 NEW PDF 
 
 0006_0000-sample.txt
 
 Aortofemoral Normal
 	0003_0000
+	Age:  21
+	Gender:  F
 	0006_0000
+	Age:  30
+	Gender:  M
 NEW PDF 
 
 0006_0001-sample.txt
 
 Aortofemoral Normal
 	0003_0000
+	Age:  21
+	Gender:  F
 	0006_0000
+	Age:  30
+	Gender:  M
 NEW PDF 
 
 0063_0000-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0063_0001-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0063_1000-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0063_1001-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0063_2000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0063_2001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0063_3000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0063_3001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0063_4000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0063_4001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0064_0000-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0064_0001-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0064_1000-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0064_1001-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0064_2000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0064_2001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0064_3000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0064_3001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0064_4000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0064_4001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0065_0000-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0065_0001-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0065_1000-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0065_1001-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0065_2000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0065_2001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0065_3000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0065_3001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0065_4000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0065_4001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0066_0000-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0066_0001-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0067_0000-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0067_0001-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0068_0000-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0068_0001-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0069_0000-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0069_0001-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0070_0000-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0070_0001-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0071_0000-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0071_0001-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0072_0000-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0072_0001-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0073_0000-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0073_0001-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0074_0000-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0074_0001-sample.txt
 
 Animal Aortic Coarctation
 	0066_0000,
+	Age:  0.615385
+	Gender:  M
 	0067_0000,
+	Age:  0.615385
+	Gender:  M
 	0068_0000,
+	Age:  0.615385
+	Gender:  M
 	0069_0000,
+	Age:  0.615385
+	Gender:  M
 	0070_0000,
+	Age:  0.615385
+	Gender:  M
 	0071_0000,
+	Age:  0.615385
+	Gender:  M
 	0172_0000,
+	Age:  0.615385
+	Gender:  M
 NEW PDF 
 
 0075_0000-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0075_0001-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0075_1000-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0075_1001-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0075_2000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0075_2001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0075_3000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0075_3001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0075_4000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0075_4001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0076_0000-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0076_0001-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0076_1000-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0076_1001-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0076_2000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0076_2001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0076_3000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0076_3001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0076_4000-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0076_4001-sample.txt
 
 Fontan - Exercise
 	0063_2000,
+	Age:  3
+	Gender:  M
 	0063_3000,
+	Age:  3
+	Gender:  M
 	0063_4000,
+	Age:  3
+	Gender:  M
 	0064_2000,
+	Age:  6
+	Gender:  F
 	0064_3000,
+	Age:  6
+	Gender:  F
 	0064_4000,
+	Age:  6
+	Gender:  F
 	0065_2000,
+	Age:  5
+	Gender:  F
 NEW PDF 
 
 0077_0000-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0077_0001-sample.txt
 
 Fontan
 	0063_0000,
+	Age:  3
+	Gender:  M
 	0064_0000,
+	Age:  6
+	Gender:  F
 	0065_0000,
+	Age:  5
+	Gender:  F
 	0075_0000,
+	Age:  17
+	Gender:  F
 	0076_0000,
+	Age:  26
+	Gender:  F
 	0077_0000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0077_1000-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
 NEW PDF 
 
 0077_1001-sample.txt
 
 Fontan Aorta - Exercise
 	0063_1000,
+	Age:  3
+	Gender:  M
 	0064_1000,
+	Age:  6
+	Gender:  F
 	0065_1000,
+	Age:  5
+	Gender:  F
 	0075_1000,
+	Age:  17
+	Gender:  F
 	0076_1000,
+	Age:  26
+	Gender:  F
 	0077_1000
+	Age:  3
+	Gender:  F
+NEW PDF 
+
+0078_0000-sample.txt
+
+Healthy Vertebral
+	0078_0000,
+	Age:  31
+	Gender:  F
+	0079_0000,
+	Age:  25
+	Gender:  M
+	0166_000,
+	Age:  25
+	Gender:  M
+	0167_0000
+	Age:  24
+	Gender:  F
+NEW PDF 
+
+0078_0001-sample.txt
+
+Healthy Vertebral
+	0078_0000,
+	Age:  31
+	Gender:  F
+	0079_0000,
+	Age:  25
+	Gender:  M
+	0166_000,
+	Age:  25
+	Gender:  M
+	0167_0000
+	Age:  24
+	Gender:  F
+NEW PDF 
+
+0079_0000-sample.txt
+
+Healthy Vertebral
+	0078_0000,
+	Age:  31
+	Gender:  F
+	0079_0000,
+	Age:  25
+	Gender:  M
+	0166_000,
+	Age:  25
+	Gender:  M
+	0167_0000
+	Age:  24
+	Gender:  F
+NEW PDF 
+
+0079_0001-sample.txt
+
+Healthy Vertebral
+	0078_0000,
+	Age:  31
+	Gender:  F
+	0079_0000,
+	Age:  25
+	Gender:  M
+	0166_000,
+	Age:  25
+	Gender:  M
+	0167_0000
+	Age:  24
+	Gender:  F
+NEW PDF 
+
+0080_0000-sample.txt
+
+Healthy Pulmonary - Rest
+	0080_0000,
+	Age:  43
+	Gender:  F
+	0081_0000,
+	Age:  51
+	Gender:  F
+	0082_0000,
+	Age:  35
+	Gender:  M
+	0084_0000,
+	Age:  31
+	Gender:  F
+	0086_0000,
+	Age:  21
+	Gender:  M
+	0155_0000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0080_0001-sample.txt
+
+Healthy Pulmonary - Rest
+	0080_0000,
+	Age:  43
+	Gender:  F
+	0081_0000,
+	Age:  51
+	Gender:  F
+	0082_0000,
+	Age:  35
+	Gender:  M
+	0084_0000,
+	Age:  31
+	Gender:  F
+	0086_0000,
+	Age:  21
+	Gender:  M
+	0155_0000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0080_1000-sample.txt
+
+Healthy Pulmonary - Exercise
+	0080_1000,
+	Age:  43
+	Gender:  F
+	0081_1000,
+	Age:  51
+	Gender:  F
+	0082_1000,
+	Age:  35
+	Gender:  M
+	0084_1000,
+	Age:  31
+	Gender:  M
+	0086_1000,
+	Age:  21
+	Gender:  M
+	0155_1000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0080_1001-sample.txt
+
+Healthy Pulmonary - Exercise
+	0080_1000,
+	Age:  43
+	Gender:  F
+	0081_1000,
+	Age:  51
+	Gender:  F
+	0082_1000,
+	Age:  35
+	Gender:  M
+	0084_1000,
+	Age:  31
+	Gender:  M
+	0086_1000,
+	Age:  21
+	Gender:  M
+	0155_1000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0081_0000-sample.txt
+
+Healthy Pulmonary - Rest
+	0080_0000,
+	Age:  43
+	Gender:  F
+	0081_0000,
+	Age:  51
+	Gender:  F
+	0082_0000,
+	Age:  35
+	Gender:  M
+	0084_0000,
+	Age:  31
+	Gender:  F
+	0086_0000,
+	Age:  21
+	Gender:  M
+	0155_0000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0081_0001-sample.txt
+
+Healthy Pulmonary - Rest
+	0080_0000,
+	Age:  43
+	Gender:  F
+	0081_0000,
+	Age:  51
+	Gender:  F
+	0082_0000,
+	Age:  35
+	Gender:  M
+	0084_0000,
+	Age:  31
+	Gender:  F
+	0086_0000,
+	Age:  21
+	Gender:  M
+	0155_0000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0081_1000-sample.txt
 
 Healthy Pulmonary - Exercise
 	0080_1000,
+	Age:  43
+	Gender:  F
 	0081_1000,
+	Age:  51
+	Gender:  F
 	0082_1000,
+	Age:  35
+	Gender:  M
 	0084_1000,
+	Age:  31
+	Gender:  M
 	0086_1000,
+	Age:  21
+	Gender:  M
 	0155_1000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0081_1001-sample.txt
+
+Healthy Pulmonary - Exercise
+	0080_1000,
+	Age:  43
+	Gender:  F
+	0081_1000,
+	Age:  51
+	Gender:  F
+	0082_1000,
+	Age:  35
+	Gender:  M
+	0084_1000,
+	Age:  31
+	Gender:  M
+	0086_1000,
+	Age:  21
+	Gender:  M
+	0155_1000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0082_0000-sample.txt
+
+Healthy Pulmonary - Rest
+	0080_0000,
+	Age:  43
+	Gender:  F
+	0081_0000,
+	Age:  51
+	Gender:  F
+	0082_0000,
+	Age:  35
+	Gender:  M
+	0084_0000,
+	Age:  31
+	Gender:  F
+	0086_0000,
+	Age:  21
+	Gender:  M
+	0155_0000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0082_0001-sample.txt
+
+Healthy Pulmonary - Rest
+	0080_0000,
+	Age:  43
+	Gender:  F
+	0081_0000,
+	Age:  51
+	Gender:  F
+	0082_0000,
+	Age:  35
+	Gender:  M
+	0084_0000,
+	Age:  31
+	Gender:  F
+	0086_0000,
+	Age:  21
+	Gender:  M
+	0155_0000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0082_1000-sample.txt
+
+Healthy Pulmonary - Exercise
+	0080_1000,
+	Age:  43
+	Gender:  F
+	0081_1000,
+	Age:  51
+	Gender:  F
+	0082_1000,
+	Age:  35
+	Gender:  M
+	0084_1000,
+	Age:  31
+	Gender:  M
+	0086_1000,
+	Age:  21
+	Gender:  M
+	0155_1000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0082_1001-sample.txt
+
+Healthy Pulmonary - Exercise
+	0080_1000,
+	Age:  43
+	Gender:  F
+	0081_1000,
+	Age:  51
+	Gender:  F
+	0082_1000,
+	Age:  35
+	Gender:  M
+	0084_1000,
+	Age:  31
+	Gender:  M
+	0086_1000,
+	Age:  21
+	Gender:  M
+	0155_1000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0083_2001-sample.txt
+
+Pulmonary Hypertension
+	0083_2001,
+	Age:  15
+	Gender:  F
+	0085_1000,
+	Age:  36
+	Gender:  F
+	0087_1000,
+	Age:  16
+	Gender:  M
+	0088_1000,
+	Age:  19
+	Gender:  F
+	0089_1000,
+	Age:  50
+	Gender:  F
+	0112_1000
+	Age:  41
+	Gender:  M
+NEW PDF 
+
+0083_2002-sample.txt
+
+Pulmonary Hypertension
+	0083_2001,
+	Age:  15
+	Gender:  F
+	0085_1000,
+	Age:  36
+	Gender:  F
+	0087_1000,
+	Age:  16
+	Gender:  M
+	0088_1000,
+	Age:  19
+	Gender:  F
+	0089_1000,
+	Age:  50
+	Gender:  F
+	0112_1000
+	Age:  41
+	Gender:  M
+NEW PDF 
+
+0084_0000-sample.txt
+
+Healthy Pulmonary - Rest
+	0080_0000,
+	Age:  43
+	Gender:  F
+	0081_0000,
+	Age:  51
+	Gender:  F
+	0082_0000,
+	Age:  35
+	Gender:  M
+	0084_0000,
+	Age:  31
+	Gender:  F
+	0086_0000,
+	Age:  21
+	Gender:  M
+	0155_0000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0084_0001-sample.txt
+
+Healthy Pulmonary - Rest
+	0080_0000,
+	Age:  43
+	Gender:  F
+	0081_0000,
+	Age:  51
+	Gender:  F
+	0082_0000,
+	Age:  35
+	Gender:  M
+	0084_0000,
+	Age:  31
+	Gender:  F
+	0086_0000,
+	Age:  21
+	Gender:  M
+	0155_0000
+	Age:  22
+	Gender:  F
+NEW PDF 
+
+0084_1000-sample.txt
+
+Healthy Pulmonary - Exercise
+	0080_1000,
+	Age:  43
+	Gender:  F
+	0081_1000,
+	Age:  51
+	Gender:  F
+	0082_1000,
+	Age:  35
+	Gender:  M
+	0084_1000,
+	Age:  31
+	Gender:  M
+	0086_1000,
+	Age:  21
+	Gender:  M
+	0155_1000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0084_1001-sample.txt
 
 Healthy Pulmonary - Exercise
 	0080_1000,
+	Age:  43
+	Gender:  F
 	0081_1000,
+	Age:  51
+	Gender:  F
 	0082_1000,
+	Age:  35
+	Gender:  M
 	0084_1000,
+	Age:  31
+	Gender:  M
 	0086_1000,
+	Age:  21
+	Gender:  M
 	0155_1000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0085_1000-sample.txt
 
 Pulmonary Hypertension
 	0083_2001,
+	Age:  15
+	Gender:  F
 	0085_1000,
+	Age:  36
+	Gender:  F
 	0087_1000,
+	Age:  16
+	Gender:  M
 	0088_1000,
+	Age:  19
+	Gender:  F
 	0089_1000,
+	Age:  50
+	Gender:  F
 	0112_1000
+	Age:  41
+	Gender:  M
 NEW PDF 
 
 0085_1001-sample.txt
 
 Pulmonary Hypertension
 	0083_2001,
+	Age:  15
+	Gender:  F
 	0085_1000,
+	Age:  36
+	Gender:  F
 	0087_1000,
+	Age:  16
+	Gender:  M
 	0088_1000,
+	Age:  19
+	Gender:  F
 	0089_1000,
+	Age:  50
+	Gender:  F
 	0112_1000
+	Age:  41
+	Gender:  M
 NEW PDF 
 
 0086_0000-sample.txt
 
 Healthy Pulmonary - Rest
 	0080_0000,
+	Age:  43
+	Gender:  F
 	0081_0000,
+	Age:  51
+	Gender:  F
 	0082_0000,
+	Age:  35
+	Gender:  M
 	0084_0000,
+	Age:  31
+	Gender:  F
 	0086_0000,
+	Age:  21
+	Gender:  M
 	0155_0000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0086_0001-sample.txt
 
 Healthy Pulmonary - Rest
 	0080_0000,
+	Age:  43
+	Gender:  F
 	0081_0000,
+	Age:  51
+	Gender:  F
 	0082_0000,
+	Age:  35
+	Gender:  M
 	0084_0000,
+	Age:  31
+	Gender:  F
 	0086_0000,
+	Age:  21
+	Gender:  M
 	0155_0000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0086_1000-sample.txt
 
 Healthy Pulmonary - Exercise
 	0080_1000,
+	Age:  43
+	Gender:  F
 	0081_1000,
+	Age:  51
+	Gender:  F
 	0082_1000,
+	Age:  35
+	Gender:  M
 	0084_1000,
+	Age:  31
+	Gender:  M
 	0086_1000,
+	Age:  21
+	Gender:  M
 	0155_1000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0086_1001-sample.txt
 
 Healthy Pulmonary - Exercise
 	0080_1000,
+	Age:  43
+	Gender:  F
 	0081_1000,
+	Age:  51
+	Gender:  F
 	0082_1000,
+	Age:  35
+	Gender:  M
 	0084_1000,
+	Age:  31
+	Gender:  M
 	0086_1000,
+	Age:  21
+	Gender:  M
 	0155_1000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0087_1000-sample.txt
 
 Pulmonary Hypertension
 	0083_2001,
+	Age:  15
+	Gender:  F
 	0085_1000,
+	Age:  36
+	Gender:  F
 	0087_1000,
+	Age:  16
+	Gender:  M
 	0088_1000,
+	Age:  19
+	Gender:  F
 	0089_1000,
+	Age:  50
+	Gender:  F
 	0112_1000
+	Age:  41
+	Gender:  M
 NEW PDF 
 
 0087_1001-sample.txt
 
 Pulmonary Hypertension
 	0083_2001,
+	Age:  15
+	Gender:  F
 	0085_1000,
+	Age:  36
+	Gender:  F
 	0087_1000,
+	Age:  16
+	Gender:  M
 	0088_1000,
+	Age:  19
+	Gender:  F
 	0089_1000,
+	Age:  50
+	Gender:  F
 	0112_1000
+	Age:  41
+	Gender:  M
 NEW PDF 
 
 0088_1000-sample.txt
 
 Pulmonary Hypertension
 	0083_2001,
+	Age:  15
+	Gender:  F
 	0085_1000,
+	Age:  36
+	Gender:  F
 	0087_1000,
+	Age:  16
+	Gender:  M
 	0088_1000,
+	Age:  19
+	Gender:  F
 	0089_1000,
+	Age:  50
+	Gender:  F
 	0112_1000
+	Age:  41
+	Gender:  M
 NEW PDF 
 
 0088_1001-sample.txt
 
 Pulmonary Hypertension
 	0083_2001,
+	Age:  15
+	Gender:  F
 	0085_1000,
+	Age:  36
+	Gender:  F
 	0087_1000,
+	Age:  16
+	Gender:  M
 	0088_1000,
+	Age:  19
+	Gender:  F
 	0089_1000,
+	Age:  50
+	Gender:  F
 	0112_1000
+	Age:  41
+	Gender:  M
 NEW PDF 
 
 0089_1000-sample.txt
 
 Pulmonary Hypertension
 	0083_2001,
+	Age:  15
+	Gender:  F
 	0085_1000,
+	Age:  36
+	Gender:  F
 	0087_1000,
+	Age:  16
+	Gender:  M
 	0088_1000,
+	Age:  19
+	Gender:  F
 	0089_1000,
+	Age:  50
+	Gender:  F
 	0112_1000
+	Age:  41
+	Gender:  M
 NEW PDF 
 
 0089_1001-sample.txt
 
 Pulmonary Hypertension
 	0083_2001,
+	Age:  15
+	Gender:  F
 	0085_1000,
+	Age:  36
+	Gender:  F
 	0087_1000,
+	Age:  16
+	Gender:  M
 	0088_1000,
+	Age:  19
+	Gender:  F
 	0089_1000,
+	Age:  50
+	Gender:  F
 	0112_1000
+	Age:  41
+	Gender:  M
 NEW PDF 
 
 0090_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0090_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0091_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0091_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0091_2000-sample.txt
 
 Aortic Coarctation
 	0091_2000
+	Age:  6
+	Gender:  M
 	0102_2000
+	Age:  5
+	Gender:  M
 	0107_0000
+	Age:  5
+	Gender:  M
 	0111_0000
+	Age:  5
+	Gender:  M
 NEW PDF 
 
 0091_2001-sample.txt
 
 Aortic Coarctation
 	0091_2000
+	Age:  6
+	Gender:  M
 	0102_2000
+	Age:  5
+	Gender:  M
 	0107_0000
+	Age:  5
+	Gender:  M
 	0111_0000
+	Age:  5
+	Gender:  M
 NEW PDF 
 
 0092_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0092_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0093_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0093_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0094_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0094_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0095_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0095_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0096_0000-sample.txt
 
 Glenn
 	0096_0000,
+	Age:  3
+	Gender:  F
 	0097_0000,
+	Age:  3.9167
+	Gender:  M
 	0098_0000,
+	Age:  2.833
+	Gender:  F
 	0099_0000
+	Age:  4.75
+	Gender:  M
 NEW PDF 
 
 0096_0001-sample.txt
 
 Glenn
 	0096_0000,
+	Age:  3
+	Gender:  F
 	0097_0000,
+	Age:  3.9167
+	Gender:  M
 	0098_0000,
+	Age:  2.833
+	Gender:  F
 	0099_0000
+	Age:  4.75
+	Gender:  M
 NEW PDF 
 
 0097_0000-sample.txt
 
 Glenn
 	0096_0000,
+	Age:  3
+	Gender:  F
 	0097_0000,
+	Age:  3.9167
+	Gender:  M
 	0098_0000,
+	Age:  2.833
+	Gender:  F
 	0099_0000
+	Age:  4.75
+	Gender:  M
 NEW PDF 
 
 0097_0001-sample.txt
 
 Glenn
 	0096_0000,
+	Age:  3
+	Gender:  F
 	0097_0000,
+	Age:  3.9167
+	Gender:  M
 	0098_0000,
+	Age:  2.833
+	Gender:  F
 	0099_0000
+	Age:  4.75
+	Gender:  M
 NEW PDF 
 
 0098_0000-sample.txt
 
 Glenn
 	0096_0000,
+	Age:  3
+	Gender:  F
 	0097_0000,
+	Age:  3.9167
+	Gender:  M
 	0098_0000,
+	Age:  2.833
+	Gender:  F
 	0099_0000
+	Age:  4.75
+	Gender:  M
 NEW PDF 
 
 0098_0001-sample.txt
 
 Glenn
 	0096_0000,
+	Age:  3
+	Gender:  F
 	0097_0000,
+	Age:  3.9167
+	Gender:  M
 	0098_0000,
+	Age:  2.833
+	Gender:  F
 	0099_0000
+	Age:  4.75
+	Gender:  M
 NEW PDF 
 
 0099_0000-sample.txt
 
 Glenn
 	0096_0000,
+	Age:  3
+	Gender:  F
 	0097_0000,
+	Age:  3.9167
+	Gender:  M
 	0098_0000,
+	Age:  2.833
+	Gender:  F
 	0099_0000
+	Age:  4.75
+	Gender:  M
 NEW PDF 
 
 0099_0001-sample.txt
 
 Glenn
 	0096_0000,
+	Age:  3
+	Gender:  F
 	0097_0000,
+	Age:  3.9167
+	Gender:  M
 	0098_0000,
+	Age:  2.833
+	Gender:  F
 	0099_0000
+	Age:  4.75
+	Gender:  M
 NEW PDF 
 
 0100_0001-sample.txt
 
 Glenn
 	0096_0000,
+	Age:  3
+	Gender:  F
 	0097_0000,
+	Age:  3.9167
+	Gender:  M
 	0098_0000,
+	Age:  2.833
+	Gender:  F
 	0099_0000
+	Age:  4.75
+	Gender:  M
 NEW PDF 
 
 0100_0002-sample.txt
 
 Glenn
 	0096_0000,
+	Age:  3
+	Gender:  F
 	0097_0000,
+	Age:  3.9167
+	Gender:  M
 	0098_0000,
+	Age:  2.833
+	Gender:  F
 	0099_0000
+	Age:  4.75
+	Gender:  M
 NEW PDF 
 
 0101_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0101_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0102_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0102_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0102_2000-sample.txt
 
 Aortic Coarctation
 	0091_2000
+	Age:  6
+	Gender:  M
 	0102_2000
+	Age:  5
+	Gender:  M
 	0107_0000
+	Age:  5
+	Gender:  M
 	0111_0000
+	Age:  5
+	Gender:  M
 NEW PDF 
 
 0102_2001-sample.txt
 
 Aortic Coarctation
 	0091_2000
+	Age:  6
+	Gender:  M
 	0102_2000
+	Age:  5
+	Gender:  M
 	0107_0000
+	Age:  5
+	Gender:  M
 	0111_0000
+	Age:  5
+	Gender:  M
 NEW PDF 
 
 0103_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0103_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0104_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0104_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0105_0000-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0105_0001-sample.txt
 
 Aortic Coarctation
 	0090_0000,
+	Age:  13
+	Gender:  M
 	0091_0000,
+	Age:  6
+	Gender:  M
 	0092_0000,
+	Age:  11
+	Gender:  M
 	0093_0000,
+	Age:  11
+	Gender:  F
 	0094_0000,
+	Age:  23
+	Gender:  M
 	0095_0000,
+	Age:  26
+	Gender:  M
 	0101_0000,
+	Age:  13
+	Gender:  M
 NEW PDF 
 
 0106_0000-sample.txt
 
 Aortic Coarctation
 	0106_0000
+	Age:  10
+	Gender:  F
 	0107_0000
+	Age:  4
+	Gender:  M
 	0111_0000
+	Age:  8
+	Gender:  F
 NEW PDF 
 
 0106_0001-sample.txt
 
 Aortic Coarctation
 	0106_0000
+	Age:  10
+	Gender:  F
 	0107_0000
+	Age:  4
+	Gender:  M
 	0111_0000
+	Age:  8
+	Gender:  F
 NEW PDF 
 
 0107_0000-sample.txt
 
 Aortic Coarctation
 	0106_0000
+	Age:  10
+	Gender:  F
 	0107_0000
+	Age:  4
+	Gender:  M
 	0111_0000
+	Age:  8
+	Gender:  F
 NEW PDF 
 
 0107_0001-sample.txt
 
 Aortic Coarctation
 	0106_0000
+	Age:  10
+	Gender:  F
 	0107_0000
+	Age:  4
+	Gender:  M
 	0111_0000
+	Age:  8
+	Gender:  F
 NEW PDF 
 
 0107_1000-sample.txt
 
 Aortic Coarctation
 	0091_2000
+	Age:  6
+	Gender:  M
 	0102_2000
+	Age:  5
+	Gender:  M
 	0107_0000
+	Age:  5
+	Gender:  M
 	0111_0000
+	Age:  5
+	Gender:  M
 NEW PDF 
 
 0107_1001-sample.txt
 
 Aortic Coarctation
 	0091_2000
+	Age:  6
+	Gender:  M
 	0102_2000
+	Age:  5
+	Gender:  M
 	0107_0000
+	Age:  5
+	Gender:  M
 	0111_0000
+	Age:  5
+	Gender:  M
 NEW PDF 
 
 0108_0000-sample.txt
 
 Kawasaki Disease
 	0108_0000
+	Age:  10
+	Gender:  M
 NEW PDF 
 
 0108_0001-sample.txt
 
 Kawasaki Disease
 	0108_0000
+	Age:  10
+	Gender:  M
 NEW PDF 
 
 0109_0000-sample.txt
 
 Coronary Artery Bypass Grafting (CABG)
 	0109_0000
+	Age:  10
+	Gender:  M
 NEW PDF 
 
 0109_0001-sample.txt
 
 Coronary Artery Bypass Grafting (CABG)
 	0109_0000
+	Age:  10
+	Gender:  M
 NEW PDF 
 
 0110_0000-sample.txt
 
 Aortofemoral Normal
 	0110_0000
+	Age:  67
+	Gender:  M
 NEW PDF 
 
 0110_0001-sample.txt
 
 Aortofemoral Normal
 	0110_0000
+	Age:  67
+	Gender:  M
 NEW PDF 
 
 0111_0000-sample.txt
 
 Aortic Coarctation
 	0106_0000
+	Age:  10
+	Gender:  F
 	0107_0000
+	Age:  4
+	Gender:  M
 	0111_0000
+	Age:  8
+	Gender:  F
 NEW PDF 
 
 0111_0001-sample.txt
 
 Aortic Coarctation
 	0106_0000
+	Age:  10
+	Gender:  F
 	0107_0000
+	Age:  4
+	Gender:  M
 	0111_0000
+	Age:  8
+	Gender:  F
 NEW PDF 
 
 0111_1000-sample.txt
 
 Aortic Coarctation
 	0091_2000
+	Age:  6
+	Gender:  M
 	0102_2000
+	Age:  5
+	Gender:  M
 	0107_0000
+	Age:  5
+	Gender:  M
 	0111_0000
+	Age:  5
+	Gender:  M
 NEW PDF 
 
 0111_1001-sample.txt
 
 Aortic Coarctation
 	0091_2000
+	Age:  6
+	Gender:  M
 	0102_2000
+	Age:  5
+	Gender:  M
 	0107_0000
+	Age:  5
+	Gender:  M
 	0111_0000
+	Age:  5
+	Gender:  M
 NEW PDF 
 
 0112_1000-sample.txt
 
 Pulmonary Hypertension
 	0083_2001,
+	Age:  15
+	Gender:  F
 	0085_1000,
+	Age:  36
+	Gender:  F
 	0087_1000,
+	Age:  16
+	Gender:  M
 	0088_1000,
+	Age:  19
+	Gender:  F
 	0089_1000,
+	Age:  50
+	Gender:  F
 	0112_1000
+	Age:  41
+	Gender:  M
 NEW PDF 
 
 0112_1001-sample.txt
 
 Pulmonary Hypertension
 	0083_2001,
+	Age:  15
+	Gender:  F
 	0085_1000,
+	Age:  36
+	Gender:  F
 	0087_1000,
+	Age:  16
+	Gender:  M
 	0088_1000,
+	Age:  19
+	Gender:  F
 	0089_1000,
+	Age:  50
+	Gender:  F
 	0112_1000
+	Age:  41
+	Gender:  M
 NEW PDF 
 
 0113_0003-sample.txt
 
 Coronary Artery Bypass graft Disease
 	0113_0003
+	Age:  65
+	Gender:  M
 	0115_0005
+	Age:  60
+	Gender:  M
 	0188_0000
+	Age:  50
+	Gender:  F
 	0189_0000
+	Age:  72
+	Gender:  F
 NEW PDF 
 
 0113_0004-sample.txt
 
 Coronary Artery Bypass graft Disease
 	0113_0003
+	Age:  65
+	Gender:  M
 	0115_0005
+	Age:  60
+	Gender:  M
 	0188_0000
+	Age:  50
+	Gender:  F
 	0189_0000
+	Age:  72
+	Gender:  F
 NEW PDF 
 
 0114_0000-sample.txt
 
 Healthy Aorta
 	0114_0000,
+	Age:  35
+	Gender:  M
 	0114_1000,
+	Age:  35
+	Gender:  M
 	0114_2000,
+	Age:  35
+	Gender:  M
 	0114_3000
+	Age:  35
+	Gender:  M
 NEW PDF 
 
 0114_0001-sample.txt
 
 Healthy Aorta
 	0114_0000,
+	Age:  35
+	Gender:  M
 	0114_1000,
+	Age:  35
+	Gender:  M
 	0114_2000,
+	Age:  35
+	Gender:  M
 	0114_3000
+	Age:  35
+	Gender:  M
 NEW PDF 
 
 0114_1000-sample.txt
 
 Healthy Aorta
 	0114_0000,
+	Age:  35
+	Gender:  M
 	0114_1000,
+	Age:  35
+	Gender:  M
 	0114_2000,
+	Age:  35
+	Gender:  M
 	0114_3000
+	Age:  35
+	Gender:  M
 NEW PDF 
 
 0114_1001-sample.txt
 
 Healthy Aorta
 	0114_0000,
+	Age:  35
+	Gender:  M
 	0114_1000,
+	Age:  35
+	Gender:  M
 	0114_2000,
+	Age:  35
+	Gender:  M
 	0114_3000
+	Age:  35
+	Gender:  M
 NEW PDF 
 
 0114_2000-sample.txt
 
 Healthy Aorta
 	0114_0000,
+	Age:  35
+	Gender:  M
 	0114_1000,
+	Age:  35
+	Gender:  M
 	0114_2000,
+	Age:  35
+	Gender:  M
 	0114_3000
+	Age:  35
+	Gender:  M
 NEW PDF 
 
 0114_2001-sample.txt
 
 Healthy Aorta
 	0114_0000,
+	Age:  35
+	Gender:  M
 	0114_1000,
+	Age:  35
+	Gender:  M
 	0114_2000,
+	Age:  35
+	Gender:  M
 	0114_3000
+	Age:  35
+	Gender:  M
 NEW PDF 
 
 0114_3000-sample.txt
 
 Healthy Aorta
 	0114_0000,
+	Age:  35
+	Gender:  M
 	0114_1000,
+	Age:  35
+	Gender:  M
 	0114_2000,
+	Age:  35
+	Gender:  M
 	0114_3000
+	Age:  35
+	Gender:  M
 NEW PDF 
 
 0114_3001-sample.txt
 
 Healthy Aorta
 	0114_0000,
+	Age:  35
+	Gender:  M
 	0114_1000,
+	Age:  35
+	Gender:  M
 	0114_2000,
+	Age:  35
+	Gender:  M
 	0114_3000
+	Age:  35
+	Gender:  M
 NEW PDF 
 
 0115_0005-sample.txt
 
 Coronary Artery Bypass graft Disease
 	0113_0003
+	Age:  65
+	Gender:  M
 	0115_0005
+	Age:  60
+	Gender:  M
 	0188_0000
+	Age:  50
+	Gender:  F
 	0189_0000
+	Age:  72
+	Gender:  F
 NEW PDF 
 
 0115_0006-sample.txt
 
 Coronary Artery Bypass graft Disease
 	0113_0003
+	Age:  65
+	Gender:  M
 	0115_0005
+	Age:  60
+	Gender:  M
 	0188_0000
+	Age:  50
+	Gender:  F
 	0189_0000
+	Age:  72
+	Gender:  F
 NEW PDF 
 
 0116_0001-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0116_0002-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0117_0001-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0117_0002-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0118_1000-sample.txt
 
 Alagille
 	0118_1000,
+	Age:  2
+	Gender:  M
 	0119_0001
+	Age:  16
+	Gender:  M
 NEW PDF 
 
 0118_1001-sample.txt
 
 Alagille
 	0118_1000,
+	Age:  2
+	Gender:  M
 	0119_0001
+	Age:  16
+	Gender:  M
 NEW PDF 
 
 0119_0001-sample.txt
 
 Alagille
 	0118_1000,
+	Age:  2
+	Gender:  M
 	0119_0001
+	Age:  16
+	Gender:  M
 NEW PDF 
 
 0119_0002-sample.txt
 
 Alagille
 	0118_1000,
+	Age:  2
+	Gender:  M
 	0119_0001
+	Age:  16
+	Gender:  M
 NEW PDF 
 
 0121_0000-sample.txt
 
 Anomalous Origin of the Coronary Arteries
 	0121_0000
+	Age:  10
+	Gender:  F
 NEW PDF 
 
 0121_0001-sample.txt
 
 Anomalous Origin of the Coronary Arteries
 	0121_0000
+	Age:  10
+	Gender:  F
 NEW PDF 
 
 0125_0000-sample.txt
 
 Fontan
 	0125_0000,
+	Age:  5
+	Gender:  M
 	0126_0000
+	Age:  9
+	Gender:  M
 NEW PDF 
 
 0125_0001-sample.txt
 
 Fontan
 	0125_0000,
+	Age:  5
+	Gender:  M
 	0126_0000
+	Age:  9
+	Gender:  M
 NEW PDF 
 
 0126_0000-sample.txt
 
 Fontan
 	0125_0000,
+	Age:  5
+	Gender:  M
 	0126_0000
+	Age:  9
+	Gender:  M
 NEW PDF 
 
 0126_0001-sample.txt
 
 Fontan
 	0125_0000,
+	Age:  5
+	Gender:  M
 	0126_0000
+	Age:  9
+	Gender:  M
 NEW PDF 
 
 0129_0000-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0129_0001-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0130_0000-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0130_0001-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0131_0000-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0131_0001-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0134_0001-sample.txt
 
 Tetralogy of Fallot
 	0134_0000,
+	Age:  31
+	Gender:  M
 	0135_0000
+	Age:  37
+	Gender:  M
 NEW PDF 
 
 0134_0002-sample.txt
 
 Tetralogy of Fallot
 	0134_0000,
+	Age:  31
+	Gender:  M
 	0135_0000
+	Age:  37
+	Gender:  M
 NEW PDF 
 
 0135_0000-sample.txt
 
 Tetralogy of Fallot
 	0134_0000,
+	Age:  31
+	Gender:  M
 	0135_0000
+	Age:  37
+	Gender:  M
 NEW PDF 
 
 0135_0001-sample.txt
 
 Tetralogy of Fallot
 	0134_0000,
+	Age:  31
+	Gender:  M
 	0135_0000
+	Age:  37
+	Gender:  M
 NEW PDF 
 
 0136_0000-sample.txt
 
 Valvar Pulmonic Stenosis
 	0136_0000
+	Age:  37
+	Gender:  M
 NEW PDF 
 
 0136_0001-sample.txt
 
 Valvar Pulmonic Stenosis
 	0136_0000
+	Age:  37
+	Gender:  M
 NEW PDF 
 
 0138_1001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0138_1002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0139_1001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0139_1002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0140_2000-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0140_2001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0141_1001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0141_1002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0142_1001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0142_1002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0143_0000-sample.txt
 
 AAA Dissection
 	0143_0000
+	Age:  72
+	Gender:  M
 NEW PDF 
 
 0143_0001-sample.txt
 
 AAA Dissection
 	0143_0000
+	Age:  72
+	Gender:  M
 NEW PDF 
 
 0144_1001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0144_1002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0145_1001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0145_1002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0146_1001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0146_1002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0147_1000-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0147_1001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0148_1001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0148_1002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0149_1001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0149_1002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0150_0001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0150_0002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0151_0001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0151_0002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0154_0000-sample.txt
 
 Aorta
 	0154_0000,
+	Age:  23
+	Gender:  M
 	0154_1000
+	Age:  23
+	Gender:  M
 NEW PDF 
 
 0154_0001-sample.txt
 
 Aorta
 	0154_0000,
+	Age:  23
+	Gender:  M
 	0154_1000
+	Age:  23
+	Gender:  M
 NEW PDF 
 
 0154_1000-sample.txt
 
 Aorta
 	0154_0000,
+	Age:  23
+	Gender:  M
 	0154_1000
+	Age:  23
+	Gender:  M
 NEW PDF 
 
 0154_1001-sample.txt
 
 Aorta
 	0154_0000,
+	Age:  23
+	Gender:  M
 	0154_1000
+	Age:  23
+	Gender:  M
 NEW PDF 
 
 0155_0000-sample.txt
 
 Healthy Pulmonary - Rest
 	0080_0000,
+	Age:  43
+	Gender:  F
 	0081_0000,
+	Age:  51
+	Gender:  F
 	0082_0000,
+	Age:  35
+	Gender:  M
 	0084_0000,
+	Age:  31
+	Gender:  F
 	0086_0000,
+	Age:  21
+	Gender:  M
 	0155_0000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0155_0001-sample.txt
 
 Healthy Pulmonary - Rest
 	0080_0000,
+	Age:  43
+	Gender:  F
 	0081_0000,
+	Age:  51
+	Gender:  F
 	0082_0000,
+	Age:  35
+	Gender:  M
 	0084_0000,
+	Age:  31
+	Gender:  F
 	0086_0000,
+	Age:  21
+	Gender:  M
 	0155_0000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0155_1000-sample.txt
 
 Healthy Pulmonary - Exercise
 	0080_1000,
+	Age:  43
+	Gender:  F
 	0081_1000,
+	Age:  51
+	Gender:  F
 	0082_1000,
+	Age:  35
+	Gender:  M
 	0084_1000,
+	Age:  31
+	Gender:  M
 	0086_1000,
+	Age:  21
+	Gender:  M
 	0155_1000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0155_1001-sample.txt
 
 Healthy Pulmonary - Exercise
 	0080_1000,
+	Age:  43
+	Gender:  F
 	0081_1000,
+	Age:  51
+	Gender:  F
 	0082_1000,
+	Age:  35
+	Gender:  M
 	0084_1000,
+	Age:  31
+	Gender:  M
 	0086_1000,
+	Age:  21
+	Gender:  M
 	0155_1000
+	Age:  22
+	Gender:  F
 NEW PDF 
 
 0156_0001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0156_0002-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0157_0000-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0157_0001-sample.txt
 
 Abdominal Aortic Aneurysms
 	0138_1001,
+	Age:  73
+	Gender:  M
 	0139_1001,
+	Age:  79
+	Gender:  F
 	0140_2000,
+	Age:  76
+	Gender:  M
 	0141_1001,
+	Age:  64
+	Gender:  M
 	0142_1001,
+	Age:  75
+	Gender:  M
 	0144_1001,
+	Age:  66
+	Gender:  M
 	0145_1001,
+	Age:  68
+	Gender:  M
 NEW PDF 
 
 0158_0000-sample.txt
 
 Coronary Arterial Disease (LCX)
 	0158_0000
+	Age:  65
+	Gender:  M
 	0164_0000
+	Age:  65
+	Gender:  M
 	0165_0000
+	Age:  65
+	Gender:  M
 NEW PDF 
 
 0158_0001-sample.txt
 
 Coronary Arterial Disease (LCX)
 	0158_0000
+	Age:  65
+	Gender:  M
 	0164_0000
+	Age:  65
+	Gender:  M
 	0165_0000
+	Age:  65
+	Gender:  M
 NEW PDF 
 
 0159_0001-sample.txt
 
 Healthy Aortofemoral – Lower Extremity
 	0004_0001,
+	Age:  23
+	Gender:  F
 	0159_0001
+	Age:  40
+	Gender:  F
 NEW PDF 
 
 0159_0002-sample.txt
 
 Healthy Aortofemoral – Lower Extremity
 	0004_0001,
+	Age:  23
+	Gender:  F
 	0159_0001
+	Age:  40
+	Gender:  F
 NEW PDF 
 
 0160_6000-sample.txt
 
 Aortofemoral Peripheral Occlusive Disease
 	0160_6000,
+	Age:  67
+	Gender:  F
 	0161_0000,
+	Age:  67
+	Gender:  F
 	0162_3000,
+	Age:  55
+	Gender:  M
 	0163_0000
+	Age:  55
+	Gender:  M
 NEW PDF 
 
 0160_6001-sample.txt
 
 Aortofemoral Peripheral Occlusive Disease
 	0160_6000,
+	Age:  67
+	Gender:  F
 	0161_0000,
+	Age:  67
+	Gender:  F
 	0162_3000,
+	Age:  55
+	Gender:  M
 	0163_0000
+	Age:  55
+	Gender:  M
 NEW PDF 
 
 0161_0000-sample.txt
 
 Aortofemoral Peripheral Occlusive Disease
 	0160_6000,
+	Age:  67
+	Gender:  F
 	0161_0000,
+	Age:  67
+	Gender:  F
 	0162_3000,
+	Age:  55
+	Gender:  M
 	0163_0000
+	Age:  55
+	Gender:  M
 NEW PDF 
 
 0161_0001-sample.txt
 
 Aortofemoral Peripheral Occlusive Disease
 	0160_6000,
+	Age:  67
+	Gender:  F
 	0161_0000,
+	Age:  67
+	Gender:  F
 	0162_3000,
+	Age:  55
+	Gender:  M
 	0163_0000
+	Age:  55
+	Gender:  M
 NEW PDF 
 
 0162_3000-sample.txt
 
 Aortofemoral Peripheral Occlusive Disease
 	0160_6000,
+	Age:  67
+	Gender:  F
 	0161_0000,
+	Age:  67
+	Gender:  F
 	0162_3000,
+	Age:  55
+	Gender:  M
 	0163_0000
+	Age:  55
+	Gender:  M
 NEW PDF 
 
 0162_3001-sample.txt
 
 Aortofemoral Peripheral Occlusive Disease
 	0160_6000,
+	Age:  67
+	Gender:  F
 	0161_0000,
+	Age:  67
+	Gender:  F
 	0162_3000,
+	Age:  55
+	Gender:  M
 	0163_0000
+	Age:  55
+	Gender:  M
 NEW PDF 
 
 0163_0000-sample.txt
 
 Aortofemoral Peripheral Occlusive Disease
 	0160_6000,
+	Age:  67
+	Gender:  F
 	0161_0000,
+	Age:  67
+	Gender:  F
 	0162_3000,
+	Age:  55
+	Gender:  M
 	0163_0000
+	Age:  55
+	Gender:  M
 NEW PDF 
 
 0163_0001-sample.txt
 
 Aortofemoral Peripheral Occlusive Disease
 	0160_6000,
+	Age:  67
+	Gender:  F
 	0161_0000,
+	Age:  67
+	Gender:  F
 	0162_3000,
+	Age:  55
+	Gender:  M
 	0163_0000
+	Age:  55
+	Gender:  M
 NEW PDF 
 
 0164_0000-sample.txt
 
 Coronary Arterial Disease (LCX)
 	0158_0000
+	Age:  65
+	Gender:  M
 	0164_0000
+	Age:  65
+	Gender:  M
 	0165_0000
+	Age:  65
+	Gender:  M
 NEW PDF 
 
 0164_0001-sample.txt
 
 Coronary Arterial Disease (LCX)
 	0158_0000
+	Age:  65
+	Gender:  M
 	0164_0000
+	Age:  65
+	Gender:  M
 	0165_0000
+	Age:  65
+	Gender:  M
 NEW PDF 
 
 0165_0000-sample.txt
 
 Coronary Arterial Disease (LCX)
 	0158_0000
+	Age:  65
+	Gender:  M
 	0164_0000
+	Age:  65
+	Gender:  M
 	0165_0000
+	Age:  65
+	Gender:  M
 NEW PDF 
 
 0165_0001-sample.txt
 
 Coronary Arterial Disease (LCX)
 	0158_0000
+	Age:  65
+	Gender:  M
 	0164_0000
+	Age:  65
+	Gender:  M
 	0165_0000
+	Age:  65
+	Gender:  M
 NEW PDF 
 
 0166_0000-sample.txt
 
 Healthy Vertebral
 	0078_0000,
+	Age:  31
+	Gender:  F
 	0079_0000,
+	Age:  25
+	Gender:  M
 	0166_000,
+	Age:  25
+	Gender:  M
 	0167_0000
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0166_0001-sample.txt
 
 Healthy Vertebral
 	0078_0000,
+	Age:  31
+	Gender:  F
 	0079_0000,
+	Age:  25
+	Gender:  M
 	0166_000,
+	Age:  25
+	Gender:  M
 	0167_0000
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0167_0000-sample.txt
 
 Healthy Vertebral
 	0078_0000,
+	Age:  31
+	Gender:  F
 	0079_0000,
+	Age:  25
+	Gender:  M
 	0166_000,
+	Age:  25
+	Gender:  M
 	0167_0000
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0167_0001-sample.txt
 
 Healthy Vertebral
 	0078_0000,
+	Age:  31
+	Gender:  F
 	0079_0000,
+	Age:  25
+	Gender:  M
 	0166_000,
+	Age:  25
+	Gender:  M
 	0167_0000
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0168_0001-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  24
+	Gender:  F
 	0169_0002,
+	Age:  24
+	Gender:  F
 	0170_0001,
+	Age:  24
+	Gender:  F
 	0171_0001,
+	Age:  24
+	Gender:  F
 	0178_0000,
+	Age:  24
+	Gender:  F
 	0179_0000,
+	Age:  24
+	Gender:  F
 	0180_0000,
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0168_0002-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  24
+	Gender:  F
 	0169_0002,
+	Age:  24
+	Gender:  F
 	0170_0001,
+	Age:  24
+	Gender:  F
 	0171_0001,
+	Age:  24
+	Gender:  F
 	0178_0000,
+	Age:  24
+	Gender:  F
 	0179_0000,
+	Age:  24
+	Gender:  F
 	0180_0000,
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0169_0002-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  24
+	Gender:  F
 	0169_0002,
+	Age:  24
+	Gender:  F
 	0170_0001,
+	Age:  24
+	Gender:  F
 	0171_0001,
+	Age:  24
+	Gender:  F
 	0178_0000,
+	Age:  24
+	Gender:  F
 	0179_0000,
+	Age:  24
+	Gender:  F
 	0180_0000,
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0169_0003-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  24
+	Gender:  F
 	0169_0002,
+	Age:  24
+	Gender:  F
 	0170_0001,
+	Age:  24
+	Gender:  F
 	0171_0001,
+	Age:  24
+	Gender:  F
 	0178_0000,
+	Age:  24
+	Gender:  F
 	0179_0000,
+	Age:  24
+	Gender:  F
 	0180_0000,
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0170_0001-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  24
+	Gender:  F
 	0169_0002,
+	Age:  24
+	Gender:  F
 	0170_0001,
+	Age:  24
+	Gender:  F
 	0171_0001,
+	Age:  24
+	Gender:  F
 	0178_0000,
+	Age:  24
+	Gender:  F
 	0179_0000,
+	Age:  24
+	Gender:  F
 	0180_0000,
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0170_0002-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  24
+	Gender:  F
 	0169_0002,
+	Age:  24
+	Gender:  F
 	0170_0001,
+	Age:  24
+	Gender:  F
 	0171_0001,
+	Age:  24
+	Gender:  F
 	0178_0000,
+	Age:  24
+	Gender:  F
 	0179_0000,
+	Age:  24
+	Gender:  F
 	0180_0000,
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0171_0001-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  24
+	Gender:  F
 	0169_0002,
+	Age:  24
+	Gender:  F
 	0170_0001,
+	Age:  24
+	Gender:  F
 	0171_0001,
+	Age:  24
+	Gender:  F
 	0178_0000,
+	Age:  24
+	Gender:  F
 	0179_0000,
+	Age:  24
+	Gender:  F
 	0180_0000,
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0171_0002-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  24
+	Gender:  F
 	0169_0002,
+	Age:  24
+	Gender:  F
 	0170_0001,
+	Age:  24
+	Gender:  F
 	0171_0001,
+	Age:  24
+	Gender:  F
 	0178_0000,
+	Age:  24
+	Gender:  F
 	0179_0000,
+	Age:  24
+	Gender:  F
 	0180_0000,
+	Age:  24
+	Gender:  F
 NEW PDF 
 
 0172_0000-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0172_0001-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0173_1000-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0173_1001-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0174_0000-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0174_0001-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0175_0000-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0175_0001-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0176_0000-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0176_0001-sample.txt
 
 Marfan
 	0129_0000,
+	Age:  18
+	Gender:  M
 	0130_0000,
+	Age:  17
+	Gender:  M
 	0131_0000,
+	Age:  15
+	Gender:  M
 	0174_0000,
+	Age:  18
+	Gender:  M
 	0175_0000,
+	Age:  45
+	Gender:  M
 	0176_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0177_0000-sample.txt
 
 Marfan Dissection
 	0177_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0177_0001-sample.txt
 
 Marfan Dissection
 	0177_0000
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0178_0000-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  25
+	Gender:  M
 	0169_0002,
+	Age:  25
+	Gender:  M
 	0170_0001,
+	Age:  25
+	Gender:  M
 	0171_0001,
+	Age:  25
+	Gender:  M
 	0178_0000,
+	Age:  25
+	Gender:  M
 	0179_0000,
+	Age:  25
+	Gender:  M
 	0180_0000,
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0178_0001-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  25
+	Gender:  M
 	0169_0002,
+	Age:  25
+	Gender:  M
 	0170_0001,
+	Age:  25
+	Gender:  M
 	0171_0001,
+	Age:  25
+	Gender:  M
 	0178_0000,
+	Age:  25
+	Gender:  M
 	0179_0000,
+	Age:  25
+	Gender:  M
 	0180_0000,
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0179_0000-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  25
+	Gender:  M
 	0169_0002,
+	Age:  25
+	Gender:  M
 	0170_0001,
+	Age:  25
+	Gender:  M
 	0171_0001,
+	Age:  25
+	Gender:  M
 	0178_0000,
+	Age:  25
+	Gender:  M
 	0179_0000,
+	Age:  25
+	Gender:  M
 	0180_0000,
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0179_0001-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  25
+	Gender:  M
 	0169_0002,
+	Age:  25
+	Gender:  M
 	0170_0001,
+	Age:  25
+	Gender:  M
 	0171_0001,
+	Age:  25
+	Gender:  M
 	0178_0000,
+	Age:  25
+	Gender:  M
 	0179_0000,
+	Age:  25
+	Gender:  M
 	0180_0000,
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0180_0000-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  25
+	Gender:  M
 	0169_0002,
+	Age:  25
+	Gender:  M
 	0170_0001,
+	Age:  25
+	Gender:  M
 	0171_0001,
+	Age:  25
+	Gender:  M
 	0178_0000,
+	Age:  25
+	Gender:  M
 	0179_0000,
+	Age:  25
+	Gender:  M
 	0180_0000,
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0180_0001-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  25
+	Gender:  M
 	0169_0002,
+	Age:  25
+	Gender:  M
 	0170_0001,
+	Age:  25
+	Gender:  M
 	0171_0001,
+	Age:  25
+	Gender:  M
 	0178_0000,
+	Age:  25
+	Gender:  M
 	0179_0000,
+	Age:  25
+	Gender:  M
 	0180_0000,
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0181_0000-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  25
+	Gender:  M
 	0169_0002,
+	Age:  25
+	Gender:  M
 	0170_0001,
+	Age:  25
+	Gender:  M
 	0171_0001,
+	Age:  25
+	Gender:  M
 	0178_0000,
+	Age:  25
+	Gender:  M
 	0179_0000,
+	Age:  25
+	Gender:  M
 	0180_0000,
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0181_0001-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  25
+	Gender:  M
 	0169_0002,
+	Age:  25
+	Gender:  M
 	0170_0001,
+	Age:  25
+	Gender:  M
 	0171_0001,
+	Age:  25
+	Gender:  M
 	0178_0000,
+	Age:  25
+	Gender:  M
 	0179_0000,
+	Age:  25
+	Gender:  M
 	0180_0000,
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0182_0000-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  25
+	Gender:  M
 	0169_0002,
+	Age:  25
+	Gender:  M
 	0170_0001,
+	Age:  25
+	Gender:  M
 	0171_0001,
+	Age:  25
+	Gender:  M
 	0178_0000,
+	Age:  25
+	Gender:  M
 	0179_0000,
+	Age:  25
+	Gender:  M
 	0180_0000,
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0182_0001-sample.txt
 
 Cerebrovascular Aneurysms
 	0168_0001,
+	Age:  25
+	Gender:  M
 	0169_0002,
+	Age:  25
+	Gender:  M
 	0170_0001,
+	Age:  25
+	Gender:  M
 	0171_0001,
+	Age:  25
+	Gender:  M
 	0178_0000,
+	Age:  25
+	Gender:  M
 	0179_0000,
+	Age:  25
+	Gender:  M
 	0180_0000,
+	Age:  25
+	Gender:  M
 NEW PDF 
 
 0183_1001-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0183_1002-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0184_0000-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0184_0001-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0185_0000-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0185_0001-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0186_0001-sample.txt
 
 Coronary Normal
 	0002_0001
+	Age:  63
+	Gender:  F
 	0186_0001
+	Age:  28
+	Gender:  F
 NEW PDF 
 
 0186_0002-sample.txt
 
 Coronary Normal
 	0002_0001
+	Age:  63
+	Gender:  F
 	0186_0001
+	Age:  28
+	Gender:  F
 NEW PDF 
 
 0187_0001-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0187_0002-sample.txt
 
 Kawasaki Disease
 	0116_0001
+	Age:  0.42
+	Gender:  F
 	0117_0001
+	Age:  28
+	Gender:  M
 	0172_0000
+	Age:  14
+	Gender:  M
 	0173_1000
+	Age:  4
+	Gender:  M
 	0183_1001
+	Age:  24
+	Gender:  M
 	0184_0000
+	Age:  26
+	Gender:  M
 	0185_0000
+	Age:  8
+	Gender:  F
 	0187_0001
+	Age:  59
+	Gender:  M
 NEW PDF 
 
 0188_0000-sample.txt
 
 Coronary Artery Bypass graft Disease
 	0113_0003
+	Age:  65
+	Gender:  M
 	0115_0005
+	Age:  60
+	Gender:  M
 	0188_0000
+	Age:  50
+	Gender:  F
 	0189_0000
+	Age:  72
+	Gender:  F
 NEW PDF 
 
 0188_0001-sample.txt
 
 Coronary Artery Bypass graft Disease
 	0113_0003
+	Age:  65
+	Gender:  M
 	0115_0005
+	Age:  60
+	Gender:  M
 	0188_0000
+	Age:  50
+	Gender:  F
 	0189_0000
+	Age:  72
+	Gender:  F
 NEW PDF 
 
 0189_0000-sample.txt
 
 Coronary Artery Bypass graft Disease
 	0113_0003
+	Age:  65
+	Gender:  M
 	0115_0005
+	Age:  60
+	Gender:  M
 	0188_0000
+	Age:  50
+	Gender:  F
 	0189_0000
+	Age:  72
+	Gender:  F
 NEW PDF 
 
 0189_0001-sample.txt
 
 Coronary Artery Bypass graft Disease
 	0113_0003
+	Age:  65
+	Gender:  M
 	0115_0005
+	Age:  60
+	Gender:  M
 	0188_0000
+	Age:  50
+	Gender:  F
 	0189_0000
+	Age:  72
+	Gender:  F
 NEW PDF 
