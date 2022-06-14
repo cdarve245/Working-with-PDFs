@@ -57,13 +57,13 @@ with open('pdfInfo.txt', 'w') as text:
                 pdfInfo.append(newPDF)
 
     for pdf in pdfInfo:
-        text.write("\n" + pdf[0])
-        text.write("\n" + pdf[1] + "\n")
+        text.write(pdf[0])
+        text.write(pdf[1] + "\n")
         for value in pdf:
             if value in listOfIDs:
                 text.write("\t" + value + "\n")
             if "Age: " in value:
                 text.write("\t" + value + "\n")
             if "Gender: " in value:
-                text.write("\t" + value + "\n")
-        text.write("NEW PDF \n")
+                text.write("\t" + value + "\n\n")
+        text.write("------------------------------\n")
