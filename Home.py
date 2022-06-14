@@ -27,11 +27,12 @@ with open('pdfInfo.txt', 'w') as text:
                 idsOfPdf = lines[indexOfOSMSC + 5:indexOfNewLine].split()
 
                 for id in idsOfPdf:
-                    listOfIDs.add(id)
-                    newPDF.append(id)
-
                     firstPartID = id[0:4]
                     secondPartID = id[5:9]
+
+                    listOfIDs.add(firstPartID + "_" + secondPartID)
+                    newPDF.append(firstPartID + "_" + secondPartID)
+
                     searchFor = len("ID: OSMSC" + firstPartID +
                                     "\nsubID: " + secondPartID + "\n Age: ")
                     indexOfAge = lines.find(
