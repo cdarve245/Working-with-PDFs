@@ -3,7 +3,6 @@ import os
 with open('pdfInfo.txt', 'w') as text:
     pdfInfo = []
     listOfIDs = set()
-    allText = []
     allTitles = []
     for filename in os.listdir("PDFs"):
         f = os.path.join("PDFs", filename)
@@ -15,8 +14,8 @@ with open('pdfInfo.txt', 'w') as text:
                 lines = pdf.read()
 
                 # find title
-                searchFor = len("CPM Specifications Document")
-                indexOfTitle = lines.find("CPM Specifications Document")
+                searchFor = len("CPM Specifications Document\n")
+                indexOfTitle = lines.find("CPM Specifications Document\n")
                 indexOfNewLine = lines.find(":", indexOfTitle)
                 title = lines[indexOfTitle + searchFor:indexOfNewLine]
                 newPDF.append(title)
@@ -52,18 +51,52 @@ with open('pdfInfo.txt', 'w') as text:
                         gender = lines[indexOfAge +
                                        searchFor - 2:indexOfNewLine]
                     newPDF.append("Gender: " + gender)
-                newPDF.append(title)
-
                 pdfInfo.append(newPDF)
 
+    # for pdf in pdfInfo:
+    #     text.write(pdf[0])
+    #     text.write(pdf[1] + "\n")
+    #     IDcount = 0
+    #     for value in pdf:
+    #         if value in listOfIDs:
+    #             IDcount += 1
+    #             text.write("\t" + value + "\n")
+    #         if "Age: " in value:
+    #             text.write("\t" + value + "\n")
+    #         if "Gender: " in value:
+    #             text.write("\t" + value + "\n\n")
+    #     text.write("------------------------------\n")
+
+    idInfo = []
     for pdf in pdfInfo:
-        text.write(pdf[0])
-        text.write(pdf[1] + "\n")
+        newIDS = []
+        IDcount = 0
         for value in pdf:
+            curCount = IDcount
             if value in listOfIDs:
-                text.write("\t" + value + "\n")
+                newID = ["ID: N/A", "PDF: N/A",
+                         "Title: N/A", "Age: N/A", "Gender: N/A"]
+                newID[0] = value
+                newID[1] = pdf[0]
+                newID[2] = pdf[1]
+                IDcount += 1
             if "Age: " in value:
-                text.write("\t" + value + "\n")
+                # text.write("\t" + value + "\n")
+                newID[3] = value
             if "Gender: " in value:
-                text.write("\t" + value + "\n\n")
-        text.write("------------------------------\n")
+                # text.write("\t" + value + "\n\n")
+                newID[4] = value
+            if curCount != IDcount:
+                newIDS.append(newID)
+        idInfo.append(newIDS)
+
+    for ids in idInfo:
+        for id in ids:
+            text.write("ID: " + id[0] + "\n")
+            text.write("File: " + id[1] + "\n")
+            text.write("Title: " + id[2] + "\n")
+            if id[3] is not None:
+                text.write(id[3] + "\n")
+            if id[4] is not None:
+                text.write(id[4] + "\n")
+            text.write("-------------------------------\n\n")
